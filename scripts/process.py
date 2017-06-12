@@ -53,7 +53,7 @@ data.columns = [c.replace("NDC", "") for c in data.columns]
 
 data = data.rename(columns={
     "OnBehalfOf": "Party",
-    "Name": "OriginalName"
+    "Name": "OriginalFilename"
 })
 
 data["SubmissionDate"] = pd.to_datetime(data["SubmissionDate"])
@@ -84,7 +84,7 @@ def create_filename(row):
 
     code = row["ISO3"]
     party = normalize(row["Party"], lowercase=False).replace(" ", "-")
-    if row["OriginalName"].startswith("LV-03-06-EU") and code in eu28:
+    if row["OriginalFilename"].startswith("LV-03-06-EU") and code in eu28:
         code = "EUU"
         party = "European_Union"
     name = "{}_{}_{}_{}.pdf".format(
@@ -107,7 +107,7 @@ data = data[[
     "Number",
     "SubmissionDate",
     "EncodedAbsUrl",
-    "OriginalName"
+    "OriginalFilename"
 ]]
 
 data = data.sort_values(["Party", "FileType"])
