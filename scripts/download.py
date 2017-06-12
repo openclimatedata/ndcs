@@ -56,7 +56,7 @@ with open(ndcs) as csvfile:
         if os.path.exists(filename):
             print("Already downloaded: {}".format(row["Filename"]))
             continue
-        print(row["Filename"], "<=", row["OriginalName"])
+        print(row["Filename"], "<=", row["OriginalFilename"])
         url = urllib.parse.urlsplit(row["EncodedAbsUrl"])
         url = list(url)
         url[2] = urllib.parse.quote(urllib.parse.unquote(url[2]))

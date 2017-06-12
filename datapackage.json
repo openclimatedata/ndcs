@@ -54,7 +54,7 @@
             "description": "URL of original document"
           },
           {
-            "name": "OriginalName",
+            "name": "OriginalFilename",
             "type": "string",
             "description": "Full name of original document"
           }
