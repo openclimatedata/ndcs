@@ -1,0 +1,68 @@
+{
+  "resources": [
+    {
+      "name": "ndcs",
+      "path": "data/ndcs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 43532,
+      "schema": {
+        "fields": [
+          {
+            "name": "ISO3",
+            "type": "string",
+            "description": "ISO3 code of Party, EUU for European Union"
+          },
+          {
+            "name": "Party",
+            "type": "string",
+            "description": "Name of Party"
+          },
+          {
+            "name": "Title",
+            "type": "string",
+            "description": "Document title"
+          },
+          {
+            "name": "FileType",
+            "type": "string",
+            "description": "Kind of document"
+          },
+          {
+            "name": "Language",
+            "type": "string",
+            "description": "Document language"
+          },
+          {
+            "name": "Filename",
+            "type": "string",
+            "description": "Unified filename"
+          },
+          {
+            "name": "Number",
+            "type": "string",
+            "description": "Round of submission"
+          },
+          {
+            "name": "SubmissionDate",
+            "type": "date",
+            "description": "Date of submission"
+          },
+          {
+            "name": "EncodedAbsUrl",
+            "type": "string",
+            "description": "URL of original document"
+          },
+          {
+            "name": "OriginalName",
+            "type": "string",
+            "description": "Full name of original document"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "ndcs",
+  "title": "Nationally Determined Contributions",
+  "description": "Nationally Determined Contributions (NDCs) as provided in the UNFCCC"
+}
