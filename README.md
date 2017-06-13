@@ -5,7 +5,6 @@ secreteriat's interim
 ## Data
 
 NDCs are available on the interim [NDC registry](http://www4.unfccc.int/ndcregistry/Pages/Home.aspx).
-[NDC registry](http://www4.unfccc.int/ndcregistry/Pages/Home.aspx).
 A [CSV file](data/ndcs.csv) is created with kind of document, URL of the
 original document. For convenience all documents are downloaded and saved with
 unified filenames in the `pdfs` directory.
