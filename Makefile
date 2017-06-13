@@ -1,4 +1,7 @@
-all: data/ndcs.csv venv
+all: venv
+	git pull
+	./venv/bin/python scripts/process.py
+	@git diff data
 
 venv: scripts/requirements.txt
 	[ -d ./venv ] || python3 -m venv venv
@@ -8,9 +11,6 @@ venv: scripts/requirements.txt
 
 download: data/ndcs.csv venv
 	./venv/bin/python scripts/download.py
-
-data/ndcs.csv: scripts/process.py venv
-	./venv/bin/python scripts/process.py
 
 clean:
 	rm -rf data/*.csv
