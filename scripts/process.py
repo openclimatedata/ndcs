@@ -58,9 +58,19 @@ data = data.rename(columns={
 
 data["SubmissionDate"] = pd.to_datetime(data["SubmissionDate"])
 
-# Panama's Cover letter is classified as "NDC", set to "Addendum"
-data.set_value(data[data.Title == "Panama NDC Cover Letter"].index,
-    "FileType", "Addendum")
+
+def set_file_type(row):
+
+    # Panama's Cover letter is classified as "NDC", set to "Addendum":
+    if row["Title"] == "Panama NDC Cover Letter":
+        filetype = "Addendum"
+    elif "Archived" in row["Title"]:
+        filetype = "Archived"
+    else:
+        filetype = row["FileType"]
+    return filetype
+
+data["FileType"] = data.apply(set_file_type, axis=1)
 
 
 def create_filename(row):
@@ -93,7 +103,6 @@ def create_filename(row):
         name,
         row["Language"])
     return name
-
 
 data["Filename"] = data.apply(create_filename, axis=1)
 
