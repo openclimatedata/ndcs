@@ -83,7 +83,7 @@ def create_filename(row):
     if "revised" in row["Title"].lower():
         name += "_Revised"
     elif "archived" in row["Title"].lower():
-        name += "_Archived"
+        name = "{}_NDC_Archived".format(row["Number"])
 
     # Special casing PNG with multiple Addendums
     if row["Party"] == "Papua New Guinea":
