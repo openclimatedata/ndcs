@@ -59,6 +59,11 @@ data = data.rename(columns={
 data["SubmissionDate"] = pd.to_datetime(data["SubmissionDate"])
 
 
+# Mexico's NDC is actually in English.
+data = data.set_value(
+    data[data["ISO3"] == "MEX"].index[0], "Language", "English")
+
+
 def set_file_type(row):
 
     # Panama's Cover letter is classified as "NDC", set to "Addendum":
@@ -71,7 +76,6 @@ def set_file_type(row):
     return filetype
 
 data["FileType"] = data.apply(set_file_type, axis=1)
-
 
 def create_filename(row):
     name = "{}_{}".format(row["Number"], row["FileType"])
