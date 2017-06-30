@@ -78,7 +78,12 @@ def set_file_type(row):
 data["FileType"] = data.apply(set_file_type, axis=1)
 
 def create_filename(row):
-    name = "{}_{}".format(row["Number"], row["FileType"])
+    file_type = row["FileType"]
+    if file_type == "Translation":
+        file_type = "NDC_Translation"
+    elif file_type == "Addendum":
+        file_type = "NDC_Addendum"
+    name = "{}_{}".format(row["Number"], file_type)
 
     if "revised" in row["Title"].lower():
         name += "_Revised"
