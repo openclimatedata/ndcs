@@ -17,6 +17,10 @@ Run
 
 to fetch the latest list of NDCs.
 
+    make download
+
+to download the documents into `pdfs`.
+
 ## Requirements
 
 Python3 is used, all dependencies are installed automatically into a Virtualenv
