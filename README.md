@@ -15,7 +15,7 @@ Run
 
     make
 
-to fetch the latest list of NDCs.
+to fetch the latest list of NDCs,
 
     make download
 
