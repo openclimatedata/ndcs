@@ -105,12 +105,13 @@ def create_filename(row):
     party = normalize(row["Party"], lowercase=False).replace(" ", "-")
     if row["OriginalFilename"].startswith("LV-03-06-EU") and code in eu28:
         code = "EUU"
-        party = "European_Union"
+        party = "European-Union"
     name = "{}_{}_{}_{}.pdf".format(
         code,
         party,
         name,
         row["Language"])
+    print(name)
     return name
 
 data["Filename"] = data.apply(create_filename, axis=1)
