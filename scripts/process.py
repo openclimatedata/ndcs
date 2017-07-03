@@ -13,7 +13,7 @@ eu28 = [
   'AUT',
   'BEL',
   'BGR',
-  'CYP'
+  'CYP',
   'CZE',
   'DEU',
   'DNK',
@@ -37,7 +37,7 @@ eu28 = [
   'ROU',
   'SVK',
   'SVN',
-  'SWE',
+  'SWE'
 ]
 
 url = "http://www4.unfccc.int/ndcregistry/Pages/All.aspx"
