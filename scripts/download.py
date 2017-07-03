@@ -16,7 +16,7 @@ eu28 = [
   'AUT',
   'BEL',
   'BGR',
-  'CYP'
+  'CYP',
   'CZE',
   'DEU',
   'DNK',
@@ -40,14 +40,14 @@ eu28 = [
   'ROU',
   'SVK',
   'SVN',
-  'SWE',
+  'SWE'
 ]
 
 
 with open(ndcs) as csvfile:
     ndcreader = csv.DictReader(csvfile)
     for row in ndcreader:
-        is_eu_member = (row["Filename"].startswith("EUU_European_Union") and
+        is_eu_member = (row["Filename"].startswith("EUU_European-Union") and
                         row["ISO3"] in eu28)
         if is_eu_member:
             print("Skipping {}: EU member".format(row["Party"]))
