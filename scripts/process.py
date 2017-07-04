@@ -111,7 +111,6 @@ def create_filename(row):
         party,
         name,
         row["Language"])
-    print(name)
     return name
 
 data["Filename"] = data.apply(create_filename, axis=1)
