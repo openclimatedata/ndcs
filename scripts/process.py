@@ -9,36 +9,7 @@ from normality import normalize
 path = os.path.dirname(os.path.realpath(__file__))
 data_dir = os.path.join(path, "../data/")
 
-eu28 = [
-  'AUT',
-  'BEL',
-  'BGR',
-  'CYP',
-  'CZE',
-  'DEU',
-  'DNK',
-  'ESP',
-  'EST',
-  'FIN',
-  'FRA',
-  'GBR',
-  'GRC',
-  'HRV',
-  'HUN',
-  'IRL',
-  'ITA',
-  'LTU',
-  'LUX',
-  'LVA',
-  'MLT',
-  'NLD',
-  'POL',
-  'PRT',
-  'ROU',
-  'SVK',
-  'SVN',
-  'SWE'
-]
+from countrygroups import EUROPEAN_UNION as eu28
 
 url = "http://www4.unfccc.int/ndcregistry/Pages/All.aspx"
 regex = re.compile('\[\{"Title.+?INDC.+?\}\]')
