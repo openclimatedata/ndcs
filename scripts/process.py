@@ -23,6 +23,7 @@ data = pd.read_json(data)
 data.columns = [c.replace("NDC", "") for c in data.columns]
 
 data = data.rename(columns={
+    "ISO3": "Code",
     "OnBehalfOf": "Party",
     "Name": "OriginalFilename"
 })
@@ -32,7 +33,7 @@ data["SubmissionDate"] = pd.to_datetime(data["SubmissionDate"])
 
 # Mexico's NDC is actually in English.
 data = data.set_value(
-    data[data["ISO3"] == "MEX"].index[0], "Language", "English")
+    data[data["Code"] == "MEX"].index[0], "Language", "English")
 
 
 def set_file_type(row):
@@ -73,7 +74,7 @@ def create_filename(row):
         elif "Management Act" in row["Title"]:
             name += "_Climate_Change_Management_Act"
 
-    code = row["ISO3"]
+    code = row["Code"]
     party = normalize(row["Party"], lowercase=False).replace(" ", "-")
     if row["OriginalFilename"].startswith("LV-03-06-EU") and code in eu28:
         code = "EUU"
@@ -87,7 +88,7 @@ def create_filename(row):
 
 data["Filename"] = data.apply(create_filename, axis=1)
 
-data = data.set_index("ISO3")
+data = data.set_index("Code")
 data = data[[
     "Party",
     "Title",
