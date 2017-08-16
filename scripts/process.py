@@ -5,11 +5,10 @@ import urllib.request
 import pandas as pd
 
 from normality import normalize
+from countrygroups import EUROPEAN_UNION as eu28
 
 path = os.path.dirname(os.path.realpath(__file__))
 data_dir = os.path.join(path, "../data/")
-
-from countrygroups import EUROPEAN_UNION as eu28
 
 url = "http://www4.unfccc.int/ndcregistry/Pages/All.aspx"
 regex = re.compile('\[\{"Title.+?INDC.+?\}\]')
@@ -47,6 +46,7 @@ def set_file_type(row):
     return filetype
 
 data["FileType"] = data.apply(set_file_type, axis=1)
+
 
 def create_filename(row):
     file_type = row["FileType"]
@@ -104,4 +104,3 @@ data = data.sort_values(["Party", "FileType"])
 print("NDCs from {} Parties processed.".format(len(data.index.unique())))
 data.to_csv(os.path.join(data_dir, "ndcs.csv"))
 print("Created list of NDCs in `data/ndcs.csv`")
-
