@@ -1,9 +1,10 @@
 # encoding: UTF-8
 
 import os
-import unicodedata
 import urllib.request
 import csv
+
+from countrygroups import EUROPEAN_UNION as eu28
 
 path = os.path.dirname(os.path.realpath(__file__))
 pdfs_dir = os.path.join(path, "../pdfs/")
@@ -11,38 +12,6 @@ ndcs = os.path.join(path,  "../data/ndcs.csv")
 
 if not os.path.exists(pdfs_dir):
     os.makedirs(pdfs_dir)
-
-eu28 = [
-  'AUT',
-  'BEL',
-  'BGR',
-  'CYP',
-  'CZE',
-  'DEU',
-  'DNK',
-  'ESP',
-  'EST',
-  'FIN',
-  'FRA',
-  'GBR',
-  'GRC',
-  'HRV',
-  'HUN',
-  'IRL',
-  'ITA',
-  'LTU',
-  'LUX',
-  'LVA',
-  'MLT',
-  'NLD',
-  'POL',
-  'PRT',
-  'ROU',
-  'SVK',
-  'SVN',
-  'SWE'
-]
-
 
 with open(ndcs) as csvfile:
     ndcreader = csv.DictReader(csvfile)
