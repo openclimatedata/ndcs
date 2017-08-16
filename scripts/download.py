@@ -18,7 +18,7 @@ with open(str(ndcs), "r") as csvfile:
     ndcreader = csv.DictReader(csvfile)
     for row in ndcreader:
         is_eu_member = (row["Filename"].startswith("EUU_European-Union") and
-                        row["ISO3"] in eu28)
+                        row["Code"] in eu28)
         if is_eu_member:
             print("Skipping {}: EU member".format(row["Party"]))
             continue
