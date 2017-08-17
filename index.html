@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nationally Determined Contributions (NDCs)</title>
+
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.15/datatables.min.css"/>
+<style>
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+table.dataTable tr.odd {
+  background-color: #fbf1a9;
+}
+table.dataTable tr.even {
+  background-color: #fffceb;
+}
+a {
+  color: #ff6300;
+}
+</style>
+</head>
+
+<body class="bg-washed-yellow mb5">
+
+<div class="ph4 pt3">
+<h1>Nationally Determined Contributions</h1>
+</div>
+
+<div class="ph4 mw8">
+<p id="description"></p>
+</div>
+
+<div class="bg-light-gray bt b--black-20">
+<div class="ph4 pb4">
+<h2>Sources</h2>
+<div id="sources">
+</div>
+</div>
+
+
+<div class="b--black-20 bt bb bg-light-yellow">
+<div class="ph4">
+  <h2>Data Package & Download</h2>
+
+  <p>
+  Data: <a href="data/ndcs.csv">ndcs.csv</a>
+  </p>
+  <p>
+  Metadata: <a href="datapackage.json">datapackage.json</a>
+  </p>
+
+    <p>
+  Repository: <a href="https://github.com/openclimatedata/ndcs">https://github.com/openclimatedata/ndcs</a>
+  </p>
+  <p>
+  Complete Data Package as a zip file: <a href="https://github.com/openclimatedata/ndcs/archive/master.zip">https://github.com/openclimatedata/ndcs/archive/master.zip</a>
+  </p>
+
+</div>
+</div>
+
+<div class="bg-washed-yellow">
+<div class="ph4 pt2 mw9">
+<h2>Data</h2>
+<table id="data" width="100%" cellspacing="0">
+<thead>
+  <tr>
+    <th>Code</th>
+    <th>Party</th>
+    <th>Title</th>
+    <th>FilType</th>
+    <th>Language</th>
+    <th>Filename</th>
+    <th>Number</th>
+    <th>SubmissionDate</th>
+    <th>EncodedAbsUrl</th>
+    <th>OriginalFilename</th>
+  </tr>
+</thead>
+</table>
+</div>
+
+<div class="ph4 mw8">
+<h2>Columns</h2>
+<table id="metadata" width="100%" cellspacing="0">
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Description</th>
+  </tr>
+</thead>
+</table>
+</div>
+</div>
+
+
+
+<script src="https://d3js.org/d3-selection.v1.min.js"></script>
+<script src="https://d3js.org/d3-collection.v1.min.js"></script>
+<script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+<script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+<script src="https://d3js.org/d3-request.v1.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.15/datatables.min.js"></script>
+<script>
+d3.json("datapackage.json", function(metadata) {
+  $('table#metadata').DataTable({
+    data: metadata.resources[0].schema.fields,
+    columns: [
+      { data: 'name' },
+      { data: 'type' },
+      { data: 'description' }
+    ],
+    ordering: false,
+    paging: false,
+    info: false,
+    searching: false,
+    scrollX: true
+  })
+  metadata.sources.forEach(function(source) {
+    d3.select("#sources").append("li").html(
+      "<a href='" + source["web"] + "'>" + source["name"]) + "</a>"
+  })
+  d3.select("#description").html(metadata.description)
+  d3.csv(metadata.resources[0].path, function(data) {
+    var columns = metadata.resources[0].schema.fields.map(function(field) {
+      return { data: field.name }
+    })
+    console.log(columns)
+    $('table#data').DataTable({
+      data: data,
+      columns: columns,
+      scrollX: true
+    })
+  })
+
+})
+</script>
+</body>
