@@ -28,7 +28,8 @@ data = data.rename(columns={
     "Name": "OriginalFilename"
 })
 
-data["SubmissionDate"] = pd.to_datetime(data["SubmissionDate"])
+data["SubmissionDate"] = pd.to_datetime(
+    data["SubmissionDate"].apply(lambda x: x.split(" ")[0]), format="%d/%m/%Y")
 
 
 # Mexico's NDC is actually in English.
