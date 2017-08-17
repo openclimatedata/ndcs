@@ -63,5 +63,16 @@
   ],
   "name": "ndcs",
   "title": "Nationally Determined Contributions",
-  "description": "Nationally Determined Contributions (NDCs) as provided in the UNFCCC"
+  "description": "Nationally Determined Contributions (NDCs) as provided in the UNFCCC interim registry",
+  "sources": [
+    {
+      "name": "Interim NDC Registry",
+      "web": "http://www4.unfccc.int/ndcregistry/Pages/Home.aspx"
+    },
+    {
+      "name": "UNFCCC NDC Registry",
+      "web": "http://unfccc.int/focus/ndc_registry/items/9433.php"
+    }
+
+  ]
 }
