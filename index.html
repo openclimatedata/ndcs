@@ -132,7 +132,8 @@ d3.json("datapackage.json", function(metadata) {
     $('table#data').DataTable({
       data: data,
       columns: columns,
-      scrollX: true
+      scrollX: true,
+      order: [[7, true]]
     })
   })
 
