@@ -32,4 +32,4 @@ with open(str(ndcs), "r") as csvfile:
         url = urllib.parse.urlunsplit(url)
         urllib.request.urlretrieve(url)
 
-        urllib.request.urlretrieve(url, filename)
+        urllib.request.urlretrieve(url, str(filename))
