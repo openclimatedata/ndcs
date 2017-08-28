@@ -31,11 +31,6 @@ data["SubmissionDate"] = pd.to_datetime(
     data["SubmissionDate"].apply(lambda x: x.split(" ")[0]), format="%d/%m/%Y")
 
 
-# Mexico's NDC is actually in English.
-data = data.set_value(
-    data[data["Code"] == "MEX"].index[0], "Language", "English")
-
-
 def set_file_type(row):
 
     # Panama's Cover letter is classified as "NDC", set to "Addendum":
