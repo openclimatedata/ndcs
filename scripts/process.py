@@ -59,15 +59,15 @@ def create_filename(row):
         name = "{}_NDC_Archived".format(row["Number"])
 
     # Special casing PSE with multiple Addendums
-    if row["Party"] == "Palestine":
-        if "Summary" in row["Title"]:
+    if row["Party"] == "State of Palestine":
+        if "SPM" in row["OriginalFilename"]:
             name += "_Summary_Policy_Makers"
-        elif "benefits" in row["Title"]:
-            name += "_Co-Benefits"
+        elif "Cobenefits" in row["Title"]:
+            name += "_Cobenefits"
         elif "Implementation" in row["Title"]:
             name += "_Implementation_Road_Map"
-        elif "Management Act" in row["Title"]:
-            name += "_Climate_Change_Management_Act"
+        elif "Approval" in row["Title"]:
+            name += "_Approval"
 
     # Special casing PNG with multiple Addendums
     if row["Party"] == "Papua New Guinea":
