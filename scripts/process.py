@@ -27,6 +27,8 @@ data = data.rename(columns={
     "Name": "OriginalFilename"
 })
 
+data["Party"] = data["Party"].apply(str.strip)
+
 data["SubmissionDate"] = pd.to_datetime(
     data["SubmissionDate"].apply(lambda x: x.split(" ")[0]), format="%d/%m/%Y")
 
