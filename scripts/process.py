@@ -29,6 +29,9 @@ data = data.rename(columns={
 
 data["Party"] = data["Party"].apply(str.strip)
 
+data = data.reset_index()
+data.loc[data.Party == "Myanmar", "Code"] = "MMR"
+
 data["SubmissionDate"] = pd.to_datetime(
     data["SubmissionDate"].apply(lambda x: x.split(" ")[0]), format="%d/%m/%Y")
 
@@ -97,6 +100,7 @@ def create_filename(row):
 data["Filename"] = data.apply(create_filename, axis=1)
 
 data = data.set_index("Code")
+
 data = data[[
     "Party",
     "Title",
@@ -108,6 +112,7 @@ data = data[[
     "EncodedAbsUrl",
     "OriginalFilename"
 ]]
+
 
 data = data.sort_values(["Party", "FileType"])
 
