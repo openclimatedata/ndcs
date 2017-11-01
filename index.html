@@ -10,66 +10,77 @@
 <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.15/datatables.min.css"/>
 <style>
-body {
-  font-family: 'Fira Sans', sans-serif;
-}
 table.dataTable tr.odd {
-  background-color: #fbf1a9;
-}
-table.dataTable tr.even {
-  background-color: #fffceb;
+  background-color: #eeeeee;
 }
 a {
   color: #ff6300;
 }
+hr {
+  border: none;
+  height: 4px;
+  background-color: #333;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
 </style>
 </head>
 
-<body class="bg-washed-yellow mb5 f6">
+<body class="mb5 sans-serif">
 
-<div class="ph4 pt3 pb2 bg-light-gray">
+<div class="ph4 mw9 pt3">
 <h1>Nationally Determined Contributions</h1>
-<p id="description"></p>
 </div>
 
-<div class="bt b--black-20">
-<div class="ph4 pb4">
-<h2>Sources</h2>
-<div id="sources">
+<div class="mw9 ph3-ns">
+<div class="cf ph2-ns">
+<div class="fl w-100 w-50-ns pa2">
+<h2><span id="submitted"></span> NDCs submitted</h2>
+<hr>
 </div>
+<div class="fl w-100 w-50-ns pa2">
+<h2>&nbsp;</h2>
+<hr>
 </div>
-
-<div class="b--black-20 bt bb bg-light-yellow">
-<div class="ph4">
-  <h2>Data Package & Download</h2>
-
-  <p>
-  Data: <a href="data/ndcs.csv">ndcs.csv</a>
-  </p>
-  <p>
-  Metadata: <a href="datapackage.json">datapackage.json</a>
-  </p>
-
-    <p>
-  Repository: <a href="https://github.com/openclimatedata/ndcs">https://github.com/openclimatedata/ndcs</a>
-  </p>
-  <p>
-  Complete Data Package as a zip file: <a href="https://github.com/openclimatedata/ndcs/archive/master.zip">https://github.com/openclimatedata/ndcs/archive/master.zip</a>
-  </p>
-
 </div>
 </div>
 
-<div class="bg-washed-yellow">
-<div class="ph4 pt2 mw10">
-<h2>Data</h2>
+<div class="mw9 ph3-ns">
+<div class="cf ph2-ns">
+<div class="fl w-100 w-50-ns pa2">
+<p id="description" class="measure-wide"></p>
+<h4 class="mt0 mid-gray">Sources</h4>
+<ul class="list pl0" id="sources">
+</div>
+<div class="fl w-100 w-50-ns pa2 pt3">
+<a class="f6 link dim ba ph3 pv2 mb2 dib black inline-flex items-center"" href="https://github.com/openclimatedata/ndcs"><svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"/></svg><span class="ml3">GitHub Repository</span></a>
+</div>
+<div class="fl w-100 w-50-ns pa2">
+<h4 class="mt0 mid-gray">Download</h4>
+<dl class="lh-title mt0">
+<dt class="dib b">Data: </dt><dd class="dib ml1"><a href="data/ndcs.csv">ndcs.csv</a></dd>
+</dl>
+<dl class="lh-title mt0">
+<dt class="dib b">Metadata: </dt><dd class="dib ml1"><a class="" href="datapackage.json">datapackage.json</a></dd>
+</dl>
+<dl class="lh-title mt0">
+<dt class="dib b">Zipped Package: </dt><dd class="dib ml1"><a class="" href="https://github.com/openclimatedata/ndcs/archive/master.zip">master.zip</a>
+</dd></dt>
+</dl>
+</div>
+</div>
+</div>
+
+<div class="ph4 mw9">
+<h2 class="mt0">Data</h2>
+<hr>
 <table id="data" width="100%" cellspacing="0">
 <thead>
   <tr>
     <th>Code</th>
     <th>Party</th>
     <th>Title</th>
-    <th>FileType</th>
+    <th>FilType</th>
     <th>Language</th>
     <th>Filename</th>
     <th>Number</th>
@@ -83,6 +94,7 @@ a {
 
 <div class="ph4 mw8">
 <h2>Columns</h2>
+<hr>
 <table id="metadata" width="100%" cellspacing="0">
 <thead>
   <tr>
@@ -93,7 +105,9 @@ a {
 </thead>
 </table>
 </div>
-</div>
+
+
+
 
 <script src="https://d3js.org/d3-selection.v1.min.js"></script>
 <script src="https://d3js.org/d3-collection.v1.min.js"></script>
@@ -128,17 +142,21 @@ d3.json("datapackage.json", function(metadata) {
     $('table#data').DataTable({
       data: data,
       columns: columns,
-      columnDefs: [ {
+      columnDefs: [{
         "targets": 8,
         "render": function ( data, type, row, meta ) {
           return '<a href="' + data + '">' + data + '</a>'
         }
-      } ],
+      }],
       scrollX: true,
-      order: [[7, true]]
+      order: [[5, true]]
     })
+    var count = data.map(function(item) { return item.Code }).filter(
+      function(value, index, self) {
+        return self.indexOf(value) === index;
+      }).length
+    d3.select("#submitted").html(count)
   })
-
 })
 </script>
 </body>
