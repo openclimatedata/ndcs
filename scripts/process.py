@@ -65,7 +65,7 @@ def create_filename(row):
     elif "archived" in row["Title"].lower():
         name = "{}_NDC_Archived".format(row["Number"])
 
-    # Special casing PSE with multiple Addendums
+    # Special case PSE with multiple Addendums
     if row["Party"] == "State of Palestine":
         if "SPM" in row["OriginalFilename"]:
             name += "_Summary_Policy_Makers"
@@ -76,7 +76,7 @@ def create_filename(row):
         elif "Approval" in row["Title"]:
             name += "_Approval"
 
-    # Special casing PNG with multiple Addendums
+    # Special case PNG with multiple Addendums
     if row["Party"] == "Papua New Guinea":
         if "letter" in row["Title"]:
             name += "_Satisfactory_Letter"
