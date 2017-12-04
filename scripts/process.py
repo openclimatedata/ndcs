@@ -38,10 +38,15 @@ def set_file_type(row):
     # Panama's Cover letter is classified as "NDC", set to "Addendum":
     if row["Title"] == "Panama NDC Cover Letter":
         filetype = "Addendum"
+    # Special case SLV with Revised NDC
+    elif ((row["Party"] == "El Salvador") and
+        ("revised" not in row["Title"].lower())):
+        filetype = "Archived"
     elif "Archived" in row["Title"]:
         filetype = "Archived"
     else:
         filetype = row["FileType"]
+
     return filetype
 
 data["FileType"] = data.apply(set_file_type, axis=1)
