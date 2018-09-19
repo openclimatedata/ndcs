@@ -87,6 +87,10 @@ def create_filename(row):
         elif "Management Act" in row["Title"]:
             name += "_Climate_Change_Management_Act"
 
+    # Special case NIC with missing code in Letter
+    if row["Party"] == "Nicaragua":
+        row["Code"] = "NIC"
+
     code = row["Code"]
     party = normalize(row["Party"], lowercase=False).replace(" ", "-")
     if row["OriginalFilename"].startswith("LV-03-06-EU") and code in eu28:
