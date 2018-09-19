@@ -29,6 +29,12 @@ data = data.rename(columns={
 
 data["Party"] = data["Party"].apply(str.strip)
 
+# Fix for Nicaragua missing country code in letter
+assert (data.Code == "").sum() == 1  # Break when another one is missing
+data = data.set_index("Code")
+data.rename(index={"": 'NIC'}, inplace=True)
+data = data.reset_index()
+
 data["SubmissionDate"] = pd.to_datetime(
     data["SubmissionDate"].apply(lambda x: x.split(" ")[0]), format="%d/%m/%Y")
 
@@ -86,10 +92,6 @@ def create_filename(row):
             name += "_PA_Implementation_Act"
         elif "Management Act" in row["Title"]:
             name += "_Climate_Change_Management_Act"
-
-    # Special case NIC with missing code in Letter
-    if row["Party"] == "Nicaragua":
-        row["Code"] = "NIC"
 
     code = row["Code"]
     party = normalize(row["Party"], lowercase=False).replace(" ", "-")
