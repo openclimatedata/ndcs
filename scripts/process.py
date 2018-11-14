@@ -10,8 +10,8 @@ from pathlib import Path
 root = Path(__file__).parents[1]
 data_dir = root / "data"
 
-url = "http://www4.unfccc.int/ndcregistry/Pages/All.aspx"
-regex = re.compile('\[\{"Title.+?INDC.+?\}\]')
+url = "https://www4.unfccc.int/sites/NDCStaging/Pages/All.aspx"
+regex = re.compile('\[\{.+?NDCNumber.+?\}\]')
 
 with urllib.request.urlopen(url) as response:
     html = response.read()
