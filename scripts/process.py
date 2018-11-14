@@ -30,13 +30,10 @@ data = data.rename(columns={
 data["Party"] = data["Party"].apply(str.strip)
 
 # Fix for missing country codes, break when another one is missing
-assert (data.Code == "").sum() == 2
+assert (data.Code == "").sum() == 1
 # Fix for Nicaragua missing country code in letter
 data.loc[data.OriginalFilename == "Carta a Secretaria Ejecutiva CMNUCC.pdf",
         "Code"] = "NIC"
-# Fix for Equatorial Guinea missing country code in NDC
-data.loc[data.Title == "Equatorial Guinea First NDC",
-         "Code"] = "GNQ"
 
 data["SubmissionDate"] = pd.to_datetime(
     data["SubmissionDate"].apply(lambda x: x.split(" ")[0]), format="%d/%m/%Y")
