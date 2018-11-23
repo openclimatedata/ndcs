@@ -35,11 +35,6 @@ assert (data.Code == "").sum() == 1
 data.loc[data.OriginalFilename == "Carta a Secretaria Ejecutiva CMNUCC.pdf",
         "Code"] = "NIC"
 
-# Fix for wrong country code, break when fixed.
-assert (data.Code == "RMI").sum() == 2
-data.loc[data.OriginalFilename.str.startswith("20181122 Marshall Islands"),
-         "Code"] = "MHL"
-
 data["SubmissionDate"] = pd.to_datetime(
     data["SubmissionDate"].apply(lambda x: x.split(" ")[0]), format="%d/%m/%Y")
 
