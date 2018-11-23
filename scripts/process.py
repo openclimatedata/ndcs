@@ -125,5 +125,12 @@ data = data[[
 data = data.sort_values(["Party", "FileType"])
 
 print("NDCs from {} Parties processed.".format(len(data.index.unique())))
+
+print("First NDCs: {}".format(
+    len(data[data.Number == "First"].index.drop_duplicates())
+))
+print("Second NDCs: {}".format(
+    len(data[data.Number == "Second"].index.drop_duplicates())
+))
 data.to_csv(str(data_dir / "ndcs.csv"))
 print("Created list of NDCs in `data/ndcs.csv`")
