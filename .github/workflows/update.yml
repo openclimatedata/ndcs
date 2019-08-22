@@ -29,8 +29,8 @@ jobs:
           git config user.name "Update Bot"
           git checkout master
           git add data/ndcs.csv
-          git commit -F message.txt 
+          git commit -F message.txt && \
+            git push https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master || true
           git log -n 2
-          git push https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master
           
         
