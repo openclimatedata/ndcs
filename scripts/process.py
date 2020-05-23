@@ -43,6 +43,9 @@ def set_file_type(row):
     elif ((row["Party"] == "El Salvador") and
         ("revised" not in row["Title"].lower())):
         filetype = "Archived"
+    # Special case RWA with Updated NDC
+    elif (row["Party"] == "Rwanda") and (row["Title"] == "Rwanda First NDC"):
+        filetype = "Archived"
     elif "Archived" in row["Title"]:
         filetype = "Archived"
     else:
