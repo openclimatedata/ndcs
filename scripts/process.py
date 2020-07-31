@@ -1,3 +1,4 @@
+import json
 import re
 import urllib.request
 
@@ -18,7 +19,7 @@ with urllib.request.urlopen(url) as response:
 
 data = regex.findall(html.decode("UTF-8"))[0]
 
-data = pd.read_json(data)
+data = pd.DataFrame.from_dict(json.loads(data))
 data.columns = [c.replace("NDC", "") for c in data.columns]
 
 data = data.rename(columns={
