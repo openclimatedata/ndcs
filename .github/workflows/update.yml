@@ -30,6 +30,6 @@ jobs:
           git checkout main
           git add data/ndcs.csv
           git commit -F message.txt && \
-            git push https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master && \
+            git push https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git main && \
             git log -n 1 || true
 
