@@ -3,7 +3,7 @@
 import urllib.request
 import csv
 
-from countrygroups import EUROPEAN_UNION as eu28
+from countrygroups import EUROPEAN_UNION as EU
 from pathlib import Path
 
 root = Path(__file__).parents[1]
@@ -17,7 +17,7 @@ with open(str(ndcs), "r") as csvfile:
     ndcreader = csv.DictReader(csvfile)
     for row in ndcreader:
         is_eu_member = (row["Filename"].startswith("EUU_European-Union") and
-                        row["Code"] in eu28)
+                        row["Code"] in EU)
         if is_eu_member:
             print("Skipping {}: EU member".format(row["Party"]))
             continue
