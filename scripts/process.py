@@ -4,7 +4,7 @@ import urllib.request
 
 import pandas as pd
 
-from countrygroups import EUROPEAN_UNION as eu28
+from countrygroups import EUROPEAN_UNION as EU
 from normality import normalize
 from pathlib import Path
 
@@ -94,7 +94,7 @@ def create_filename(row):
 
     code = row["Code"]
     party = normalize(row["Party"], lowercase=False).replace(" ", "-")
-    if row["OriginalFilename"].startswith("LV-03-06-EU") and code in eu28:
+    if code in EU:
         code = "EUU"
         party = "European-Union"
     name = "{}_{}_{}_{}.pdf".format(
