@@ -28,6 +28,7 @@ data = data.rename(columns={
     "Name": "OriginalFilename"
 })
 
+data["Code"] = data["Code"].apply(str.upper)
 data["Party"] = data["Party"].apply(str.strip)
 
 
