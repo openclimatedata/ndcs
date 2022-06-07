@@ -6,15 +6,27 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
         with:
-          python-version: '3.8'
+          python-version: '3.9'
+          cache: 'pip'
       - name: Install requirements
         run: |
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
+          playwright install firefox
           pip install csv-diff
+      - name: Cache playwright binaries
+        uses: actions/cache@v3
+        id: playwright-cache
+        with:
+          path: |
+            ~/.cache/ms-playwright
+          key: cache-playwright-linux-1.22.0
+      - name: Install Playwright
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: playwright install firefoxs
       - name: Copy old version
         run: cp data/ndcs.csv data/ndcs-old.csv
       - name: Update data
