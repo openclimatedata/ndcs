@@ -14,6 +14,7 @@ jobs:
       - name: Install requirements
         run: |
           python -m pip install --upgrade pip
+          pip install wheel
           pip install -r scripts/requirements.txt
           playwright install firefox
           pip install csv-diff
@@ -26,7 +27,7 @@ jobs:
           key: cache-playwright-linux-1.22.0
       - name: Install Playwright
         if: steps.playwright-cache.outputs.cache-hit != 'true'
-        run: playwright install firefoxs
+        run: playwright install firefox
       - name: Copy old version
         run: cp data/ndcs.csv data/ndcs-old.csv
       - name: Update data
