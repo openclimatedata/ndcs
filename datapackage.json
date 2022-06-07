@@ -38,9 +38,14 @@
             "description": "Unified filename"
           },
           {
-            "name": "Number",
+            "name": "Version",
             "type": "string",
-            "description": "Round of submission"
+            "description": "Version of submission"
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "description": "Active or archived"
           },
           {
             "name": "SubmissionDate",
