@@ -1,0 +1,78 @@
+{
+  "resources": [
+    {
+      "name": "ndcs",
+      "path": "data/ndcs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Code",
+            "type": "string",
+            "description": "ISO3 code of Party, EUU for European Union"
+          },
+          {
+            "name": "Party",
+            "type": "string",
+            "description": "Name of Party"
+          },
+          {
+            "name": "Title",
+            "type": "string",
+            "description": "Document title"
+          },
+          {
+            "name": "FileType",
+            "type": "string",
+            "description": "Kind of document"
+          },
+          {
+            "name": "Language",
+            "type": "string",
+            "description": "Document language"
+          },
+          {
+            "name": "Filename",
+            "type": "string",
+            "description": "Unified filename"
+          },
+          {
+            "name": "Number",
+            "type": "string",
+            "description": "Round of submission"
+          },
+          {
+            "name": "SubmissionDate",
+            "type": "date",
+            "description": "Date of submission"
+          },
+          {
+            "name": "EncodedAbsUrl",
+            "type": "string",
+            "description": "URL of original document"
+          },
+          {
+            "name": "OriginalFilename",
+            "type": "string",
+            "description": "Full name of original document"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "ndcs",
+  "title": "Nationally Determined Contributions",
+  "description": "Nationally Determined Contributions (NDCs) as provided in the UNFCCC interim registry",
+  "sources": [
+    {
+      "title": "Interim NDC Registry",
+      "web": "http://www4.unfccc.int/ndcregistry/Pages/Home.aspx"
+    },
+    {
+      "title": "UNFCCC NDC Registry",
+      "web": "http://unfccc.int/focus/ndc_registry/items/9433.php"
+    }
+
+  ]
+}
