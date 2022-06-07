@@ -1,12 +1,12 @@
 Nationally Determined Contributions (NDCs) as provided in the UNFCCC
-secreteriat's interim
-[NDC registry](http://www4.unfccc.int/ndcregistry/Pages/Home.aspx).
+secreteriat's
+[NDC registry](https://unfccc.int/NDCREG).
 
 [![Daily Update](https://github.com/openclimatedata/ndcs/workflows/Daily%20Update/badge.svg)](https://github.com/openclimatedata/ndcs/actions)
 
 ## Data
 
-NDCs are available on the interim [NDC registry](https://www4.unfccc.int/sites/ndcstaging/Pages/Home.aspx).
+NDCs are available in the [NDC registry](https://unfccc.int/NDCREG).
 A [CSV file](data/ndcs.csv) is created with title, kind of document, URL of the
 original document etc. For convenience all documents are downloaded and saved with
 unified filenames in the `pdfs` directory.
@@ -30,8 +30,8 @@ when using the `Makefile`.
 
 ## Notes
 
-See the UNFCCC's [NDC page](http://unfccc.int/focus/ndc_registry/items/9433.php)
-for background information and updates of the dataset.
+See also the UNFCCC's [NDC page](https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs)
+for background information and information on updates of the dataset.
 
 ## License
 
