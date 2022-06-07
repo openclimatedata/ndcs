@@ -3,3 +3,4 @@ normality
 countrygroups>=0.11.0
 countrynames
 pyicu
+playwright

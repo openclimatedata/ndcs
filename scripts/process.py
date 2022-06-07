@@ -25,7 +25,7 @@ url = "https://unfccc.int/NDCREG"
 
 entries = []
 with sync_playwright() as p:
-    browser = p.chromium.launch()
+    browser = p.firefox.launch()
     page = browser.new_page()
     page.goto(url)
     print(page.title())
