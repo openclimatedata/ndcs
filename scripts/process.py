@@ -1,136 +1,165 @@
-import json
-import re
-import urllib.request
+from datetime import datetime
+from pathlib import Path
+from urllib.parse import unquote
 
 import pandas as pd
-
 from countrygroups import EUROPEAN_UNION as EU
+from countrynames import to_code_3
 from normality import normalize
-from pathlib import Path
+from playwright.sync_api import sync_playwright
 
 root = Path(__file__).parents[1]
 data_dir = root / "data"
 
-url = "https://www4.unfccc.int/sites/NDCStaging/Pages/All.aspx"
-regex = re.compile('\[\{.+?NDCNumber.+?\}\]')
+languages = {
+    "ar": "Arabic",
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "ru": "Russian",
+    "zh": "Chinese",
+}
 
-with urllib.request.urlopen(url) as response:
-    html = response.read()
-
-data = regex.findall(html.decode("UTF-8"))[0]
-
-data = pd.DataFrame.from_dict(json.loads(data))
-data.columns = [c.replace("NDC", "") for c in data.columns]
-
-data = data.rename(columns={
-    "ISO3": "Code",
-    "OnBehalfOf": "Party",
-    "Name": "OriginalFilename"
-})
-
-data["Code"] = data["Code"].apply(str.upper)
-data["Party"] = data["Party"].apply(str.strip)
+url = "https://unfccc.int/NDCREG"
 
 
-data["SubmissionDate"] = pd.to_datetime(
-    data["SubmissionDate"].apply(lambda x: x.split(" ")[0]), format="%d/%m/%Y")
+entries = []
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    page = browser.new_page()
+    page.goto(url)
+    print(page.title())
 
+    page.locator('select[name="field_vd_status_target_id"]').select_option("All")
 
-def set_file_type(row):
+    progress = page.locator(".views-infinite-scroll-footer").inner_text()
+    page.locator("text=Apply").click()
+    page.wait_for_function(
+        f"document.querySelector('.views-infinite-scroll-footer').innerText !== '{progress}'"
+    )
 
-    # Panama's Cover letter is classified as "NDC", set to "Addendum":
-    if row["Title"] == "Panama NDC Cover Letter":
-        filetype = "Addendum"
-    # Special case SLV with Revised NDC
-    elif ((row["Party"] == "El Salvador") and
-        ("revised" not in row["Title"].lower())):
-        filetype = "Archived"
-    # Special case RWA with Updated NDC
-    elif (row["Party"] == "Rwanda") and (row["Title"] == "Rwanda First NDC"):
-        filetype = "Archived"
-    elif "Archived" in row["Title"]:
-        filetype = "Archived"
-    else:
-        filetype = row["FileType"]
+    while page.locator("text=Load More").count() > 0:
+        progress = page.locator(".views-infinite-scroll-footer").inner_text()
+        print(progress)
+        page.locator("text=Load More").click()
+        page.wait_for_function(
+            f"document.querySelector('.views-infinite-scroll-footer').innerText !== '{progress}'"
+        )
 
-    return filetype
+    rows = page.query_selector_all("table.table tbody tr")
+    for row in rows:
+        tds = row.query_selector_all("td")
+        party = tds[0].inner_text().strip()
+        code = to_code_3(party)
+        version = tds[4].inner_text()
+        status = tds[5].inner_text()
+        submission_date = datetime.strptime(tds[6].inner_text(), "%d/%m/%Y").strftime(
+            "%Y-%m-%d"
+        )
 
-data["FileType"] = data.apply(set_file_type, axis=1)
+        if code in EU:
+            code = "EUU"
+        normalizedParty = normalize(
+            "European-Union" if code == "EUU" else party, lowercase=False
+        ).replace(" ", "-")
 
+        title_links = tds[1].query_selector_all("div a:visible")
+        for ndc_link in title_links:
+            title = ndc_link.inner_text()
+            lang = languages[ndc_link.get_attribute("hreflang")]
+            ndc_url = ndc_link.get_attribute("href")
 
-def create_filename(row):
-    file_type = row["FileType"]
-    if file_type == "Translation":
-        file_type = "NDC_Translation"
-    elif file_type == "Addendum":
-        file_type = "NDC_Addendum"
-    name = "{}_{}".format(row["Number"], file_type)
+            normalized_filename = "{}_{}_NDC_{}_{}_{}.pdf".format(
+                code, normalizedParty, version, lang, status
+            )
 
-    if "revised" in row["Title"].lower():
-        name += "_Revised"
-    elif "archived" in row["Title"].lower():
-        name = "{}_NDC_Archived".format(row["Number"])
+            entries.append(
+                {
+                    "Code": code,
+                    "Party": party,
+                    "Title": title,
+                    "FileType": "NDC",
+                    "Language": lang,
+                    "Filename": normalized_filename,
+                    "Version": version,
+                    "Status": status,
+                    "SubmissionDate": submission_date,
+                    "EncodedAbsUrl": ndc_url,
+                    "OriginalFilename": unquote(ndc_url.rsplit("/", 1)[1]),
+                }
+            )
 
-    # Special case PSE with multiple Addendums
-    if row["Party"] == "State of Palestine":
-        if "SPM" in row["OriginalFilename"]:
-            name += "_Summary_Policy_Makers"
-        elif "Cobenefits" in row["Title"]:
-            name += "_Cobenefits"
-        elif "Implementation" in row["Title"]:
-            name += "_Implementation_Road_Map"
-        elif "Approval" in row["Title"]:
-            name += "_Approval"
+        # N.B. There can be hidden links in this column, so filter for visible.
+        translation_links = tds[3].query_selector_all("div a:visible")
+        for translation_link in translation_links:
+            title = translation_link.inner_text()
+            lang = languages[translation_link.get_attribute("hreflang")]
+            translationUrl = translation_link.get_attribute("href")
 
-    # Special case PNG with multiple Addendums
-    if row["Party"] == "Papua New Guinea":
-        if "letter" in row["Title"]:
-            name += "_Satisfactory_Letter"
-        elif "Explanatory Note" in row["Title"]:
-            name += "_Explanatory_Note"
-        elif "PA Implementation Act" in row["Title"]:
-            name += "_PA_Implementation_Act"
-        elif "Management Act" in row["Title"]:
-            name += "_Climate_Change_Management_Act"
+            normalized_filename = "{}_{}_NDC_{}_Translation_{}_{}.pdf".format(
+                code, normalizedParty, version, lang, status
+            )
 
-    code = row["Code"]
-    party = normalize(row["Party"], lowercase=False).replace(" ", "-")
-    if code in EU:
-        code = "EUU"
-        party = "European-Union"
-    name = "{}_{}_{}_{}.pdf".format(
-        code,
-        party,
-        name,
-        row["Language"])
-    return name
+            entries.append(
+                {
+                    "Code": code,
+                    "Party": party,
+                    "Title": title,
+                    "FileType": "Translation",
+                    "Language": lang,
+                    "Filename": normalized_filename,
+                    "Version": version,
+                    "Status": status,
+                    "SubmissionDate": submission_date,
+                    "EncodedAbsUrl": translationUrl,
+                    "OriginalFilename": unquote(translationUrl.rsplit("/", 1)[1]),
+                }
+            )
 
-data["Filename"] = data.apply(create_filename, axis=1)
+        # N.B. There can be hidden links in this column, so filter for visible.
+        addional_documents_links = tds[7].query_selector_all("div:visible a")
+        for additional_documents_link in addional_documents_links:
+            title = additional_documents_link.inner_text()
+            lang = languages[additional_documents_link.get_attribute("hreflang")]
+            additional_document_url = additional_documents_link.get_attribute("href")
 
+            normalized_filename = "{}_{}_NDC_{}_Addendum_{}_{}_{}.pdf".format(
+                code,
+                normalizedParty,
+                version,
+                normalize(title, lowercase=False).replace(" ", "_"),
+                lang,
+                status,
+            )
+
+            entries.append(
+                {
+                    "Code": code,
+                    "Party": party,
+                    "Title": title,
+                    "FileType": "Addendum",
+                    "Language": lang,
+                    "Filename": normalized_filename,
+                    "Version": version,
+                    "Status": status,
+                    "SubmissionDate": submission_date,
+                    "EncodedAbsUrl": additional_document_url,
+                    "OriginalFilename": unquote(
+                        additional_document_url.rsplit("/", 1)[1]
+                    ),
+                }
+            )
+
+    browser.close()
+
+data = pd.DataFrame.from_dict(entries)
 data = data.set_index("Code")
-
-data = data[[
-    "Party",
-    "Title",
-    "FileType",
-    "Language",
-    "Filename",
-    "Number",
-    "SubmissionDate",
-    "EncodedAbsUrl",
-    "OriginalFilename"
-]]
-
-
-data = data.sort_values(["Party", "FileType"])
-
+data = data.sort_values(["Party", "FileType", "Version"])
 print("NDCs from {} Parties processed.".format(len(data.index.unique())))
-
-print("First NDCs: {}".format(
-    len(data[data.Number == "First"].index.drop_duplicates())
-))
-print("Second NDCs: {}".format(
-    len(data[data.Number == "Second"].index.drop_duplicates())
-))
+print(
+    "Status Active: {}".format(
+        len(data[data.Status == "Active"].index.drop_duplicates())
+    )
+)
 data.to_csv(str(data_dir / "ndcs.csv"))
 print("Created list of NDCs in `data/ndcs.csv`")
