@@ -23,7 +23,7 @@ jobs:
       - name: Update data
         run: python scripts/process.py
       - name: Diff files
-        run: csv-diff data/ndcs-old.csv data/ndcs.csv --key=Code >> message.txt
+        run: csv-diff data/ndcs-old.csv data/ndcs.csv --key=EncodedAbsUrl >> message.txt
       - name: Commit back
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
