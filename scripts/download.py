@@ -16,17 +16,14 @@ if not pdfs_dir.exists():
 with open(str(ndcs), "r") as csvfile:
     ndcreader = csv.DictReader(csvfile)
     for row in ndcreader:
-        is_eu_member = (
-            row["Filename"].startswith("EUU_European-Union") and row["Code"] in EU
-        )
-        if is_eu_member:
+        if row["Code"] in EU:
             print("Skipping {}: EU member".format(row["Party"]))
             continue
-        filename = pdfs_dir / row["Filename"]
+        filename = pdfs_dir / row["OriginalFilename"]
         if filename.exists():
-            print("Already downloaded: {}".format(row["Filename"]))
+            print("Already downloaded: {}".format(row["OriginalFilename"]))
             continue
-        print(row["Filename"], "<=", row["OriginalFilename"])
+        print(f"Fetching {row['OriginalFilename']}")
         url = urllib.parse.urlsplit(row["EncodedAbsUrl"])
         url = list(url)
         url[2] = urllib.parse.quote(urllib.parse.unquote(url[2]))

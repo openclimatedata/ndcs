@@ -8,9 +8,7 @@ secreteriat's
 
 NDCs are available in the [NDC registry](https://unfccc.int/NDCREG).
 A [CSV file](data/ndcs.csv) is created with title, kind of document, URL of the
-original document etc. For convenience all documents are downloaded and saved with
-unified filenames in the `pdfs` directory.
-
+original document etc.
 ## Preparation
 
 Run

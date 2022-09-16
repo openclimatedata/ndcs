@@ -69,10 +69,6 @@ with sync_playwright() as p:
             lang = languages[ndc_link.get_attribute("hreflang")]
             ndc_url = ndc_link.get_attribute("href")
 
-            normalized_filename = "{}_{}_NDC_{}_{}_{}.pdf".format(
-                code, normalizedParty, version, lang, status
-            )
-
             entries.append(
                 {
                     "Code": code,
@@ -80,7 +76,6 @@ with sync_playwright() as p:
                     "Title": title,
                     "FileType": "NDC",
                     "Language": lang,
-                    "Filename": normalized_filename,
                     "Version": version,
                     "Status": status,
                     "SubmissionDate": submission_date,
@@ -96,10 +91,6 @@ with sync_playwright() as p:
             lang = languages[translation_link.get_attribute("hreflang")]
             translationUrl = translation_link.get_attribute("href")
 
-            normalized_filename = "{}_{}_NDC_{}_Translation_{}_{}.pdf".format(
-                code, normalizedParty, version, lang, status
-            )
-
             entries.append(
                 {
                     "Code": code,
@@ -107,7 +98,6 @@ with sync_playwright() as p:
                     "Title": title,
                     "FileType": "Translation",
                     "Language": lang,
-                    "Filename": normalized_filename,
                     "Version": version,
                     "Status": status,
                     "SubmissionDate": submission_date,
@@ -123,15 +113,6 @@ with sync_playwright() as p:
             lang = languages[additional_documents_link.get_attribute("hreflang")]
             additional_document_url = additional_documents_link.get_attribute("href")
 
-            normalized_filename = "{}_{}_NDC_{}_Addendum_{}_{}_{}.pdf".format(
-                code,
-                normalizedParty,
-                version,
-                normalize(title, lowercase=False).replace(" ", "_"),
-                lang,
-                status,
-            )
-
             entries.append(
                 {
                     "Code": code,
@@ -139,7 +120,6 @@ with sync_playwright() as p:
                     "Title": title,
                     "FileType": "Addendum",
                     "Language": lang,
-                    "Filename": normalized_filename,
                     "Version": version,
                     "Status": status,
                     "SubmissionDate": submission_date,

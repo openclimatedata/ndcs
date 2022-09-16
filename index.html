@@ -82,7 +82,6 @@ hr {
     <th>Title</th>
     <th>FileType</th>
     <th>Language</th>
-    <th>Filename</th>
     <th>Version</th>
     <th>Status</th>
     <th>SubmissionDate</th>
@@ -144,7 +143,7 @@ d3.json("datapackage.json", function(metadata) {
       data: data,
       columns: columns,
       columnDefs: [{
-        "targets": 9,
+        "targets": 8,
         "render": function ( data, type, row, meta ) {
           return '<a href="' + data + '">' + data + '</a>'
         }
