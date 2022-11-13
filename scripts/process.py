@@ -122,7 +122,6 @@ with sync_playwright() as p:
                     "Language": lang,
                     "Version": version,
                     "Status": status,
-                    "SubmissionDate": submission_date,
                     "EncodedAbsUrl": additional_document_url,
                     "OriginalFilename": unquote(
                         additional_document_url.rsplit("/", 1)[1]
