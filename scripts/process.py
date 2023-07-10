@@ -27,6 +27,7 @@ entries = []
 with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page()
+    page.set_default_timeout(240000)
     page.goto(url)
     print(page.title())
 
@@ -56,12 +57,6 @@ with sync_playwright() as p:
         submission_date = datetime.strptime(tds[6].inner_text(), "%d/%m/%Y").strftime(
             "%Y-%m-%d"
         )
-
-        if code in EU:
-            code = "EUU"
-        normalizedParty = normalize(
-            "European-Union" if code == "EUU" else party, lowercase=False
-        ).replace(" ", "-")
 
         title_links = tds[1].query_selector_all("div a:visible")
         for ndc_link in title_links:
