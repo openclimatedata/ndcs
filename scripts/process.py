@@ -1,3 +1,4 @@
+import json
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import unquote
@@ -24,6 +25,8 @@ url = "https://unfccc.int/NDCREG"
 
 
 entries = []
+nested_entries = {}
+
 # Status can be 'Active' or 'Archived'
 for status_field_value in ["5933", "5934"]:
     with sync_playwright() as p:
@@ -57,13 +60,25 @@ for status_field_value in ["5933", "5934"]:
             tds = row.query_selector_all("td")
             party = tds[0].inner_text().strip()
             code = to_code_3(party)
-            version = tds[4].inner_text()
+            version = (tds[4].query_selector_all("span:visible"))[0].inner_text()
             status = tds[5].inner_text()
             submission_date = datetime.strptime(
                 tds[6].inner_text(), "%d/%m/%Y"
             ).strftime("%Y-%m-%d")
 
-            title_links = tds[1].query_selector_all("div a:visible")
+            if code not in nested_entries:
+                nested_entries[code] = {}
+
+            if version not in nested_entries[code]:
+                nested_entries[code][version] = {}
+
+            nested_entries[code][version]["Party"] = party
+            nested_entries[code][version]["Status"] = status
+            nested_entries[code][version]["SubmissionDate"] = submission_date
+
+            nested_entries[code][version]["Ndcs"] = []
+
+            title_links = tds[1].query_selector_all("div a.is-original:visible")
             for ndc_link in title_links:
                 title = ndc_link.inner_text()
                 lang = languages[ndc_link.get_attribute("hreflang")]
@@ -83,9 +98,22 @@ for status_field_value in ["5933", "5934"]:
                         "OriginalFilename": unquote(ndc_url.rsplit("/", 1)[1]),
                     }
                 )
+                nested_entries[code][version]["Ndcs"].append(
+                    {
+                        "Title": title,
+                        "FileType": "NDC",
+                        "Language": lang,
+                        "EncodedAbsUrl": ndc_url,
+                        "OriginalFilename": unquote(ndc_url.rsplit("/", 1)[1]),
+                    }
+                )
+
+            nested_entries[code][version]["Translations"] = []
 
             # N.B. There can be hidden links in this column, so filter for visible.
-            translation_links = tds[3].query_selector_all("div a:visible")
+            translation_links = tds[3].query_selector_all(
+                "div a.is-translation:visible"
+            )
             for translation_link in translation_links:
                 title = translation_link.inner_text()
                 lang = languages[translation_link.get_attribute("hreflang")]
@@ -106,9 +134,23 @@ for status_field_value in ["5933", "5934"]:
                     }
                 )
 
+                nested_entries[code][version]["Translations"].append(
+                    {
+                        "Title": title,
+                        "FileType": "Translation",
+                        "Language": lang,
+                        "EncodedAbsUrl": translationUrl,
+                        "OriginalFilename": unquote(translationUrl.rsplit("/", 1)[1]),
+                    }
+                )
+
+            nested_entries[code][version]["Addenda"] = []
+
             # N.B. There can be hidden links in this column, so filter for visible.
-            addional_documents_links = tds[7].query_selector_all("div:visible a")
-            for additional_documents_link in addional_documents_links:
+            additional_documents_links = tds[7].query_selector_all(
+                "div a.is-original:visible"
+            )
+            for additional_documents_link in additional_documents_links:
                 title = additional_documents_link.inner_text()
                 lang = languages[additional_documents_link.get_attribute("hreflang")]
                 additional_document_url = additional_documents_link.get_attribute(
@@ -131,6 +173,18 @@ for status_field_value in ["5933", "5934"]:
                     }
                 )
 
+                nested_entries[code][version]["Addenda"].append(
+                    {
+                        "Title": title,
+                        "FileType": "Addendum",
+                        "Language": lang,
+                        "EncodedAbsUrl": additional_document_url,
+                        "OriginalFilename": unquote(
+                            additional_document_url.rsplit("/", 1)[1]
+                        ),
+                    }
+                )
+
         browser.close()
 
 data = pd.DataFrame.from_dict(entries)
@@ -144,3 +198,7 @@ print(
 )
 data.to_csv(str(data_dir / "ndcs.csv"))
 print("Created list of NDCs in `data/ndcs.csv`")
+
+with open(data_dir / 'ndcs.json', 'w') as f:
+    f.write(json.dumps(nested_entries, indent=2))
+print("Created JSON version of NDCs in `data/ndcs.json`")
