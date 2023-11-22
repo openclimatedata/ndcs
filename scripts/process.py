@@ -4,10 +4,8 @@ from pathlib import Path
 from urllib.parse import unquote
 
 import pandas as pd
-from countrygroups import EUROPEAN_UNION as EU
 from countrynames import to_code_3
-from normality import normalize
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, expect
 
 root = Path(__file__).parents[1]
 data_dir = root / "data"
@@ -23,9 +21,39 @@ languages = {
 
 url = "https://unfccc.int/NDCREG"
 
-
 entries = []
 nested_entries = {}
+
+BLOCK_RESOURCE_TYPES = [
+    "beacon",
+    "csp_report",
+    "font",
+    "image",
+    "imageset",
+    "media",
+    "object",
+    "texttrack",
+]
+
+BLOCK_RESOURCE_NAMES = [
+    "analytics",
+    "modernizer",
+    "google",
+    "google-analytics",
+    "googletagmanager",
+    "onesignal",
+]
+
+
+def intercept(route):
+    if route.request.resource_type in BLOCK_RESOURCE_TYPES:
+        # print(f"Blocking `{route.request.resource_type}` resource: {route.request.url}")
+        return route.abort()
+    if any(key in route.request.url for key in BLOCK_RESOURCE_NAMES):
+        # print(f"Blocking `{route.request.url}`")
+        return route.abort()
+    return route.continue_()
+
 
 # Status can be 'Active' or 'Archived'
 for status_field_value in ["5933", "5934"]:
@@ -33,53 +61,48 @@ for status_field_value in ["5933", "5934"]:
         browser = p.chromium.launch()
         page = browser.new_page()
         page.set_default_timeout(720000)
-        page.goto(url)
+        page.route("**/*", intercept)
+        page.goto(
+            f"https://unfccc.int/NDCREG?field_party_region_target_id=All&field_document_ca_target_id=All&field_vd_status_target_id={status_field_value}&start_date_datepicker=&end_date_datepicker=&page=20"
+        )
         print(page.title())
 
-        if status_field_value == "5934":
-            page.locator('select[name="field_vd_status_target_id"]').select_option(
-                status_field_value
-            )
+        # Wait for JavaScript to finish and have something visible in the translation column as a check.
+        expect(page.locator("a.is-translation").nth(1)).to_be_visible()
 
-            progress = page.locator(".views-infinite-scroll-footer").inner_text()
-            page.locator("text=Apply").click()
-            page.wait_for_function(
-                f"document.querySelector('.views-infinite-scroll-footer').innerText !== '{progress}'"
-            )
+        progress = page.locator(".views-infinite-scroll-footer").inner_text()
+        print(progress)
 
-        while page.locator("text=Load More").count() > 0:
-            progress = page.locator(".views-infinite-scroll-footer").inner_text()
-            print(progress)
-            page.locator("text=Load More").click()
-            page.wait_for_function(
-                f"document.querySelector('.views-infinite-scroll-footer').innerText !== '{progress}'"
-            )
+        rows = page.locator("table.table tbody tr")
 
-        rows = page.query_selector_all("table.table tbody tr")
-        for row in rows:
-            tds = row.query_selector_all("td")
-            party = tds[0].inner_text().strip()
+        for idx in range(rows.count()):
+            tds = rows.nth(idx).locator("td")
+            party = tds.nth(0).inner_text().strip()
             code = to_code_3(party)
-            version = (tds[4].query_selector_all("span:visible"))[0].inner_text()
-            status = tds[5].inner_text()
+            version = tds.nth(4).locator("span:visible").nth(0).inner_text()
+            status = tds.nth(5).inner_text()
             submission_date = datetime.strptime(
-                tds[6].inner_text(), "%d/%m/%Y"
+                tds.nth(6).inner_text(), "%d/%m/%Y"
             ).strftime("%Y-%m-%d")
 
             if code not in nested_entries:
-                nested_entries[code] = {}
+                nested_entries[code] = []
 
-            if version not in nested_entries[code]:
-                nested_entries[code][version] = {}
+            nested_entries[code].append(
+                {
+                    "Party": party,
+                    "Version": version,
+                    "Status": status,
+                    "SubmissionDate": submission_date,
+                    "Ndcs": [],
+                    "Translations": [],
+                    "Addenda": [],
+                }
+            )
 
-            nested_entries[code][version]["Party"] = party
-            nested_entries[code][version]["Status"] = status
-            nested_entries[code][version]["SubmissionDate"] = submission_date
-
-            nested_entries[code][version]["Ndcs"] = []
-
-            title_links = tds[1].query_selector_all("div a.is-original:visible")
-            for ndc_link in title_links:
+            ndc_links = tds.nth(1).locator("div a.is-original:visible")
+            for ndc_link_idx in range(ndc_links.count()):
+                ndc_link = ndc_links.nth(ndc_link_idx)
                 title = ndc_link.inner_text()
                 lang = languages[ndc_link.get_attribute("hreflang")]
                 ndc_url = ndc_link.get_attribute("href")
@@ -98,7 +121,7 @@ for status_field_value in ["5933", "5934"]:
                         "OriginalFilename": unquote(ndc_url.rsplit("/", 1)[1]),
                     }
                 )
-                nested_entries[code][version]["Ndcs"].append(
+                nested_entries[code][-1]["Ndcs"].append(
                     {
                         "Title": title,
                         "FileType": "NDC",
@@ -108,13 +131,11 @@ for status_field_value in ["5933", "5934"]:
                     }
                 )
 
-            nested_entries[code][version]["Translations"] = []
-
             # N.B. There can be hidden links in this column, so filter for visible.
-            translation_links = tds[3].query_selector_all(
-                "div a.is-translation:visible"
-            )
-            for translation_link in translation_links:
+            translation_links = tds.nth(3).locator("div a.is-translation:visible")
+
+            for translation_link_idx in range(translation_links.count()):
+                translation_link = translation_links.nth(translation_link_idx)
                 title = translation_link.inner_text()
                 lang = languages[translation_link.get_attribute("hreflang")]
                 translationUrl = translation_link.get_attribute("href")
@@ -134,7 +155,7 @@ for status_field_value in ["5933", "5934"]:
                     }
                 )
 
-                nested_entries[code][version]["Translations"].append(
+                nested_entries[code][-1]["Translations"].append(
                     {
                         "Title": title,
                         "FileType": "Translation",
@@ -144,13 +165,14 @@ for status_field_value in ["5933", "5934"]:
                     }
                 )
 
-            nested_entries[code][version]["Addenda"] = []
-
             # N.B. There can be hidden links in this column, so filter for visible.
-            additional_documents_links = tds[7].query_selector_all(
-                "div a.is-original:visible"
-            )
-            for additional_documents_link in additional_documents_links:
+            additional_documents_links = tds.nth(7).locator("div a.is-original:visible")
+            for additional_documents_link_idx in range(
+                additional_documents_links.count()
+            ):
+                additional_documents_link = additional_documents_links.nth(
+                    additional_documents_link_idx
+                )
                 title = additional_documents_link.inner_text()
                 lang = languages[additional_documents_link.get_attribute("hreflang")]
                 additional_document_url = additional_documents_link.get_attribute(
@@ -173,7 +195,7 @@ for status_field_value in ["5933", "5934"]:
                     }
                 )
 
-                nested_entries[code][version]["Addenda"].append(
+                nested_entries[code][-1]["Addenda"].append(
                     {
                         "Title": title,
                         "FileType": "Addendum",
@@ -199,6 +221,6 @@ print(
 data.to_csv(str(data_dir / "ndcs.csv"))
 print("Created list of NDCs in `data/ndcs.csv`")
 
-with open(data_dir / 'ndcs.json', 'w') as f:
+with open(data_dir / "ndcs.json", "w") as f:
     f.write(json.dumps(nested_entries, indent=2))
 print("Created JSON version of NDCs in `data/ndcs.json`")
