@@ -5,7 +5,7 @@ from urllib.parse import unquote
 
 import pandas as pd
 from countrynames import to_code_3
-from playwright.sync_api import sync_playwright, expect
+from playwright.sync_api import sync_playwright
 
 root = Path(__file__).parents[1]
 data_dir = root / "data"
@@ -22,7 +22,7 @@ languages = {
 url = "https://unfccc.int/NDCREG"
 
 entries = []
-nested_entries = {}
+nested_entries = []
 
 BLOCK_RESOURCE_TYPES = [
     "beacon",
@@ -55,20 +55,19 @@ def intercept(route):
     return route.continue_()
 
 
+timeout = 50_000
+
 # Status can be 'Active' or 'Archived'
 for status_field_value in ["5933", "5934"]:
     with sync_playwright() as p:
-        browser = p.chromium.launch()
+        browser = p.chromium.launch()  # Run with headless=False for debugging
         page = browser.new_page()
-        page.set_default_timeout(720000)
+        page.set_default_timeout(timeout)
         page.route("**/*", intercept)
         page.goto(
             f"https://unfccc.int/NDCREG?field_party_region_target_id=All&field_document_ca_target_id=All&field_vd_status_target_id={status_field_value}&start_date_datepicker=&end_date_datepicker=&page=20"
         )
         print(page.title())
-
-        # Wait for JavaScript to finish and have something visible in the translation column as a check.
-        expect(page.locator("a.is-translation").nth(1)).to_be_visible()
 
         progress = page.locator(".views-infinite-scroll-footer").inner_text()
         print(progress)
@@ -85,22 +84,20 @@ for status_field_value in ["5933", "5934"]:
                 tds.nth(6).inner_text(), "%d/%m/%Y"
             ).strftime("%Y-%m-%d")
 
-            if code not in nested_entries:
-                nested_entries[code] = []
+            nested_entry = {
+                "Code": code,
+                "Party": party,
+                "Version": version,
+                "Status": status,
+                "SubmissionDate": submission_date,
+                "Ndcs": [],
+                "Translations": [],
+                "Addenda": [],
+            }
 
-            nested_entries[code].append(
-                {
-                    "Party": party,
-                    "Version": version,
-                    "Status": status,
-                    "SubmissionDate": submission_date,
-                    "Ndcs": [],
-                    "Translations": [],
-                    "Addenda": [],
-                }
+            ndc_links = tds.nth(1).locator(
+                "div.is-not-addendum.is-not-other.is-main a.is-original:visible"
             )
-
-            ndc_links = tds.nth(1).locator("div a.is-original:visible")
             for ndc_link_idx in range(ndc_links.count()):
                 ndc_link = ndc_links.nth(ndc_link_idx)
                 title = ndc_link.inner_text()
@@ -121,7 +118,7 @@ for status_field_value in ["5933", "5934"]:
                         "OriginalFilename": unquote(ndc_url.rsplit("/", 1)[1]),
                     }
                 )
-                nested_entries[code][-1]["Ndcs"].append(
+                nested_entry["Ndcs"].append(
                     {
                         "Title": title,
                         "FileType": "NDC",
@@ -155,7 +152,7 @@ for status_field_value in ["5933", "5934"]:
                     }
                 )
 
-                nested_entries[code][-1]["Translations"].append(
+                nested_entry["Translations"].append(
                     {
                         "Title": title,
                         "FileType": "Translation",
@@ -195,7 +192,7 @@ for status_field_value in ["5933", "5934"]:
                     }
                 )
 
-                nested_entries[code][-1]["Addenda"].append(
+                nested_entry["Addenda"].append(
                     {
                         "Title": title,
                         "FileType": "Addendum",
@@ -206,6 +203,8 @@ for status_field_value in ["5933", "5934"]:
                         ),
                     }
                 )
+
+            nested_entries.append(nested_entry)
 
         browser.close()
 
@@ -222,5 +221,13 @@ data.to_csv(str(data_dir / "ndcs.csv"))
 print("Created list of NDCs in `data/ndcs.csv`")
 
 with open(data_dir / "ndcs.json", "w") as f:
-    f.write(json.dumps(nested_entries, indent=2))
+    f.write(
+        json.dumps(
+            sorted(
+                sorted(nested_entries, key=lambda x: x["Version"], reverse=True),
+                key=lambda y: y["Party"],
+            ),
+            indent=2,
+        )
+    )
 print("Created JSON version of NDCs in `data/ndcs.json`")
