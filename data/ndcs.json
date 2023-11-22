@@ -1,7 +1,8 @@
 {
-  "AFG": {
-    "1": {
+  "AFG": [
+    {
       "Party": "Afghanistan",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-11-23",
       "Ndcs": [
@@ -16,10 +17,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ALB": {
-    "2": {
+  ],
+  "ALB": [
+    {
       "Party": "Albania",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -34,8 +36,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Albania",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -50,10 +53,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "DZA": {
-    "1": {
+  ],
+  "DZA": [
+    {
       "Party": "Algeria",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-10-20",
       "Ndcs": [
@@ -76,10 +80,11 @@
       ],
       "Addenda": []
     }
-  },
-  "AND": {
-    "3": {
+  ],
+  "AND": [
+    {
       "Party": "Andorra",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-11-08",
       "Ndcs": [
@@ -102,24 +107,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Andorra",
-      "Status": "Archived",
-      "SubmissionDate": "2017-03-24",
-      "Ndcs": [
-        {
-          "Title": "Andorra First NDC (Archived)",
-          "FileType": "NDC",
-          "Language": "French",
-          "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Andorra%20INDC-CPDN.pdf",
-          "OriginalFilename": "Andorra INDC-CPDN.pdf"
-        }
-      ],
-      "Translations": [],
-      "Addenda": []
-    },
-    "2": {
-      "Party": "Andorra",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-05-20",
       "Ndcs": [
@@ -133,11 +123,29 @@
       ],
       "Translations": [],
       "Addenda": []
+    },
+    {
+      "Party": "Andorra",
+      "Version": "1",
+      "Status": "Archived",
+      "SubmissionDate": "2017-03-24",
+      "Ndcs": [
+        {
+          "Title": "Andorra First NDC (Archived)",
+          "FileType": "NDC",
+          "Language": "French",
+          "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Andorra%20INDC-CPDN.pdf",
+          "OriginalFilename": "Andorra INDC-CPDN.pdf"
+        }
+      ],
+      "Translations": [],
+      "Addenda": []
     }
-  },
-  "AGO": {
-    "2": {
+  ],
+  "AGO": [
+    {
       "Party": "Angola",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-05-31",
       "Ndcs": [
@@ -152,8 +160,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Angola",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2020-11-16",
       "Ndcs": [
@@ -168,10 +177,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ATG": {
-    "2": {
+  ],
+  "ATG": [
+    {
       "Party": "Antigua and Barbuda",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-09-02",
       "Ndcs": [
@@ -186,8 +196,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Antigua and Barbuda",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -202,10 +213,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ARG": {
-    "3": {
+  ],
+  "ARG": [
+    {
       "Party": "Argentina",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2021-11-02",
       "Ndcs": [
@@ -228,8 +240,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Argentina",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-17",
       "Ndcs": [
@@ -252,8 +265,9 @@
       ],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Argentina",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-30",
       "Ndcs": [
@@ -268,10 +282,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ARM": {
-    "2": {
+  ],
+  "ARM": [
+    {
       "Party": "Armenia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-05-05",
       "Ndcs": [
@@ -294,8 +309,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Armenia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-03-23",
       "Ndcs": [
@@ -310,10 +326,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "AUS": {
-    "4": {
+  ],
+  "AUS": [
+    {
       "Party": "Australia",
+      "Version": "4",
       "Status": "Active",
       "SubmissionDate": "2022-06-16",
       "Ndcs": [
@@ -336,8 +353,9 @@
         }
       ]
     },
-    "3": {
+    {
       "Party": "Australia",
+      "Version": "3",
       "Status": "Archived",
       "SubmissionDate": "2021-10-28",
       "Ndcs": [
@@ -352,8 +370,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Australia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-09",
       "Ndcs": [
@@ -368,8 +387,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Australia",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-31",
       "Ndcs": [
@@ -384,10 +404,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "AUT": {
-    "3": {
+  ],
+  "AUT": [
+    {
       "Party": "Austria",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -402,8 +423,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Austria",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -418,8 +440,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Austria",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -434,10 +457,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "AZE": {
-    "2": {
+  ],
+  "AZE": [
+    {
       "Party": "Azerbaijan",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2023-10-10",
       "Ndcs": [
@@ -452,8 +476,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Azerbaijan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-01-09",
       "Ndcs": [
@@ -468,10 +493,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BHS": {
-    "2": {
+  ],
+  "BHS": [
+    {
       "Party": "Bahamas",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-11-07",
       "Ndcs": [
@@ -486,8 +512,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Bahamas",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-31",
       "Ndcs": [
@@ -502,10 +529,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BHR": {
-    "2": {
+  ],
+  "BHR": [
+    {
       "Party": "Bahrain",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-18",
       "Ndcs": [
@@ -520,8 +548,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Bahrain",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-12-30",
       "Ndcs": [
@@ -536,10 +565,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BGD": {
-    "3": {
+  ],
+  "BGD": [
+    {
       "Party": "Bangladesh",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2021-08-26",
       "Ndcs": [
@@ -554,24 +584,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Bangladesh",
-      "Status": "Archived",
-      "SubmissionDate": "2016-09-21",
-      "Ndcs": [
-        {
-          "Title": "Bangladesh First NDC (Archived)",
-          "FileType": "NDC",
-          "Language": "English",
-          "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/INDC_2015_of_Bangladesh.pdf",
-          "OriginalFilename": "INDC_2015_of_Bangladesh.pdf"
-        }
-      ],
-      "Translations": [],
-      "Addenda": []
-    },
-    "2": {
-      "Party": "Bangladesh",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-31",
       "Ndcs": [
@@ -593,11 +608,29 @@
           "OriginalFilename": "Forwarding.pdf"
         }
       ]
+    },
+    {
+      "Party": "Bangladesh",
+      "Version": "1",
+      "Status": "Archived",
+      "SubmissionDate": "2016-09-21",
+      "Ndcs": [
+        {
+          "Title": "Bangladesh First NDC (Archived)",
+          "FileType": "NDC",
+          "Language": "English",
+          "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/INDC_2015_of_Bangladesh.pdf",
+          "OriginalFilename": "INDC_2015_of_Bangladesh.pdf"
+        }
+      ],
+      "Translations": [],
+      "Addenda": []
     }
-  },
-  "BRB": {
-    "2": {
+  ],
+  "BRB": [
+    {
       "Party": "Barbados",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -612,8 +645,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Barbados",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -628,10 +662,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BLR": {
-    "2": {
+  ],
+  "BLR": [
+    {
       "Party": "Belarus",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-11",
       "Ndcs": [
@@ -662,8 +697,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Belarus",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -686,10 +722,11 @@
       ],
       "Addenda": []
     }
-  },
-  "BEL": {
-    "3": {
+  ],
+  "BEL": [
+    {
       "Party": "Belgium",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -704,8 +741,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Belgium",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-04-06",
       "Ndcs": [
@@ -720,8 +758,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Belgium",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -736,10 +775,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BLZ": {
-    "2": {
+  ],
+  "BLZ": [
+    {
       "Party": "Belize",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-09-01",
       "Ndcs": [
@@ -754,8 +794,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Belize",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-20",
       "Ndcs": [
@@ -770,10 +811,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BEN": {
-    "2": {
+  ],
+  "BEN": [
+    {
       "Party": "Benin",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -788,8 +830,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Benin",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-10-11",
       "Ndcs": [
@@ -812,10 +855,11 @@
       ],
       "Addenda": []
     }
-  },
-  "BTN": {
-    "2": {
+  ],
+  "BTN": [
+    {
       "Party": "Bhutan",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-06-24",
       "Ndcs": [
@@ -838,8 +882,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Bhutan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-09-19",
       "Ndcs": [
@@ -854,10 +899,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BOL": {
-    "2": {
+  ],
+  "BOL": [
+    {
       "Party": "Bolivia (Plurinational State of)",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-04-15",
       "Ndcs": [
@@ -880,8 +926,9 @@
       ],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Bolivia (Plurinational State of)",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -904,10 +951,11 @@
       ],
       "Addenda": []
     }
-  },
-  "BIH": {
-    "2": {
+  ],
+  "BIH": [
+    {
       "Party": "Bosnia and Herzegovina",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-04-20",
       "Ndcs": [
@@ -922,8 +970,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Bosnia and Herzegovina",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-03-16",
       "Ndcs": [
@@ -938,10 +987,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BWA": {
-    "1": {
+  ],
+  "BWA": [
+    {
       "Party": "Botswana",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-11-11",
       "Ndcs": [
@@ -956,10 +1006,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BRA": {
-    "4": {
+  ],
+  "BRA": [
+    {
       "Party": "Brazil",
+      "Version": "4",
       "Status": "Active",
       "SubmissionDate": "2023-11-03",
       "Ndcs": [
@@ -974,8 +1025,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Brazil",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -990,8 +1042,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Brazil",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-09",
       "Ndcs": [
@@ -1021,8 +1074,9 @@
         }
       ]
     },
-    "3": {
+    {
       "Party": "Brazil",
+      "Version": "3",
       "Status": "Archived",
       "SubmissionDate": "2022-04-07",
       "Ndcs": [
@@ -1037,10 +1091,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BRN": {
-    "1": {
+  ],
+  "BRN": [
+    {
       "Party": "Brunei Darussalam",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2020-12-31",
       "Ndcs": [
@@ -1063,10 +1118,11 @@
         }
       ]
     }
-  },
-  "BGR": {
-    "3": {
+  ],
+  "BGR": [
+    {
       "Party": "Bulgaria",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -1081,8 +1137,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Bulgaria",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-29",
       "Ndcs": [
@@ -1097,8 +1154,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Bulgaria",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -1113,10 +1171,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "BFA": {
-    "2": {
+  ],
+  "BFA": [
+    {
       "Party": "Burkina Faso",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-09",
       "Ndcs": [
@@ -1131,8 +1190,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Burkina Faso",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-11",
       "Ndcs": [
@@ -1155,10 +1215,11 @@
       ],
       "Addenda": []
     }
-  },
-  "BDI": {
-    "2": {
+  ],
+  "BDI": [
+    {
       "Party": "Burundi",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-05",
       "Ndcs": [
@@ -1173,8 +1234,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Burundi",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-01-17",
       "Ndcs": [
@@ -1197,10 +1259,11 @@
       ],
       "Addenda": []
     }
-  },
-  "CPV": {
-    "2": {
+  ],
+  "CPV": [
+    {
       "Party": "Cabo Verde",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-04-02",
       "Ndcs": [
@@ -1215,8 +1278,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Cabo Verde",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-09-21",
       "Ndcs": [
@@ -1231,10 +1295,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "KHM": {
-    "2": {
+  ],
+  "KHM": [
+    {
       "Party": "Cambodia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-31",
       "Ndcs": [
@@ -1249,8 +1314,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Cambodia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-02-06",
       "Ndcs": [
@@ -1265,10 +1331,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "CMR": {
-    "2": {
+  ],
+  "CMR": [
+    {
       "Party": "Cameroon",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-11",
       "Ndcs": [
@@ -1291,8 +1358,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Cameroon",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-07-29",
       "Ndcs": [
@@ -1315,10 +1383,11 @@
         }
       ]
     }
-  },
-  "CAN": {
-    "3": {
+  ],
+  "CAN": [
+    {
       "Party": "Canada",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2021-07-12",
       "Ndcs": [
@@ -1340,8 +1409,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Canada",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2017-05-11",
       "Ndcs": [
@@ -1363,8 +1433,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Canada",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -1386,10 +1457,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "CAF": {
-    "2": {
+  ],
+  "CAF": [
+    {
       "Party": "Central African Republic",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-01-24",
       "Ndcs": [
@@ -1404,8 +1476,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Central African Republic",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-11",
       "Ndcs": [
@@ -1428,10 +1501,11 @@
       ],
       "Addenda": []
     }
-  },
-  "TCD": {
-    "2": {
+  ],
+  "TCD": [
+    {
       "Party": "Chad",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-19",
       "Ndcs": [
@@ -1446,8 +1520,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Chad",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-01-12",
       "Ndcs": [
@@ -1470,10 +1545,11 @@
       ],
       "Addenda": []
     }
-  },
-  "CHL": {
-    "2": {
+  ],
+  "CHL": [
+    {
       "Party": "Chile",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-04-09",
       "Ndcs": [
@@ -1503,8 +1579,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Chile",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-02-10",
       "Ndcs": [
@@ -1527,10 +1604,11 @@
       ],
       "Addenda": []
     }
-  },
-  "CHN": {
-    "2": {
+  ],
+  "CHN": [
+    {
       "Party": "China",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-28",
       "Ndcs": [
@@ -1575,8 +1653,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "China",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-03",
       "Ndcs": [
@@ -1591,10 +1670,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "COL": {
-    "2": {
+  ],
+  "COL": [
+    {
       "Party": "Colombia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-30",
       "Ndcs": [
@@ -1631,8 +1711,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Colombia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-07-12",
       "Ndcs": [
@@ -1655,10 +1736,11 @@
       ],
       "Addenda": []
     }
-  },
-  "COM": {
-    "2": {
+  ],
+  "COM": [
+    {
       "Party": "Comoros",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-11-05",
       "Ndcs": [
@@ -1673,8 +1755,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Comoros",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-23",
       "Ndcs": [
@@ -1689,10 +1772,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "COG": {
-    "2": {
+  ],
+  "COG": [
+    {
       "Party": "Congo",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-08-02",
       "Ndcs": [
@@ -1715,8 +1799,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Congo",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-04-21",
       "Ndcs": [
@@ -1731,10 +1816,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "COK": {
-    "1": {
+  ],
+  "COK": [
+    {
       "Party": "Cook Islands",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-09-01",
       "Ndcs": [
@@ -1749,10 +1835,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "CRI": {
-    "3": {
+  ],
+  "CRI": [
+    {
       "Party": "Costa Rica",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2020-12-29",
       "Ndcs": [
@@ -1767,8 +1854,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Costa Rica",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-13",
       "Ndcs": [
@@ -1791,8 +1879,9 @@
       ],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Costa Rica",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-11",
       "Ndcs": [
@@ -1807,10 +1896,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "CIV": {
-    "2": {
+  ],
+  "CIV": [
+    {
       "Party": "C\u00f4te d'Ivoire",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-05-09",
       "Ndcs": [
@@ -1825,8 +1915,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "C\u00f4te d'Ivoire",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-25",
       "Ndcs": [
@@ -1841,10 +1932,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "HRV": {
-    "3": {
+  ],
+  "HRV": [
+    {
       "Party": "Croatia",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -1859,8 +1951,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Croatia",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -1875,8 +1968,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Croatia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-05-24",
       "Ndcs": [
@@ -1891,10 +1985,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "CUB": {
-    "2": {
+  ],
+  "CUB": [
+    {
       "Party": "Cuba",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-09-17",
       "Ndcs": [
@@ -1924,8 +2019,9 @@
       ],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Cuba",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-12-30",
       "Ndcs": [
@@ -1940,10 +2036,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "CYP": {
-    "3": {
+  ],
+  "CYP": [
+    {
       "Party": "Cyprus",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -1958,8 +2055,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Cyprus",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-01-04",
       "Ndcs": [
@@ -1974,8 +2072,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Cyprus",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -1990,10 +2089,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "CZE": {
-    "3": {
+  ],
+  "CZE": [
+    {
       "Party": "Czechia",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -2008,8 +2108,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Czechia",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -2024,8 +2125,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Czechia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-10-05",
       "Ndcs": [
@@ -2040,10 +2142,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "PRK": {
-    "2": {
+  ],
+  "PRK": [
+    {
       "Party": "Democratic People's Republic of Korea",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2019-09-19",
       "Ndcs": [
@@ -2058,8 +2161,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Democratic People's Republic of Korea",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-03",
       "Ndcs": [
@@ -2074,10 +2178,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "COD": {
-    "2": {
+  ],
+  "COD": [
+    {
       "Party": "Democratic Republic of the Congo",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-12-28",
       "Ndcs": [
@@ -2092,8 +2197,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Democratic Republic of the Congo",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-12-13",
       "Ndcs": [
@@ -2108,10 +2214,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "DNK": {
-    "3": {
+  ],
+  "DNK": [
+    {
       "Party": "Denmark",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -2126,8 +2233,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Denmark",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -2142,8 +2250,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Denmark",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-01",
       "Ndcs": [
@@ -2158,10 +2267,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "DJI": {
-    "1": {
+  ],
+  "DJI": [
+    {
       "Party": "Djibouti",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-11-11",
       "Ndcs": [
@@ -2184,10 +2294,11 @@
       ],
       "Addenda": []
     }
-  },
-  "DMA": {
-    "2": {
+  ],
+  "DMA": [
+    {
       "Party": "Dominica",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-07-04",
       "Ndcs": [
@@ -2202,8 +2313,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Dominica",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -2218,10 +2330,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "DOM": {
-    "2": {
+  ],
+  "DOM": [
+    {
       "Party": "Dominican Republic",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-29",
       "Ndcs": [
@@ -2236,8 +2349,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Dominican Republic",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-09-21",
       "Ndcs": [
@@ -2260,10 +2374,11 @@
       ],
       "Addenda": []
     }
-  },
-  "ECU": {
-    "1": {
+  ],
+  "ECU": [
+    {
       "Party": "Ecuador",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2019-03-29",
       "Ndcs": [
@@ -2278,10 +2393,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "EGY": {
-    "3": {
+  ],
+  "EGY": [
+    {
       "Party": "Egypt",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-06-26",
       "Ndcs": [
@@ -2296,8 +2412,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Egypt",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-06-29",
       "Ndcs": [
@@ -2312,8 +2429,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Egypt",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2022-07-07",
       "Ndcs": [
@@ -2328,10 +2446,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SLV": {
-    "3": {
+  ],
+  "SLV": [
+    {
       "Party": "El Salvador",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-01-04",
       "Ndcs": [
@@ -2354,8 +2473,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "El Salvador",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-03-27",
       "Ndcs": [
@@ -2370,8 +2490,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "El Salvador",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2017-10-30",
       "Ndcs": [
@@ -2386,10 +2507,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "GNQ": {
-    "2": {
+  ],
+  "GNQ": [
+    {
       "Party": "Equatorial Guinea",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-10-24",
       "Ndcs": [
@@ -2404,8 +2526,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Equatorial Guinea",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-10-30",
       "Ndcs": [
@@ -2420,10 +2543,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ERI": {
-    "1": {
+  ],
+  "ERI": [
+    {
       "Party": "Eritrea",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2018-06-19",
       "Ndcs": [
@@ -2438,10 +2562,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "EST": {
-    "3": {
+  ],
+  "EST": [
+    {
       "Party": "Estonia",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -2456,8 +2581,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Estonia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-04",
       "Ndcs": [
@@ -2472,8 +2598,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Estonia",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -2488,10 +2615,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SWZ": {
-    "2": {
+  ],
+  "SWZ": [
+    {
       "Party": "Eswatini",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -2506,8 +2634,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Eswatini",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -2522,10 +2651,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ETH": {
-    "2": {
+  ],
+  "ETH": [
+    {
       "Party": "Ethiopia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-23",
       "Ndcs": [
@@ -2540,8 +2670,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Ethiopia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-03-09",
       "Ndcs": [
@@ -2571,10 +2702,11 @@
         }
       ]
     }
-  },
-  "EUU": {
-    "3": {
+  ],
+  "EUU": [
+    {
       "Party": "European Union",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -2589,8 +2721,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "European Union",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -2605,8 +2738,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "European Union",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -2621,10 +2755,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "FJI": {
-    "2": {
+  ],
+  "FJI": [
+    {
       "Party": "Fiji",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-31",
       "Ndcs": [
@@ -2639,8 +2774,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Fiji",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -2655,10 +2791,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "FIN": {
-    "3": {
+  ],
+  "FIN": [
+    {
       "Party": "Finland",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -2673,8 +2810,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Finland",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -2689,8 +2827,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Finland",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-14",
       "Ndcs": [
@@ -2705,10 +2844,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "FRA": {
-    "3": {
+  ],
+  "FRA": [
+    {
       "Party": "France",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -2723,8 +2863,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "France",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -2747,8 +2888,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "France",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -2771,10 +2913,11 @@
         }
       ]
     }
-  },
-  "GAB": {
-    "2": {
+  ],
+  "GAB": [
+    {
       "Party": "Gabon",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-07-06",
       "Ndcs": [
@@ -2789,8 +2932,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Gabon",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-02",
       "Ndcs": [
@@ -2805,10 +2949,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "GMB": {
-    "2": {
+  ],
+  "GMB": [
+    {
       "Party": "Gambia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-09-12",
       "Ndcs": [
@@ -2823,8 +2968,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Gambia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-07",
       "Ndcs": [
@@ -2839,10 +2985,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "GEO": {
-    "2": {
+  ],
+  "GEO": [
+    {
       "Party": "Georgia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-05-05",
       "Ndcs": [
@@ -2857,8 +3004,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Georgia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-05-08",
       "Ndcs": [
@@ -2873,10 +3021,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "DEU": {
-    "3": {
+  ],
+  "DEU": [
+    {
       "Party": "Germany",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -2891,8 +3040,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Germany",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -2907,8 +3057,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Germany",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -2923,10 +3074,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "GHA": {
-    "2": {
+  ],
+  "GHA": [
+    {
       "Party": "Ghana",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-11-04",
       "Ndcs": [
@@ -2941,8 +3093,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Ghana",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -2965,10 +3118,11 @@
         }
       ]
     }
-  },
-  "GRC": {
-    "3": {
+  ],
+  "GRC": [
+    {
       "Party": "Greece",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -2983,8 +3137,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Greece",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-14",
       "Ndcs": [
@@ -2999,8 +3154,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Greece",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -3015,10 +3171,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "GRD": {
-    "2": {
+  ],
+  "GRD": [
+    {
       "Party": "Grenada",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-01",
       "Ndcs": [
@@ -3033,8 +3190,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Grenada",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -3049,10 +3207,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "GTM": {
-    "3": {
+  ],
+  "GTM": [
+    {
       "Party": "Guatemala",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-05-23",
       "Ndcs": [
@@ -3067,8 +3226,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Guatemala",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-01-25",
       "Ndcs": [
@@ -3083,8 +3243,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Guatemala",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2022-04-01",
       "Ndcs": [
@@ -3107,10 +3268,11 @@
         }
       ]
     }
-  },
-  "GIN": {
-    "2": {
+  ],
+  "GIN": [
+    {
       "Party": "Guinea",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-28",
       "Ndcs": [
@@ -3125,8 +3287,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Guinea",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -3149,10 +3312,11 @@
       ],
       "Addenda": []
     }
-  },
-  "GNB": {
-    "2": {
+  ],
+  "GNB": [
+    {
       "Party": "Guinea-Bissau",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -3167,8 +3331,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Guinea-Bissau",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-10-22",
       "Ndcs": [
@@ -3183,10 +3348,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "GUY": {
-    "1": {
+  ],
+  "GUY": [
+    {
       "Party": "Guyana",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-05-20",
       "Ndcs": [
@@ -3201,10 +3367,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "HTI": {
-    "2": {
+  ],
+  "HTI": [
+    {
       "Party": "Haiti",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-06-01",
       "Ndcs": [
@@ -3219,8 +3386,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Haiti",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-07-31",
       "Ndcs": [
@@ -3235,10 +3403,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "VAT": {
-    "1": {
+  ],
+  "VAT": [
+    {
       "Party": "Holy See",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2023-05-31",
       "Ndcs": [
@@ -3253,10 +3422,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "HND": {
-    "2": {
+  ],
+  "HND": [
+    {
       "Party": "Honduras",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-05-19",
       "Ndcs": [
@@ -3279,8 +3449,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Honduras",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -3295,10 +3466,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "HUN": {
-    "3": {
+  ],
+  "HUN": [
+    {
       "Party": "Hungary",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -3313,8 +3485,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Hungary",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -3329,8 +3502,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Hungary",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -3345,10 +3519,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ISL": {
-    "2": {
+  ],
+  "ISL": [
+    {
       "Party": "Iceland",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-02-18",
       "Ndcs": [
@@ -3363,8 +3538,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Iceland",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -3379,10 +3555,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "IND": {
-    "2": {
+  ],
+  "IND": [
+    {
       "Party": "India",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-08-26",
       "Ndcs": [
@@ -3405,8 +3582,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "India",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-02",
       "Ndcs": [
@@ -3421,10 +3599,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "IDN": {
-    "3": {
+  ],
+  "IDN": [
+    {
       "Party": "Indonesia",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-09-23",
       "Ndcs": [
@@ -3447,8 +3626,9 @@
         }
       ]
     },
-    "2": {
+    {
       "Party": "Indonesia",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2021-07-22",
       "Ndcs": [
@@ -3471,8 +3651,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Indonesia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-06",
       "Ndcs": [
@@ -3487,10 +3668,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "IRQ": {
-    "1": {
+  ],
+  "IRQ": [
+    {
       "Party": "Iraq",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2021-10-15",
       "Ndcs": [
@@ -3505,10 +3687,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "IRL": {
-    "3": {
+  ],
+  "IRL": [
+    {
       "Party": "Ireland",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -3523,8 +3706,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Ireland",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-04",
       "Ndcs": [
@@ -3539,8 +3723,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Ireland",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -3555,10 +3740,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ISR": {
-    "2": {
+  ],
+  "ISR": [
+    {
       "Party": "Israel",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-29",
       "Ndcs": [
@@ -3573,8 +3759,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Israel",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-22",
       "Ndcs": [
@@ -3589,10 +3776,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ITA": {
-    "3": {
+  ],
+  "ITA": [
+    {
       "Party": "Italy",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -3607,8 +3795,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Italy",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-11",
       "Ndcs": [
@@ -3623,8 +3812,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Italy",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -3639,10 +3829,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "JAM": {
-    "2": {
+  ],
+  "JAM": [
+    {
       "Party": "Jamaica",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-07-01",
       "Ndcs": [
@@ -3657,8 +3848,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Jamaica",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-04-10",
       "Ndcs": [
@@ -3673,10 +3865,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "JPN": {
-    "4": {
+  ],
+  "JPN": [
+    {
       "Party": "Japan",
+      "Version": "4",
       "Status": "Active",
       "SubmissionDate": "2021-10-22",
       "Ndcs": [
@@ -3691,8 +3884,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "3": {
+    {
       "Party": "Japan",
+      "Version": "3",
       "Status": "Archived",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -3707,8 +3901,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Japan",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-03-31",
       "Ndcs": [
@@ -3723,8 +3918,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Japan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-08",
       "Ndcs": [
@@ -3739,10 +3935,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "JOR": {
-    "2": {
+  ],
+  "JOR": [
+    {
       "Party": "Jordan",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -3757,8 +3954,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Jordan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-04",
       "Ndcs": [
@@ -3773,10 +3971,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "KAZ": {
-    "2": {
+  ],
+  "KAZ": [
+    {
       "Party": "Kazakhstan",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2023-06-27",
       "Ndcs": [
@@ -3791,8 +3990,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Kazakhstan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-12-06",
       "Ndcs": [
@@ -3807,10 +4007,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "KEN": {
-    "2": {
+  ],
+  "KEN": [
+    {
       "Party": "Kenya",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-28",
       "Ndcs": [
@@ -3825,8 +4026,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Kenya",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-12-28",
       "Ndcs": [
@@ -3841,10 +4043,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "KIR": {
-    "2": {
+  ],
+  "KIR": [
+    {
       "Party": "Kiribati",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2023-03-02",
       "Ndcs": [
@@ -3859,8 +4062,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Kiribati",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -3875,10 +4079,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "KWT": {
-    "2": {
+  ],
+  "KWT": [
+    {
       "Party": "Kuwait",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -3901,8 +4106,9 @@
       ],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Kuwait",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-04-23",
       "Ndcs": [
@@ -3925,10 +4131,11 @@
       ],
       "Addenda": []
     }
-  },
-  "KGZ": {
-    "2": {
+  ],
+  "KGZ": [
+    {
       "Party": "Kyrgyzstan",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-09",
       "Ndcs": [
@@ -3951,8 +4158,9 @@
       ],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Kyrgyzstan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2020-02-18",
       "Ndcs": [
@@ -3983,10 +4191,11 @@
         }
       ]
     }
-  },
-  "LAO": {
-    "2": {
+  ],
+  "LAO": [
+    {
       "Party": "Lao People's Democratic Republic",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-05-11",
       "Ndcs": [
@@ -4001,8 +4210,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Lao People's Democratic Republic",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-07",
       "Ndcs": [
@@ -4017,10 +4227,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "LVA": {
-    "3": {
+  ],
+  "LVA": [
+    {
       "Party": "Latvia",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -4035,8 +4246,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Latvia",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -4051,8 +4263,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Latvia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-03-16",
       "Ndcs": [
@@ -4067,10 +4280,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "LBN": {
-    "2": {
+  ],
+  "LBN": [
+    {
       "Party": "Lebanon",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-03-16",
       "Ndcs": [
@@ -4085,8 +4299,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Lebanon",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2020-02-05",
       "Ndcs": [
@@ -4101,10 +4316,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "LSO": {
-    "2": {
+  ],
+  "LSO": [
+    {
       "Party": "Lesotho",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2018-06-22",
       "Ndcs": [
@@ -4119,8 +4335,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Lesotho",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-01-20",
       "Ndcs": [
@@ -4135,10 +4352,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "LBR": {
-    "2": {
+  ],
+  "LBR": [
+    {
       "Party": "Liberia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-08-04",
       "Ndcs": [
@@ -4153,8 +4371,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Liberia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-08-27",
       "Ndcs": [
@@ -4169,10 +4388,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "LIE": {
-    "1": {
+  ],
+  "LIE": [
+    {
       "Party": "Liechtenstein",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2017-09-20",
       "Ndcs": [
@@ -4187,10 +4407,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "LTU": {
-    "3": {
+  ],
+  "LTU": [
+    {
       "Party": "Lithuania",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -4205,8 +4426,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Lithuania",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-02-02",
       "Ndcs": [
@@ -4221,8 +4443,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Lithuania",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -4237,10 +4460,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "LUX": {
-    "3": {
+  ],
+  "LUX": [
+    {
       "Party": "Luxembourg",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -4255,8 +4479,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Luxembourg",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-04",
       "Ndcs": [
@@ -4271,8 +4496,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Luxembourg",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -4287,10 +4513,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MDG": {
-    "1": {
+  ],
+  "MDG": [
+    {
       "Party": "Madagascar",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -4313,10 +4540,11 @@
       ],
       "Addenda": []
     }
-  },
-  "MWI": {
-    "2": {
+  ],
+  "MWI": [
+    {
       "Party": "Malawi",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -4339,8 +4567,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Malawi",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-06-29",
       "Ndcs": [
@@ -4355,10 +4584,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MYS": {
-    "2": {
+  ],
+  "MYS": [
+    {
       "Party": "Malaysia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -4373,8 +4603,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Malaysia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-16",
       "Ndcs": [
@@ -4389,10 +4620,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MDV": {
-    "2": {
+  ],
+  "MDV": [
+    {
       "Party": "Maldives",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-28",
       "Ndcs": [
@@ -4407,8 +4639,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Maldives",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -4423,10 +4656,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MLI": {
-    "2": {
+  ],
+  "MLI": [
+    {
       "Party": "Mali",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-11",
       "Ndcs": [
@@ -4441,8 +4675,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Mali",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-23",
       "Ndcs": [
@@ -4457,10 +4692,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MLT": {
-    "3": {
+  ],
+  "MLT": [
+    {
       "Party": "Malta",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -4475,8 +4711,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Malta",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -4491,8 +4728,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Malta",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -4507,10 +4745,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MHL": {
-    "3": {
+  ],
+  "MHL": [
+    {
       "Party": "Marshall Islands",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2020-12-31",
       "Ndcs": [
@@ -4540,8 +4779,9 @@
         }
       ]
     },
-    "2": {
+    {
       "Party": "Marshall Islands",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2018-11-22",
       "Ndcs": [
@@ -4564,8 +4804,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Marshall Islands",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -4580,10 +4821,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MRT": {
-    "2": {
+  ],
+  "MRT": [
+    {
       "Party": "Mauritania",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -4598,8 +4840,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Mauritania",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-02-27",
       "Ndcs": [
@@ -4614,10 +4857,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MUS": {
-    "2": {
+  ],
+  "MUS": [
+    {
       "Party": "Mauritius",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-05",
       "Ndcs": [
@@ -4640,8 +4884,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Mauritius",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -4656,10 +4901,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MEX": {
-    "3": {
+  ],
+  "MEX": [
+    {
       "Party": "Mexico",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-11-17",
       "Ndcs": [
@@ -4674,8 +4920,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Mexico",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -4690,8 +4937,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Mexico",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-30",
       "Ndcs": [
@@ -4714,10 +4962,11 @@
       ],
       "Addenda": []
     }
-  },
-  "FSM": {
-    "2": {
+  ],
+  "FSM": [
+    {
       "Party": "Micronesia (Federated States of)",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-10-17",
       "Ndcs": [
@@ -4732,8 +4981,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Micronesia (Federated States of)",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-15",
       "Ndcs": [
@@ -4748,10 +4998,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MCO": {
-    "2": {
+  ],
+  "MCO": [
+    {
       "Party": "Monaco",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-28",
       "Ndcs": [
@@ -4766,8 +5017,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Monaco",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-26",
       "Ndcs": [
@@ -4790,10 +5042,11 @@
       ],
       "Addenda": []
     }
-  },
-  "MNG": {
-    "2": {
+  ],
+  "MNG": [
+    {
       "Party": "Mongolia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-10-13",
       "Ndcs": [
@@ -4808,8 +5061,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Mongolia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -4824,10 +5078,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MNE": {
-    "2": {
+  ],
+  "MNE": [
+    {
       "Party": "Montenegro",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-06-15",
       "Ndcs": [
@@ -4842,8 +5097,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Montenegro",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-12-21",
       "Ndcs": [
@@ -4858,10 +5114,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MAR": {
-    "2": {
+  ],
+  "MAR": [
+    {
       "Party": "Morocco",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-06-22",
       "Ndcs": [
@@ -4876,8 +5133,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Morocco",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-19",
       "Ndcs": [
@@ -4900,10 +5158,11 @@
       ],
       "Addenda": []
     }
-  },
-  "MOZ": {
-    "2": {
+  ],
+  "MOZ": [
+    {
       "Party": "Mozambique",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-12-27",
       "Ndcs": [
@@ -4926,8 +5185,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Mozambique",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-06-04",
       "Ndcs": [
@@ -4942,10 +5202,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MMR": {
-    "2": {
+  ],
+  "MMR": [
+    {
       "Party": "Myanmar",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-08-03",
       "Ndcs": [
@@ -4960,8 +5221,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Myanmar",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-09-19",
       "Ndcs": [
@@ -4976,10 +5238,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "NAM": {
-    "2": {
+  ],
+  "NAM": [
+    {
       "Party": "Namibia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -4994,8 +5257,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Namibia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -5010,10 +5274,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "NRU": {
-    "2": {
+  ],
+  "NRU": [
+    {
       "Party": "Nauru",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-14",
       "Ndcs": [
@@ -5028,8 +5293,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Nauru",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-07",
       "Ndcs": [
@@ -5052,10 +5318,11 @@
         }
       ]
     }
-  },
-  "NPL": {
-    "2": {
+  ],
+  "NPL": [
+    {
       "Party": "Nepal",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-08",
       "Ndcs": [
@@ -5070,8 +5337,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Nepal",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -5086,10 +5354,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "NLD": {
-    "3": {
+  ],
+  "NLD": [
+    {
       "Party": "Netherlands",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -5104,8 +5373,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Netherlands",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -5120,8 +5390,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Netherlands",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-07-28",
       "Ndcs": [
@@ -5136,10 +5407,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "NZL": {
-    "2": {
+  ],
+  "NZL": [
+    {
       "Party": "New Zealand",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-11-03",
       "Ndcs": [
@@ -5154,8 +5426,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "New Zealand",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -5178,10 +5451,11 @@
         }
       ]
     }
-  },
-  "NIC": {
-    "2": {
+  ],
+  "NIC": [
+    {
       "Party": "Nicaragua",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-24",
       "Ndcs": [
@@ -5211,8 +5485,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Nicaragua",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-09-03",
       "Ndcs": [
@@ -5235,10 +5510,11 @@
         }
       ]
     }
-  },
-  "NER": {
-    "2": {
+  ],
+  "NER": [
+    {
       "Party": "Niger",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-12-13",
       "Ndcs": [
@@ -5253,8 +5529,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Niger",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -5277,10 +5554,11 @@
       ],
       "Addenda": []
     }
-  },
-  "NGA": {
-    "3": {
+  ],
+  "NGA": [
+    {
       "Party": "Nigeria",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -5303,8 +5581,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Nigeria",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-05-16",
       "Ndcs": [
@@ -5327,8 +5606,9 @@
         }
       ]
     },
-    "2": {
+    {
       "Party": "Nigeria",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2021-05-27",
       "Ndcs": [
@@ -5343,10 +5623,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "NIU": {
-    "1": {
+  ],
+  "NIU": [
+    {
       "Party": "Niue",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-10-28",
       "Ndcs": [
@@ -5361,10 +5642,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MKD": {
-    "2": {
+  ],
+  "MKD": [
+    {
       "Party": "North Macedonia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-04-16",
       "Ndcs": [
@@ -5379,8 +5661,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "North Macedonia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-01-09",
       "Ndcs": [
@@ -5395,10 +5678,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "NOR": {
-    "3": {
+  ],
+  "NOR": [
+    {
       "Party": "Norway",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-11-03",
       "Ndcs": [
@@ -5413,8 +5697,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Norway",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-06-20",
       "Ndcs": [
@@ -5429,8 +5714,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Norway",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-02-07",
       "Ndcs": [
@@ -5445,10 +5731,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "OMN": {
-    "2": {
+  ],
+  "OMN": [
+    {
       "Party": "Oman",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-29",
       "Ndcs": [
@@ -5463,8 +5750,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Oman",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2019-05-22",
       "Ndcs": [
@@ -5479,10 +5767,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "PAK": {
-    "3": {
+  ],
+  "PAK": [
+    {
       "Party": "Pakistan",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2021-10-21",
       "Ndcs": [
@@ -5497,8 +5786,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Pakistan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-10",
       "Ndcs": [
@@ -5513,8 +5803,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Pakistan",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -5529,10 +5820,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "PLW": {
-    "1": {
+  ],
+  "PLW": [
+    {
       "Party": "Palau",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -5547,10 +5839,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "PAN": {
-    "2": {
+  ],
+  "PAN": [
+    {
       "Party": "Panama",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-28",
       "Ndcs": [
@@ -5565,8 +5858,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Panama",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-18",
       "Ndcs": [
@@ -5589,10 +5883,11 @@
         }
       ]
     }
-  },
-  "PNG": {
-    "2": {
+  ],
+  "PNG": [
+    {
       "Party": "Papua New Guinea",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-16",
       "Ndcs": [
@@ -5614,8 +5909,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Papua New Guinea",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-03-24",
       "Ndcs": [
@@ -5659,10 +5955,11 @@
         }
       ]
     }
-  },
-  "PRY": {
-    "2": {
+  ],
+  "PRY": [
+    {
       "Party": "Paraguay",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-16",
       "Ndcs": [
@@ -5685,8 +5982,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Paraguay",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-14",
       "Ndcs": [
@@ -5701,10 +5999,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "PER": {
-    "2": {
+  ],
+  "PER": [
+    {
       "Party": "Peru",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -5719,8 +6018,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Peru",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-07-25",
       "Ndcs": [
@@ -5743,10 +6043,11 @@
       ],
       "Addenda": []
     }
-  },
-  "PHL": {
-    "1": {
+  ],
+  "PHL": [
+    {
       "Party": "Philippines",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2021-04-15",
       "Ndcs": [
@@ -5761,10 +6062,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "POL": {
-    "3": {
+  ],
+  "POL": [
+    {
       "Party": "Poland",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -5779,8 +6081,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Poland",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-07",
       "Ndcs": [
@@ -5795,8 +6098,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Poland",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -5811,10 +6115,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "PRT": {
-    "3": {
+  ],
+  "PRT": [
+    {
       "Party": "Portugal",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -5829,8 +6134,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Portugal",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -5845,8 +6151,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Portugal",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -5861,10 +6168,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "QAT": {
-    "2": {
+  ],
+  "QAT": [
+    {
       "Party": "Qatar",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-08-24",
       "Ndcs": [
@@ -5895,8 +6203,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Qatar",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-06-23",
       "Ndcs": [
@@ -5919,10 +6228,11 @@
       ],
       "Addenda": []
     }
-  },
-  "KOR": {
-    "3": {
+  ],
+  "KOR": [
+    {
       "Party": "Republic of Korea",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2021-12-23",
       "Ndcs": [
@@ -5937,8 +6247,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Republic of Korea",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-30",
       "Ndcs": [
@@ -5953,8 +6264,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Republic of Korea",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-03",
       "Ndcs": [
@@ -5969,10 +6281,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "MDA": {
-    "2": {
+  ],
+  "MDA": [
+    {
       "Party": "Republic of Moldova",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-03-04",
       "Ndcs": [
@@ -5987,8 +6300,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Republic of Moldova",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-06-20",
       "Ndcs": [
@@ -6003,10 +6317,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ROU": {
-    "3": {
+  ],
+  "ROU": [
+    {
       "Party": "Romania",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -6021,8 +6336,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Romania",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-06-01",
       "Ndcs": [
@@ -6037,8 +6353,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Romania",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -6053,10 +6370,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "RUS": {
-    "1": {
+  ],
+  "RUS": [
+    {
       "Party": "Russian Federation",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2020-11-25",
       "Ndcs": [
@@ -6079,10 +6397,11 @@
       ],
       "Addenda": []
     }
-  },
-  "RWA": {
-    "2": {
+  ],
+  "RWA": [
+    {
       "Party": "Rwanda",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-05-20",
       "Ndcs": [
@@ -6105,8 +6424,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Rwanda",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-06",
       "Ndcs": [
@@ -6121,10 +6441,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "KNA": {
-    "2": {
+  ],
+  "KNA": [
+    {
       "Party": "Saint Kitts and Nevis",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-25",
       "Ndcs": [
@@ -6139,8 +6460,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Saint Kitts and Nevis",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -6155,10 +6477,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "LCA": {
-    "2": {
+  ],
+  "LCA": [
+    {
       "Party": "Saint Lucia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-01-27",
       "Ndcs": [
@@ -6173,8 +6496,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Saint Lucia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -6189,10 +6513,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "VCT": {
-    "1": {
+  ],
+  "VCT": [
+    {
       "Party": "Saint Vincent and the Grenadines",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2016-06-29",
       "Ndcs": [
@@ -6207,10 +6532,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "WSM": {
-    "2": {
+  ],
+  "WSM": [
+    {
       "Party": "Samoa",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -6233,8 +6559,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Samoa",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -6249,10 +6576,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SMR": {
-    "1": {
+  ],
+  "SMR": [
+    {
       "Party": "San Marino",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2018-09-26",
       "Ndcs": [
@@ -6267,10 +6595,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "STP": {
-    "2": {
+  ],
+  "STP": [
+    {
       "Party": "Sao Tome and Principe",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -6285,8 +6614,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Sao Tome and Principe",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-02",
       "Ndcs": [
@@ -6301,10 +6631,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SAU": {
-    "2": {
+  ],
+  "SAU": [
+    {
       "Party": "Saudi Arabia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-23",
       "Ndcs": [
@@ -6327,8 +6658,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Saudi Arabia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-03",
       "Ndcs": [
@@ -6351,10 +6683,11 @@
       ],
       "Addenda": []
     }
-  },
-  "SEN": {
-    "1": {
+  ],
+  "SEN": [
+    {
       "Party": "Senegal",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2020-12-29",
       "Ndcs": [
@@ -6377,10 +6710,11 @@
         }
       ]
     }
-  },
-  "SRB": {
-    "2": {
+  ],
+  "SRB": [
+    {
       "Party": "Serbia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-08-24",
       "Ndcs": [
@@ -6403,8 +6737,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Serbia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-07-25",
       "Ndcs": [
@@ -6419,10 +6754,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SYC": {
-    "2": {
+  ],
+  "SYC": [
+    {
       "Party": "Seychelles",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -6437,8 +6773,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Seychelles",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-29",
       "Ndcs": [
@@ -6453,10 +6790,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SLE": {
-    "2": {
+  ],
+  "SLE": [
+    {
       "Party": "Sierra Leone",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-31",
       "Ndcs": [
@@ -6471,8 +6809,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Sierra Leone",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-01",
       "Ndcs": [
@@ -6487,10 +6826,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SGP": {
-    "3": {
+  ],
+  "SGP": [
+    {
       "Party": "Singapore",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-11-04",
       "Ndcs": [
@@ -6505,8 +6845,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Singapore",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -6521,8 +6862,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Singapore",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-03-31",
       "Ndcs": [
@@ -6537,10 +6879,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SVK": {
-    "3": {
+  ],
+  "SVK": [
+    {
       "Party": "Slovakia",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -6555,8 +6898,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Slovakia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-05",
       "Ndcs": [
@@ -6571,8 +6915,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Slovakia",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -6587,10 +6932,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SVN": {
-    "3": {
+  ],
+  "SVN": [
+    {
       "Party": "Slovenia",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -6605,8 +6951,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Slovenia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-12-16",
       "Ndcs": [
@@ -6621,8 +6968,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Slovenia",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -6637,10 +6985,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SLB": {
-    "2": {
+  ],
+  "SLB": [
+    {
       "Party": "Solomon Islands",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-19",
       "Ndcs": [
@@ -6655,8 +7004,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Solomon Islands",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -6671,10 +7021,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SOM": {
-    "2": {
+  ],
+  "SOM": [
+    {
       "Party": "Somalia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-31",
       "Ndcs": [
@@ -6689,8 +7040,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Somalia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -6705,10 +7057,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ZAF": {
-    "2": {
+  ],
+  "ZAF": [
+    {
       "Party": "South Africa",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-09-27",
       "Ndcs": [
@@ -6723,8 +7076,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "South Africa",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-01",
       "Ndcs": [
@@ -6739,10 +7093,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SSD": {
-    "2": {
+  ],
+  "SSD": [
+    {
       "Party": "South Sudan",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-09-21",
       "Ndcs": [
@@ -6757,8 +7112,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "South Sudan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2021-02-23",
       "Ndcs": [
@@ -6773,10 +7129,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ESP": {
-    "3": {
+  ],
+  "ESP": [
+    {
       "Party": "Spain",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -6791,8 +7148,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Spain",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -6807,8 +7165,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Spain",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-01-12",
       "Ndcs": [
@@ -6823,10 +7182,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "LKA": {
-    "3": {
+  ],
+  "LKA": [
+    {
       "Party": "Sri Lanka",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2021-09-24",
       "Ndcs": [
@@ -6841,8 +7201,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Sri Lanka",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-06",
       "Ndcs": [
@@ -6857,8 +7218,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Sri Lanka",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -6873,10 +7235,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "PSE": {
-    "2": {
+  ],
+  "PSE": [
+    {
       "Party": "State of Palestine",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-10",
       "Ndcs": [
@@ -6891,8 +7254,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "State of Palestine",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-08-21",
       "Ndcs": [
@@ -6951,10 +7315,11 @@
         }
       ]
     }
-  },
-  "SDN": {
-    "3": {
+  ],
+  "SDN": [
+    {
       "Party": "Sudan",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-09-22",
       "Ndcs": [
@@ -6977,8 +7342,9 @@
         }
       ]
     },
-    "2": {
+    {
       "Party": "Sudan",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2021-05-31",
       "Ndcs": [
@@ -6993,8 +7359,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Sudan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-08-02",
       "Ndcs": [
@@ -7009,10 +7376,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SUR": {
-    "2": {
+  ],
+  "SUR": [
+    {
       "Party": "Suriname",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2019-12-09",
       "Ndcs": [
@@ -7027,8 +7395,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Suriname",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2019-02-13",
       "Ndcs": [
@@ -7043,10 +7412,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SWE": {
-    "3": {
+  ],
+  "SWE": [
+    {
       "Party": "Sweden",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2023-10-19",
       "Ndcs": [
@@ -7061,8 +7431,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Sweden",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-18",
       "Ndcs": [
@@ -7077,8 +7448,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Sweden",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-13",
       "Ndcs": [
@@ -7093,10 +7465,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "CHE": {
-    "3": {
+  ],
+  "CHE": [
+    {
       "Party": "Switzerland",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2021-12-17",
       "Ndcs": [
@@ -7119,8 +7492,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Switzerland",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-10-06",
       "Ndcs": [
@@ -7143,8 +7517,9 @@
         }
       ]
     },
-    "2": {
+    {
       "Party": "Switzerland",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-09",
       "Ndcs": [
@@ -7159,10 +7534,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "SYR": {
-    "1": {
+  ],
+  "SYR": [
+    {
       "Party": "Syrian Arab Republic",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2018-11-30",
       "Ndcs": [
@@ -7185,10 +7561,11 @@
       ],
       "Addenda": []
     }
-  },
-  "TJK": {
-    "2": {
+  ],
+  "TJK": [
+    {
       "Party": "Tajikistan",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -7219,8 +7596,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Tajikistan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-03-22",
       "Ndcs": [
@@ -7243,10 +7621,11 @@
       ],
       "Addenda": []
     }
-  },
-  "THA": {
-    "3": {
+  ],
+  "THA": [
+    {
       "Party": "Thailand",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-11-02",
       "Ndcs": [
@@ -7269,8 +7648,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Thailand",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -7285,8 +7665,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Thailand",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-10-26",
       "Ndcs": [
@@ -7301,10 +7682,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "TLS": {
-    "2": {
+  ],
+  "TLS": [
+    {
       "Party": "Timor-Leste",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-11-08",
       "Ndcs": [
@@ -7319,8 +7701,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Timor-Leste",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-08-16",
       "Ndcs": [
@@ -7335,10 +7718,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "TGO": {
-    "2": {
+  ],
+  "TGO": [
+    {
       "Party": "Togo",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -7353,8 +7737,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Togo",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-06-28",
       "Ndcs": [
@@ -7377,10 +7762,11 @@
       ],
       "Addenda": []
     }
-  },
-  "TON": {
-    "2": {
+  ],
+  "TON": [
+    {
       "Party": "Tonga",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2020-12-09",
       "Ndcs": [
@@ -7403,8 +7789,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Tonga",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -7419,10 +7806,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "TTO": {
-    "1": {
+  ],
+  "TTO": [
+    {
       "Party": "Trinidad and Tobago",
+      "Version": "1",
       "Status": "Active",
       "SubmissionDate": "2018-02-22",
       "Ndcs": [
@@ -7437,10 +7825,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "TUN": {
-    "2": {
+  ],
+  "TUN": [
+    {
       "Party": "Tunisia",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-10",
       "Ndcs": [
@@ -7471,8 +7860,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Tunisia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-02-10",
       "Ndcs": [
@@ -7495,10 +7885,11 @@
       ],
       "Addenda": []
     }
-  },
-  "TUR": {
-    "N/A": {
+  ],
+  "TUR": [
+    {
       "Party": "T\u00fcrkiye",
+      "Version": "N/A",
       "Status": "Active",
       "SubmissionDate": "2023-04-13",
       "Ndcs": [
@@ -7513,8 +7904,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "T\u00fcrkiye",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2021-10-11",
       "Ndcs": [
@@ -7529,10 +7921,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "TKM": {
-    "2": {
+  ],
+  "TKM": [
+    {
       "Party": "Turkmenistan",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2023-01-30",
       "Ndcs": [
@@ -7555,8 +7948,9 @@
       ],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Turkmenistan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-10-21",
       "Ndcs": [
@@ -7571,10 +7965,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "TUV": {
-    "2": {
+  ],
+  "TUV": [
+    {
       "Party": "Tuvalu",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-11-16",
       "Ndcs": [
@@ -7589,8 +7984,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Tuvalu",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-04-22",
       "Ndcs": [
@@ -7605,10 +8001,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "UGA": {
-    "3": {
+  ],
+  "UGA": [
+    {
       "Party": "Uganda",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-09-12",
       "Ndcs": [
@@ -7623,8 +8020,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Uganda",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2021-10-12",
       "Ndcs": [
@@ -7647,8 +8045,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Uganda",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -7663,10 +8062,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "UKR": {
-    "2": {
+  ],
+  "UKR": [
+    {
       "Party": "Ukraine",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-31",
       "Ndcs": [
@@ -7681,8 +8081,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Ukraine",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-19",
       "Ndcs": [
@@ -7697,10 +8098,28 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ARE": {
-    "3": {
+  ],
+  "ARE": [
+    {
       "Party": "United Arab Emirates",
+      "Version": "3",
+      "Status": "Active",
+      "SubmissionDate": "2023-07-11",
+      "Ndcs": [
+        {
+          "Title": "Third Update of Second Nationally Determined Contribution for the UAE",
+          "FileType": "NDC",
+          "Language": "English",
+          "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2023-07/Third%20Update%20of%20Second%20NDC%20for%20the%20UAE_v15.pdf",
+          "OriginalFilename": "Third Update of Second NDC for the UAE_v15.pdf"
+        }
+      ],
+      "Translations": [],
+      "Addenda": []
+    },
+    {
+      "Party": "United Arab Emirates",
+      "Version": "3",
       "Status": "Archived",
       "SubmissionDate": "2022-09-14",
       "Ndcs": [
@@ -7723,8 +8142,9 @@
       ],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "United Arab Emirates",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-29",
       "Ndcs": [
@@ -7747,8 +8167,9 @@
       ],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "United Arab Emirates",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -7763,10 +8184,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "GBR": {
-    "3": {
+  ],
+  "GBR": [
+    {
       "Party": "United Kingdom of Great Britain and Northern Ireland",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-09-22",
       "Ndcs": [
@@ -7781,8 +8203,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "United Kingdom of Great Britain and Northern Ireland",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-18",
       "Ndcs": [
@@ -7797,8 +8220,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "United Kingdom of Great Britain and Northern Ireland",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-12",
       "Ndcs": [
@@ -7813,10 +8237,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "TZA": {
-    "2": {
+  ],
+  "TZA": [
+    {
       "Party": "United Republic of Tanzania",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -7831,8 +8256,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "United Republic of Tanzania",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-05-18",
       "Ndcs": [
@@ -7847,10 +8273,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "USA": {
-    "2": {
+  ],
+  "USA": [
+    {
       "Party": "United States of America",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-04-22",
       "Ndcs": [
@@ -7865,8 +8292,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "United States of America",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-03",
       "Ndcs": [
@@ -7881,10 +8309,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "URY": {
-    "2": {
+  ],
+  "URY": [
+    {
       "Party": "Uruguay",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2022-12-30",
       "Ndcs": [
@@ -7899,8 +8328,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Uruguay",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-11-10",
       "Ndcs": [
@@ -7923,10 +8353,11 @@
       ],
       "Addenda": []
     }
-  },
-  "UZB": {
-    "2": {
+  ],
+  "UZB": [
+    {
       "Party": "Uzbekistan",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-10-30",
       "Ndcs": [
@@ -7949,8 +8380,9 @@
       ],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Uzbekistan",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-11-09",
       "Ndcs": [
@@ -7965,10 +8397,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "VUT": {
-    "3": {
+  ],
+  "VUT": [
+    {
       "Party": "Vanuatu",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-08-09",
       "Ndcs": [
@@ -7983,8 +8416,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Vanuatu",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-09-21",
       "Ndcs": [
@@ -7999,8 +8433,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Vanuatu",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2021-03-22",
       "Ndcs": [
@@ -8015,10 +8450,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "VEN": {
-    "2": {
+  ],
+  "VEN": [
+    {
       "Party": "Venezuela (Bolivarian Republic of)",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-11-09",
       "Ndcs": [
@@ -8041,8 +8477,9 @@
         }
       ]
     },
-    "1": {
+    {
       "Party": "Venezuela (Bolivarian Republic of)",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2018-02-27",
       "Ndcs": [
@@ -8057,10 +8494,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "VNM": {
-    "3": {
+  ],
+  "VNM": [
+    {
       "Party": "Viet Nam",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2022-11-08",
       "Ndcs": [
@@ -8075,8 +8513,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Viet Nam",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-11-03",
       "Ndcs": [
@@ -8091,8 +8530,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "2": {
+    {
       "Party": "Viet Nam",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-09-11",
       "Ndcs": [
@@ -8107,10 +8547,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ZMB": {
-    "3": {
+  ],
+  "ZMB": [
+    {
       "Party": "Zambia",
+      "Version": "3",
       "Status": "Active",
       "SubmissionDate": "2021-07-30",
       "Ndcs": [
@@ -8125,8 +8566,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Zambia",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2016-12-09",
       "Ndcs": [
@@ -8149,8 +8591,9 @@
         }
       ]
     },
-    "2": {
+    {
       "Party": "Zambia",
+      "Version": "2",
       "Status": "Archived",
       "SubmissionDate": "2020-12-30",
       "Ndcs": [
@@ -8165,10 +8608,11 @@
       "Translations": [],
       "Addenda": []
     }
-  },
-  "ZWE": {
-    "2": {
+  ],
+  "ZWE": [
+    {
       "Party": "Zimbabwe",
+      "Version": "2",
       "Status": "Active",
       "SubmissionDate": "2021-09-24",
       "Ndcs": [
@@ -8183,8 +8627,9 @@
       "Translations": [],
       "Addenda": []
     },
-    "1": {
+    {
       "Party": "Zimbabwe",
+      "Version": "1",
       "Status": "Archived",
       "SubmissionDate": "2017-08-07",
       "Ndcs": [
@@ -8199,5 +8644,5 @@
       "Translations": [],
       "Addenda": []
     }
-  }
+  ]
 }
