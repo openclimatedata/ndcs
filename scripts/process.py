@@ -55,7 +55,7 @@ def intercept(route):
     return route.continue_()
 
 
-timeout = 50_000
+timeout = 100_000
 
 # Status can be 'Active' or 'Archived'
 for status_field_value in ["5933", "5934"]:
