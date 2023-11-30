@@ -5761,8 +5761,26 @@
   {
     "Code": "OMN",
     "Party": "Oman",
-    "Version": "2",
+    "Version": "3",
     "Status": "Active",
+    "SubmissionDate": "2023-11-29",
+    "Ndcs": [
+      {
+        "Title": "Oman 1st Update of the 2nd NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2023-11/Oman%201st%20Update%20of%20the%202nd%20NDC%20-%20Optimized%20Size%20%281%29.pdf",
+        "OriginalFilename": "Oman 1st Update of the 2nd NDC - Optimized Size (1).pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "OMN",
+    "Party": "Oman",
+    "Version": "2",
+    "Status": "Archived",
     "SubmissionDate": "2021-07-29",
     "Ndcs": [
       {
