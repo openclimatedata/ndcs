@@ -5274,8 +5274,26 @@
   {
     "Code": "NAM",
     "Party": "Namibia",
-    "Version": "2",
+    "Version": "3",
     "Status": "Active",
+    "SubmissionDate": "2024-01-17",
+    "Ndcs": [
+      {
+        "Title": "NDC UPDATE",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2024-01/FINAL%20UPDATED%20NAMIBIA%20NDC%202023.pdf",
+        "OriginalFilename": "FINAL UPDATED NAMIBIA NDC 2023.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "NAM",
+    "Party": "Namibia",
+    "Version": "2",
+    "Status": "Archived",
     "SubmissionDate": "2021-07-30",
     "Ndcs": [
       {
