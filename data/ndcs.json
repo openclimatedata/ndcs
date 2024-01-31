@@ -4547,8 +4547,26 @@
   {
     "Code": "MDG",
     "Party": "Madagascar",
-    "Version": "1",
+    "Version": "N/A",
     "Status": "Active",
+    "SubmissionDate": "2024-01-29",
+    "Ndcs": [
+      {
+        "Title": "NDC 2 Madagascar",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2024-01/NDC%202%20MADAGASCAR.pdf",
+        "OriginalFilename": "NDC 2 MADAGASCAR.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "MDG",
+    "Party": "Madagascar",
+    "Version": "1",
+    "Status": "Archived",
     "SubmissionDate": "2016-09-21",
     "Ndcs": [
       {
