@@ -2,7 +2,7 @@ Nationally Determined Contributions (NDCs) as provided in the UNFCCC
 secreteriat's
 [NDC registry](https://unfccc.int/NDCREG).
 
-[![Daily Update](https://github.com/openclimatedata/ndcs/workflows/Daily%20Update/badge.svg)](https://github.com/openclimatedata/ndcs/actions)
+[![Daily Update](https://github.com/openclimatedata/ndcs/actions/workflows/update.yml/badge.svg)](https://github.com/openclimatedata/ndcs/actions)
 
 ## Data
 
