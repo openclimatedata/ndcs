@@ -5931,8 +5931,26 @@
   {
     "Code": "PAN",
     "Party": "Panama",
-    "Version": "2",
+    "Version": "3",
     "Status": "Active",
+    "SubmissionDate": "2024-06-13",
+    "Ndcs": [
+      {
+        "Title": "Panama Second NDC",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2024-06/Segunda%20Contribuci%C3%B3n%20Determinada%20a%20Nivel%20Nacional_CDN2.pdf",
+        "OriginalFilename": "Segunda Contribuci\u00f3n Determinada a Nivel Nacional_CDN2.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "PAN",
+    "Party": "Panama",
+    "Version": "2",
+    "Status": "Archived",
     "SubmissionDate": "2020-12-28",
     "Ndcs": [
       {
