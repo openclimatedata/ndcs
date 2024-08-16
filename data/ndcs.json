@@ -2723,8 +2723,8 @@
     ]
   },
   {
-    "Code": "EUU",
-    "Party": "European Union",
+    "Code": null,
+    "Party": "European Union (EU)",
     "Version": "3",
     "Status": "Active",
     "SubmissionDate": "2023-10-19",
@@ -2741,8 +2741,8 @@
     "Addenda": []
   },
   {
-    "Code": "EUU",
-    "Party": "European Union",
+    "Code": null,
+    "Party": "European Union (EU)",
     "Version": "2",
     "Status": "Archived",
     "SubmissionDate": "2020-12-18",
@@ -2759,8 +2759,8 @@
     "Addenda": []
   },
   {
-    "Code": "EUU",
-    "Party": "European Union",
+    "Code": null,
+    "Party": "European Union (EU)",
     "Version": "1",
     "Status": "Archived",
     "SubmissionDate": "2016-10-05",
@@ -2882,7 +2882,15 @@
       }
     ],
     "Translations": [],
-    "Addenda": []
+    "Addenda": [
+      {
+        "Title": "FR CDN addendum r\u00e9vis\u00e9 - 2021",
+        "FileType": "Addendum",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/FR%20CDN%20addendum%20r%C3%A9vis%C3%A9%20-%202021.pdf",
+        "OriginalFilename": "FR CDN addendum r\u00e9vis\u00e9 - 2021.pdf"
+      }
+    ]
   },
   {
     "Code": "FRA",
