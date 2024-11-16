@@ -1023,7 +1023,7 @@
     "Code": "BRA",
     "Party": "Brazil",
     "Version": "4",
-    "Status": "Active",
+    "Status": "Archived",
     "SubmissionDate": "2023-11-03",
     "Ndcs": [
       {
@@ -1101,6 +1101,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/BRAZIL%20iNDC%20english%20FINAL.pdf",
         "OriginalFilename": "BRAZIL iNDC english FINAL.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "BRA",
+    "Party": "Brazil",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2024-11-13",
+    "Ndcs": [
+      {
+        "Title": "Brazil Second Nationally Determined Contribution",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2024-11/Brazil_Second%20Nationally%20Determined%20Contribution%20%28NDC%29_November2024.pdf",
+        "OriginalFilename": "Brazil_Second Nationally Determined Contribution (NDC)_November2024.pdf"
       }
     ],
     "Translations": [],
@@ -7589,8 +7607,26 @@
   {
     "Code": "CHE",
     "Party": "Switzerland",
-    "Version": "3",
+    "Version": "4",
     "Status": "Active",
+    "SubmissionDate": "2024-11-14",
+    "Ndcs": [
+      {
+        "Title": "Switzerland First NDC (2021-2030 Update 2024 including ICTUs)",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2024-11/Switzerlands%20First%20NDC_2021_2030_Update%202024_including%20ICTUs.pdf",
+        "OriginalFilename": "Switzerlands First NDC_2021_2030_Update 2024_including ICTUs.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "CHE",
+    "Party": "Switzerland",
+    "Version": "3",
+    "Status": "Archived",
     "SubmissionDate": "2021-12-17",
     "Ndcs": [
       {
@@ -8224,7 +8260,7 @@
     "Code": "ARE",
     "Party": "United Arab Emirates",
     "Version": "3",
-    "Status": "Active",
+    "Status": "Archived",
     "SubmissionDate": "2023-07-11",
     "Ndcs": [
       {
@@ -8303,6 +8339,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/UAE%20INDC%20-%2022%20October.pdf",
         "OriginalFilename": "UAE INDC - 22 October.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "ARE",
+    "Party": "United Arab Emirates",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2024-11-06",
+    "Ndcs": [
+      {
+        "Title": "The United Arab Emirates\u2019 Third Nationally Determined Contribution (NDC 3.0)",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2024-11/UAE-NDC3.0.pdf",
+        "OriginalFilename": "UAE-NDC3.0.pdf"
       }
     ],
     "Translations": [],

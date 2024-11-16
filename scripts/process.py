@@ -78,7 +78,10 @@ for status_field_value in ["5933", "5934"]:
             tds = rows.nth(idx).locator("td")
             party = tds.nth(0).inner_text().strip()
             code = to_code_3(party)
-            version = tds.nth(4).locator("span:visible").nth(0).inner_text()
+            try:
+                version = tds.nth(4).locator("span:visible").nth(0).inner_text()
+            except:
+                version = ""
             status = tds.nth(5).inner_text()
             submission_date = datetime.strptime(
                 tds.nth(6).inner_text(), "%d/%m/%Y"
