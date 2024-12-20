@@ -8489,6 +8489,24 @@
     "Addenda": []
   },
   {
+    "Code": "USA",
+    "Party": "United States of America",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2024-12-19",
+    "Ndcs": [
+      {
+        "Title": "United States of America 2035 NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2024-12/United%20States%202035%20NDC.pdf",
+        "OriginalFilename": "United States 2035 NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "URY",
     "Party": "Uruguay",
     "Version": "2",
