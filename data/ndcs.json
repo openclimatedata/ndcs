@@ -1004,6 +1004,24 @@
   {
     "Code": "BWA",
     "Party": "Botswana",
+    "Version": "2",
+    "Status": "Active",
+    "SubmissionDate": "2024-12-24",
+    "Ndcs": [
+      {
+        "Title": "Botswana\u2019s 2nd Updated Nationally Determined Contribution under the Paris Agreement",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2024-12/BOTSWANA_NDC_2%20REPORT.pdf",
+        "OriginalFilename": "BOTSWANA_NDC_2 REPORT.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "BWA",
+    "Party": "Botswana",
     "Version": "1",
     "Status": "Active",
     "SubmissionDate": "2016-11-11",
