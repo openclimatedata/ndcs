@@ -8569,6 +8569,24 @@
     "Addenda": []
   },
   {
+    "Code": "URY",
+    "Party": "Uruguay",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2024-12-30",
+    "Ndcs": [
+      {
+        "Title": "Uruguay Third NDC",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-01/20241220_Uruguay_NDC3.pdf",
+        "OriginalFilename": "20241220_Uruguay_NDC3.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "UZB",
     "Party": "Uzbekistan",
     "Version": "2",
