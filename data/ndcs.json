@@ -7711,6 +7711,32 @@
     ]
   },
   {
+    "Code": "CHE",
+    "Party": "Switzerland",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-01-29",
+    "Ndcs": [
+      {
+        "Title": "Switzerland second NDC 2031-2035",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-01/Switzerland%20second%20NDC%202031-2035.pdf",
+        "OriginalFilename": "Switzerland second NDC 2031-2035.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "Annex to Switzerland NDC 2031-2035",
+        "FileType": "Addendum",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-01/Annex%20to%20Switzerland%20NDC%202031-2035.pdf",
+        "OriginalFilename": "Annex to Switzerland NDC 2031-2035.pdf"
+      }
+    ]
+  },
+  {
     "Code": "SYR",
     "Party": "Syrian Arab Republic",
     "Version": "1",
