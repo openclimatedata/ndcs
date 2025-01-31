@@ -8461,6 +8461,24 @@
     "Addenda": []
   },
   {
+    "Code": "GBR",
+    "Party": "United Kingdom of Great Britain and Northern Ireland",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-01-30",
+    "Ndcs": [
+      {
+        "Title": "The UK\u2019s 2035 NDC ICTU",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-01/UK%27s%202035%20NDC%20ICTU.pdf",
+        "OriginalFilename": "UK's 2035 NDC ICTU.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "TZA",
     "Party": "United Republic of Tanzania",
     "Version": "2",
