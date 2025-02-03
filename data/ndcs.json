@@ -5566,6 +5566,24 @@
     ]
   },
   {
+    "Code": "NZL",
+    "Party": "New Zealand",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-01-31",
+    "Ndcs": [
+      {
+        "Title": "New Zealand\u2019s second Nationally Determined Contribution",
+        "FileType": "NDC",
+        "Language": "",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-01/New%20Zealand%27s%20second%20Nationally%20Determined%20Contribution.pdf",
+        "OriginalFilename": "New Zealand's second Nationally Determined Contribution.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "NIC",
     "Party": "Nicaragua",
     "Version": "2",
