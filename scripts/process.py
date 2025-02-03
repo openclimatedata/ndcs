@@ -17,6 +17,7 @@ languages = {
     "fr": "French",
     "ru": "Russian",
     "zh": "Chinese",
+    "pt-pt": "Portuguese"
 }
 
 url = "https://unfccc.int/NDCREG"
@@ -104,7 +105,7 @@ for status_field_value in ["5933", "5934"]:
             for ndc_link_idx in range(ndc_links.count()):
                 ndc_link = ndc_links.nth(ndc_link_idx)
                 title = ndc_link.inner_text()
-                lang = languages[ndc_link.get_attribute("hreflang")]
+                lang = languages.get(ndc_link.get_attribute("hreflang"), "")
                 ndc_url = ndc_link.get_attribute("href")
 
                 entries.append(
