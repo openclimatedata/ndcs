@@ -142,6 +142,24 @@
     "Addenda": []
   },
   {
+    "Code": "AND",
+    "Party": "Andorra",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-05",
+    "Ndcs": [
+      {
+        "Title": "Andorra Third NDC",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/NDC%203.0%20ANDORRA.pdf",
+        "OriginalFilename": "NDC 3.0 ANDORRA.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "AGO",
     "Party": "Angola",
     "Version": "2",
@@ -4427,6 +4445,24 @@
     "Addenda": []
   },
   {
+    "Code": "LSO",
+    "Party": "Lesotho",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-05",
+    "Ndcs": [
+      {
+        "Title": "Lesotho Second NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Lesotho%20SECOND%20NDC.pdf",
+        "OriginalFilename": "Lesotho SECOND NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "LBR",
     "Party": "Liberia",
     "Version": "2",
@@ -5575,7 +5611,7 @@
       {
         "Title": "New Zealand\u2019s second Nationally Determined Contribution",
         "FileType": "NDC",
-        "Language": "",
+        "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-01/New%20Zealand%27s%20second%20Nationally%20Determined%20Contribution.pdf",
         "OriginalFilename": "New Zealand's second Nationally Determined Contribution.pdf"
       }
