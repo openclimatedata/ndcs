@@ -2466,6 +2466,24 @@
     "Addenda": []
   },
   {
+    "Code": "ECU",
+    "Party": "Ecuador",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-06",
+    "Ndcs": [
+      {
+        "Title": "Ecuador Second NDC",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Segunda%20NDC%20de%20Ecuador.pdf",
+        "OriginalFilename": "Segunda NDC de Ecuador.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "EGY",
     "Party": "Egypt",
     "Version": "3",
@@ -4412,7 +4430,7 @@
     "Code": "LSO",
     "Party": "Lesotho",
     "Version": "2",
-    "Status": "Active",
+    "Status": "Archived",
     "SubmissionDate": "2018-06-22",
     "Ndcs": [
       {
@@ -6715,6 +6733,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/Saint%20Lucia%20INDC%2018th%20November%202015.pdf",
         "OriginalFilename": "Saint Lucia INDC 18th November 2015.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "LCA",
+    "Party": "Saint Lucia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-06",
+    "Ndcs": [
+      {
+        "Title": "Saint Lucia Third NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Saint%20Lucias%20Third%20Nationally%20Determined%20Contribution.pdf",
+        "OriginalFilename": "Saint Lucias Third Nationally Determined Contribution.pdf"
       }
     ],
     "Translations": [],
