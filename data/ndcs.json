@@ -4970,6 +4970,24 @@
     "Addenda": []
   },
   {
+    "Code": "MHL",
+    "Party": "Marshall Islands",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-10",
+    "Ndcs": [
+      {
+        "Title": "Marshall Islands Third NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Republic%20of%20the%20Marshall%20Islands%20NDC%203.0.pdf",
+        "OriginalFilename": "Republic of the Marshall Islands NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "MRT",
     "Party": "Mauritania",
     "Version": "2",
@@ -7061,6 +7079,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/SIERRA%20LEONE%20INDC.pdf",
         "OriginalFilename": "SIERRA LEONE INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "SGP",
+    "Party": "Singapore",
+    "Version": "4",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-10",
+    "Ndcs": [
+      {
+        "Title": "Singapore Second Nationally Determined Contribution",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Singapore%20Second%20Nationally%20Determined%20Contribution.pdf",
+        "OriginalFilename": "Singapore Second Nationally Determined Contribution.pdf"
       }
     ],
     "Translations": [],
