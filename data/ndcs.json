@@ -1528,6 +1528,31 @@
     "Addenda": []
   },
   {
+    "Code": "CAN",
+    "Party": "Canada",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-12",
+    "Ndcs": [
+      {
+        "Title": "Canada's 2035 NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Canada%27s%202035%20Nationally%20Determined%20Contribution_ENc.pdf",
+        "OriginalFilename": "Canada's 2035 Nationally Determined Contribution_ENc.pdf"
+      },
+      {
+        "Title": "Canada's 2035 NDC",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Soumission%20officielle%20de%20la%20CDN%20du%20Canada%20-%20CCNUCC%20v2fr.pdf",
+        "OriginalFilename": "Soumission officielle de la CDN du Canada - CCNUCC v2fr.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "CAF",
     "Party": "Central African Republic",
     "Version": "2",
@@ -9058,7 +9083,7 @@
     "SubmissionDate": "2025-02-10",
     "Ndcs": [
       {
-        "Title": "Zimbabwe Second NDC",
+        "Title": "Zimbabwe NDC3.0 Country Statement",
         "FileType": "NDC",
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Zimbabwe%20NDC3.0%20Country%20Statement_2025_35.pdf",
