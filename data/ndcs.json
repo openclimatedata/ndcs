@@ -4070,6 +4070,24 @@
     "Addenda": []
   },
   {
+    "Code": "JPN",
+    "Party": "Japan",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-18",
+    "Ndcs": [
+      {
+        "Title": "Japan's 2035/2040 NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Japans%202035-2040%20NDC.pdf",
+        "OriginalFilename": "Japans 2035-2040 NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "JOR",
     "Party": "Jordan",
     "Version": "2",
