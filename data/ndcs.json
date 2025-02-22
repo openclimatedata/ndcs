@@ -5325,6 +5325,24 @@
     "Addenda": []
   },
   {
+    "Code": "MNE",
+    "Party": "Montenegro",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-21",
+    "Ndcs": [
+      {
+        "Title": "Montenegro Second NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/001_eng_NDC_Montenegro.pdf",
+        "OriginalFilename": "001_eng_NDC_Montenegro.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "MAR",
     "Party": "Morocco",
     "Version": "2",
