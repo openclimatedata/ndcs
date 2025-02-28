@@ -2097,6 +2097,24 @@
     "Addenda": []
   },
   {
+    "Code": "CUB",
+    "Party": "Cuba",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-27",
+    "Ndcs": [
+      {
+        "Title": "Cuba NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/REPUBLICA%20DE%20CUBA%20CND3.0.pdf",
+        "OriginalFilename": "REPUBLICA DE CUBA CND3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "CYP",
     "Party": "Cyprus",
     "Version": "3",
@@ -4840,6 +4858,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Maldives%20INDC.pdf",
         "OriginalFilename": "Maldives INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "MDV",
+    "Party": "Maldives",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-02-27",
+    "Ndcs": [
+      {
+        "Title": "Maldives' Third Nationally Determined Contribution",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Maldives%E2%80%99%20Third%20Nationally%20Determined%20Contribution.pdf",
+        "OriginalFilename": "Maldives\u2019 Third Nationally Determined Contribution.pdf"
       }
     ],
     "Translations": [],
