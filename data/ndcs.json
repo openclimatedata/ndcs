@@ -9112,6 +9112,24 @@
     ]
   },
   {
+    "Code": "ZMB",
+    "Party": "Zambia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-03-10",
+    "Ndcs": [
+      {
+        "Title": "Provisional NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-03/Provisional%20NDC%20Submission_Zambia_Revised%20and%20Updated_NDC_100325.pdf",
+        "OriginalFilename": "Provisional NDC Submission_Zambia_Revised and Updated_NDC_100325.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "ZWE",
     "Party": "Zimbabwe",
     "Version": "2",
