@@ -17,7 +17,7 @@ languages = {
     "fr": "French",
     "ru": "Russian",
     "zh": "Chinese",
-    "pt-pt": "Portuguese"
+    "pt-pt": "Portuguese",
 }
 
 url = "https://unfccc.int/NDCREG"
