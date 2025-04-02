@@ -78,7 +78,7 @@ for status_field_value in ["5933", "5934"]:
         for idx in range(rows.count()):
             tds = rows.nth(idx).locator("td")
             party = tds.nth(0).inner_text().strip()
-            code = to_code_3(party)
+            code = "EUU" if party == "European Union (EU)" else to_code_3(party)
             try:
                 version = tds.nth(4).locator("span:visible").nth(0).inner_text()
             except:
