@@ -4214,6 +4214,24 @@
     "Addenda": []
   },
   {
+    "Code": "KEN",
+    "Party": "Kenya",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-04-30",
+    "Ndcs": [
+      {
+        "Title": "Kenya's Second Nationally Determined Contribution 2031 - 2035",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-05/KENYAS%20SECOND%20NATIONALLY%20DETERMINED%20CONTRIBUTION%202031_2035.pdf",
+        "OriginalFilename": "KENYAS SECOND NATIONALLY DETERMINED CONTRIBUTION 2031_2035.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "KIR",
     "Party": "Kiribati",
     "Version": "2",
