@@ -6642,6 +6642,24 @@
   {
     "Code": "MDA",
     "Party": "Republic of Moldova",
+    "Version": "3",
+    "Status": "Active",
+    "SubmissionDate": "2025-05-06",
+    "Ndcs": [
+      {
+        "Title": "Republic of Moldova NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-05/MD_NDC_3.pdf",
+        "OriginalFilename": "MD_NDC_3.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "MDA",
+    "Party": "Republic of Moldova",
     "Version": "2",
     "Status": "Active",
     "SubmissionDate": "2020-03-04",
