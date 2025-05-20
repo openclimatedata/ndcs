@@ -5621,6 +5621,24 @@
   {
     "Code": "NPL",
     "Party": "Nepal",
+    "Version": "3",
+    "Status": "Active",
+    "SubmissionDate": "2025-05-19",
+    "Ndcs": [
+      {
+        "Title": "Nationally Determined Contribution (NDC) 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-05/Nepal%20NDC3.pdf",
+        "OriginalFilename": "Nepal NDC3.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "NPL",
+    "Party": "Nepal",
     "Version": "2",
     "Status": "Active",
     "SubmissionDate": "2020-12-08",
