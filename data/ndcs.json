@@ -844,6 +844,24 @@
     "Addenda": []
   },
   {
+    "Code": "BLZ",
+    "Party": "Belize",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-06-14",
+    "Ndcs": [
+      {
+        "Title": "Belize NDC 3.0 Update",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-06/BELIZE%20FINAL%20NDC%203.0.pdf",
+        "OriginalFilename": "BELIZE FINAL NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BEN",
     "Party": "Benin",
     "Version": "2",
