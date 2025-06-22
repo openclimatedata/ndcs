@@ -7506,6 +7506,24 @@
     "Addenda": []
   },
   {
+    "Code": "SOM",
+    "Party": "Somalia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-06-19",
+    "Ndcs": [
+      {
+        "Title": "Somalia's NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-06/Somalia%20NDC%203.0_Submitted_to_UNFCCC_Final.pdf",
+        "OriginalFilename": "Somalia NDC 3.0_Submitted_to_UNFCCC_Final.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "ZAF",
     "Party": "South Africa",
     "Version": "2",
