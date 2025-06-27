@@ -6088,6 +6088,24 @@
     "Addenda": []
   },
   {
+    "Code": "NOR",
+    "Party": "Norway",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-06-26",
+    "Ndcs": [
+      {
+        "Title": "Norway NDC 2035",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-06/Norways%20NDC%20for%202035..pdf",
+        "OriginalFilename": "Norways NDC for 2035..pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "OMN",
     "Party": "Oman",
     "Version": "3",
