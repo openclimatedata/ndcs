@@ -5325,6 +5325,24 @@
     "Addenda": []
   },
   {
+    "Code": "MCO",
+    "Party": "Monaco",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-07-16",
+    "Ndcs": [
+      {
+        "Title": "MONACO NDC 2025",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-07/NDC_2025_Monaco.pdf",
+        "OriginalFilename": "NDC_2025_Monaco.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "MNG",
     "Party": "Mongolia",
     "Version": "2",
