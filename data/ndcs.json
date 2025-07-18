@@ -6016,6 +6016,24 @@
     "Addenda": []
   },
   {
+    "Code": "NIU",
+    "Party": "Niue",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-07-17",
+    "Ndcs": [
+      {
+        "Title": "Niue NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-07/NIUE%20NDC%203.0.pdf",
+        "OriginalFilename": "NIUE NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "MKD",
     "Party": "North Macedonia",
     "Version": "2",
