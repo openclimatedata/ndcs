@@ -1386,7 +1386,7 @@
     "Code": "KHM",
     "Party": "Cambodia",
     "Version": "2",
-    "Status": "Active",
+    "Status": "Archived",
     "SubmissionDate": "2020-12-31",
     "Ndcs": [
       {
@@ -1413,6 +1413,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Cambodia%27s%20INDC%20to%20the%20UNFCCC.pdf",
         "OriginalFilename": "Cambodia's INDC to the UNFCCC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "KHM",
+    "Party": "Cambodia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-08-08",
+    "Ndcs": [
+      {
+        "Title": "Cambodia\u2019s NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-08/Cambodia-NDC%203.0_0.pdf",
+        "OriginalFilename": "Cambodia-NDC 3.0_0.pdf"
       }
     ],
     "Translations": [],
