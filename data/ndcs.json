@@ -7542,6 +7542,24 @@
     "Addenda": []
   },
   {
+    "Code": "SLB",
+    "Party": "Solomon Islands",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-08-13",
+    "Ndcs": [
+      {
+        "Title": "Solomon Islands NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-08/Solomon%20Islands%20NDC3.0_0.pdf",
+        "OriginalFilename": "Solomon Islands NDC3.0_0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "SOM",
     "Party": "Somalia",
     "Version": "2",
