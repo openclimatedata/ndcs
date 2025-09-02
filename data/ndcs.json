@@ -694,6 +694,24 @@
     "Addenda": []
   },
   {
+    "Code": "BRB",
+    "Party": "Barbados",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-08-30",
+    "Ndcs": [
+      {
+        "Title": "Barbados 2025 Second Nationally Determined Contribution",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Barbados%20Second%20NDC.pdf",
+        "OriginalFilename": "Barbados Second NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BLR",
     "Party": "Belarus",
     "Version": "2",
