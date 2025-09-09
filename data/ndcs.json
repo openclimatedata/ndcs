@@ -7580,6 +7580,24 @@
   {
     "Code": "SOM",
     "Party": "Somalia",
+    "Version": "3",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-08",
+    "Ndcs": [
+      {
+        "Title": "Updated Somalia's NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Somalia%20NDC%203.0_Official_2025.pdf",
+        "OriginalFilename": "Somalia NDC 3.0_Official_2025.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "SOM",
+    "Party": "Somalia",
     "Version": "2",
     "Status": "Active",
     "SubmissionDate": "2021-07-31",
@@ -7617,7 +7635,7 @@
     "Code": "SOM",
     "Party": "Somalia",
     "Version": "",
-    "Status": "Active",
+    "Status": "Archived",
     "SubmissionDate": "2025-06-19",
     "Ndcs": [
       {
