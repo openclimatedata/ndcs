@@ -4668,6 +4668,24 @@
     "Addenda": []
   },
   {
+    "Code": "LIE",
+    "Party": "Liechtenstein",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-10",
+    "Ndcs": [
+      {
+        "Title": "Liechtenstein Second NDC Submission",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Liechtensteins%20Second%20NDC%202035_September%202025.pdf",
+        "OriginalFilename": "Liechtensteins Second NDC 2035_September 2025.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "LTU",
     "Party": "Lithuania",
     "Version": "3",
