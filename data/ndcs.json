@@ -3724,6 +3724,24 @@
   {
     "Code": "ISL",
     "Party": "Iceland",
+    "Version": "3",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-12",
+    "Ndcs": [
+      {
+        "Title": "Iceland\u2018s NDC 2030 \u2013 Revision",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Icelands%20NDC%202030%20-%20Revision.pdf",
+        "OriginalFilename": "Icelands NDC 2030 - Revision.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "ISL",
+    "Party": "Iceland",
     "Version": "2",
     "Status": "Active",
     "SubmissionDate": "2021-02-18",
@@ -7288,6 +7306,32 @@
     ],
     "Translations": [],
     "Addenda": []
+  },
+  {
+    "Code": "SRB",
+    "Party": "Serbia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-12",
+    "Ndcs": [
+      {
+        "Title": "Serbia NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/NDC3%20of%20the%20Republic%20of%20Serbia.pdf",
+        "OriginalFilename": "NDC3 of the Republic of Serbia.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "NDC Submission Letter Serbia",
+        "FileType": "Addendum",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Republic%20of%20Serbia%20NDC3.0%20Official%20Submission%20Letter.pdf",
+        "OriginalFilename": "Republic of Serbia NDC3.0 Official Submission Letter.pdf"
+      }
+    ]
   },
   {
     "Code": "SYC",
