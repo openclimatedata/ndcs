@@ -196,6 +196,24 @@
     "Addenda": []
   },
   {
+    "Code": "AGO",
+    "Party": "Angola",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-13",
+    "Ndcs": [
+      {
+        "Title": "Angola NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Angola%20NDC_September2025_Upload.pdf",
+        "OriginalFilename": "Angola NDC_September2025_Upload.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "ATG",
     "Party": "Antigua and Barbuda",
     "Version": "2",
