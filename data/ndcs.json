@@ -3642,6 +3642,24 @@
     "Addenda": []
   },
   {
+    "Code": "VAT",
+    "Party": "Holy See",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-16",
+    "Ndcs": [
+      {
+        "Title": "Holy See NDC 2035",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Holy%20See_NDC%202035_September%202025.pdf",
+        "OriginalFilename": "Holy See_NDC 2035_September 2025.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "HND",
     "Party": "Honduras",
     "Version": "2",
