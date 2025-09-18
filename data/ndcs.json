@@ -989,7 +989,7 @@
     "Code": "BOL",
     "Party": "Bolivia (Plurinational State of)",
     "Version": "2",
-    "Status": "Active",
+    "Status": "Archived",
     "SubmissionDate": "2022-04-15",
     "Ndcs": [
       {
@@ -1035,6 +1035,24 @@
         "OriginalFilename": "INDC-Bolivia-english.pdf"
       }
     ],
+    "Addenda": []
+  },
+  {
+    "Code": "BOL",
+    "Party": "Bolivia (Plurinational State of)",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-17",
+    "Ndcs": [
+      {
+        "Title": "Bolivia (Plurinational State of) NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/NDC%203.0%20BOLIVIA%20MMAYA.pdf",
+        "OriginalFilename": "NDC 3.0 BOLIVIA MMAYA.pdf"
+      }
+    ],
+    "Translations": [],
     "Addenda": []
   },
   {
