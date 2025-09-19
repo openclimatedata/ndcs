@@ -452,6 +452,24 @@
     "Addenda": []
   },
   {
+    "Code": "AUS",
+    "Party": "Australia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-18",
+    "Ndcs": [
+      {
+        "Title": "Australia\u2019s second NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Australias%20Second%20NDC.pdf",
+        "OriginalFilename": "Australias Second NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "AUT",
     "Party": "Austria",
     "Version": "3",
@@ -1035,24 +1053,6 @@
         "OriginalFilename": "INDC-Bolivia-english.pdf"
       }
     ],
-    "Addenda": []
-  },
-  {
-    "Code": "BOL",
-    "Party": "Bolivia (Plurinational State of)",
-    "Version": "",
-    "Status": "Active",
-    "SubmissionDate": "2025-09-17",
-    "Ndcs": [
-      {
-        "Title": "Bolivia (Plurinational State of) NDC 3.0",
-        "FileType": "NDC",
-        "Language": "Spanish",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/NDC%203.0%20BOLIVIA%20MMAYA.pdf",
-        "OriginalFilename": "NDC 3.0 BOLIVIA MMAYA.pdf"
-      }
-    ],
-    "Translations": [],
     "Addenda": []
   },
   {
