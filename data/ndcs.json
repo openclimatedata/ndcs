@@ -6010,6 +6010,24 @@
     ]
   },
   {
+    "Code": "NIC",
+    "Party": "Nicaragua",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-19",
+    "Ndcs": [
+      {
+        "Title": "Nicaragua NDC 2025",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/NDC%20NICARAGUA%202025%20-12.09.2025.pdf",
+        "OriginalFilename": "NDC NICARAGUA 2025 -12.09.2025.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "NER",
     "Party": "Niger",
     "Version": "2",
@@ -7686,8 +7704,8 @@
         "Title": "Solomon Islands NDC 3.0",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-08/Solomon%20Islands%20NDC3.0_0.pdf",
-        "OriginalFilename": "Solomon Islands NDC3.0_0.pdf"
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Solomon%20Islands%20NDC%203.0.pdf",
+        "OriginalFilename": "Solomon Islands NDC 3.0.pdf"
       }
     ],
     "Translations": [],
