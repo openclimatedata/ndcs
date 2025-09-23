@@ -2877,6 +2877,24 @@
     "Addenda": []
   },
   {
+    "Code": "SWZ",
+    "Party": "Eswatini",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-22",
+    "Ndcs": [
+      {
+        "Title": "Eswatini NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Eswatini%20NDC%203.0%20Report_for%20Submission%20-FINAL%20f.pdf",
+        "OriginalFilename": "Eswatini NDC 3.0 Report_for Submission -FINAL f.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "ETH",
     "Party": "Ethiopia",
     "Version": "2",
@@ -3722,6 +3740,32 @@
     "Addenda": []
   },
   {
+    "Code": "HND",
+    "Party": "Honduras",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-22",
+    "Ndcs": [
+      {
+        "Title": "Segunda Actualizaci\u00f3n de la Contribuci\u00f3n Nacional Determinada (NDC)",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Honduras%20Segunda%20Actualizacio%CC%81n%20de%20su%20NDC%20%282021-2030%29serna_rev_final.pdf",
+        "OriginalFilename": "Honduras Segunda Actualizacio\u0301n de su NDC (2021-2030)serna_rev_final.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "Forward Note for submission NDC",
+        "FileType": "Addendum",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/OFICIO%20141.pdf",
+        "OriginalFilename": "OFICIO 141.pdf"
+      }
+    ]
+  },
+  {
     "Code": "HUN",
     "Party": "Hungary",
     "Version": "3",
@@ -4262,6 +4306,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Jordan%20INDCs%20Final.pdf",
         "OriginalFilename": "Jordan INDCs Final.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "JOR",
+    "Party": "Jordan",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-22",
+    "Ndcs": [
+      {
+        "Title": "Jordan NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Jordan%20NDC%203.0%20Vision_final.pdf",
+        "OriginalFilename": "Jordan NDC 3.0 Vision_final.pdf"
       }
     ],
     "Translations": [],
@@ -6075,7 +6137,7 @@
     "Code": "NGA",
     "Party": "Nigeria",
     "Version": "3",
-    "Status": "Active",
+    "Status": "Archived",
     "SubmissionDate": "2021-07-30",
     "Ndcs": [
       {
@@ -6140,6 +6202,24 @@
         "OriginalFilename": "Executive Summary_Nigerian INDC_271115.pdf"
       }
     ]
+  },
+  {
+    "Code": "NGA",
+    "Party": "Nigeria",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-22",
+    "Ndcs": [
+      {
+        "Title": "Nigeria NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Nigeria%20NDC%203.0%20-%20Transimission%20Version%202.pdf",
+        "OriginalFilename": "Nigeria NDC 3.0 - Transimission Version 2.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
   },
   {
     "Code": "NIU",
@@ -8657,6 +8737,24 @@
         "OriginalFilename": "INDC-Tunisia-English Version.pdf"
       }
     ],
+    "Addenda": []
+  },
+  {
+    "Code": "TUN",
+    "Party": "Tunisia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-22",
+    "Ndcs": [
+      {
+        "Title": "Preliminary draft element of the new Tunisian NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Republic%20Of%20Tunisia-Draft%20preleminary%20elements%20of%20the%20NDC%203.0.pdf",
+        "OriginalFilename": "Republic Of Tunisia-Draft preleminary elements of the NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
     "Addenda": []
   },
   {
