@@ -1790,6 +1790,24 @@
     "Addenda": []
   },
   {
+    "Code": "CHL",
+    "Party": "Chile",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-23",
+    "Ndcs": [
+      {
+        "Title": "Chile NDC 2025",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/NDC-2025-220925%201.pdf",
+        "OriginalFilename": "NDC-2025-220925 1.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "CHN",
     "Party": "China",
     "Version": "2",
@@ -4180,6 +4198,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Jamaica%27s%20INDC_2015-11-25.pdf",
         "OriginalFilename": "Jamaica's INDC_2015-11-25.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "JAM",
+    "Party": "Jamaica",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-22",
+    "Ndcs": [
+      {
+        "Title": "Jamaica NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Jamaica%20ICTU%20Final%20Report%20Sep19.pdf",
+        "OriginalFilename": "Jamaica ICTU Final Report Sep19.pdf"
       }
     ],
     "Translations": [],
@@ -8662,6 +8698,32 @@
     "Addenda": []
   },
   {
+    "Code": "TON",
+    "Party": "Tonga",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-23",
+    "Ndcs": [
+      {
+        "Title": "Tonga NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Tongas%20Third%20Nationally%20Determined%20Contribution.pdf",
+        "OriginalFilename": "Tongas Third Nationally Determined Contribution.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "Tongas Second Nationally Determined Contribution Review Report",
+        "FileType": "Addendum",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Tongas%20Second%20Nationally%20Determined%20Contribution%20Review%20Report.pdf",
+        "OriginalFilename": "Tongas Second Nationally Determined Contribution Review Report.pdf"
+      }
+    ]
+  },
+  {
     "Code": "TTO",
     "Party": "Trinidad and Tobago",
     "Version": "1",
@@ -8750,8 +8812,8 @@
         "Title": "Preliminary draft element of the new Tunisian NDC 3.0",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Republic%20Of%20Tunisia-Draft%20preleminary%20elements%20of%20the%20NDC%203.0.pdf",
-        "OriginalFilename": "Republic Of Tunisia-Draft preleminary elements of the NDC 3.0.pdf"
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Republic%20Of%20Tunisia-Draft%20preleminary%20elements%20of%20the%20NDC%203.pdf",
+        "OriginalFilename": "Republic Of Tunisia-Draft preleminary elements of the NDC 3.pdf"
       }
     ],
     "Translations": [],
