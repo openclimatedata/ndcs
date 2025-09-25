@@ -4820,6 +4820,24 @@
     "Addenda": []
   },
   {
+    "Code": "LBR",
+    "Party": "Liberia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-24",
+    "Ndcs": [
+      {
+        "Title": "Liberia NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Liberias_2035_NDC_3.0_Final.pdf",
+        "OriginalFilename": "Liberias_2035_NDC_3.0_Final.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "LIE",
     "Party": "Liechtenstein",
     "Version": "1",
@@ -5505,6 +5523,24 @@
     "Addenda": []
   },
   {
+    "Code": "FSM",
+    "Party": "Micronesia (Federated States of)",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-24",
+    "Ndcs": [
+      {
+        "Title": "Federated States of Micronesia NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/FSM%20NDC%203.0.pdf",
+        "OriginalFilename": "FSM NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "MCO",
     "Party": "Monaco",
     "Version": "2",
@@ -5597,6 +5633,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/150924_INDCs%20of%20Mongolia.pdf",
         "OriginalFilename": "150924_INDCs of Mongolia.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "MNG",
+    "Party": "Mongolia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-24",
+    "Ndcs": [
+      {
+        "Title": "Mongolia NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Mongolia%20NDC3_0%20under%20UNFCCC_PA%20FINAL.pdf",
+        "OriginalFilename": "Mongolia NDC3_0 under UNFCCC_PA FINAL.pdf"
       }
     ],
     "Translations": [],
@@ -6504,6 +6558,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Pak-INDC.pdf",
         "OriginalFilename": "Pak-INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "PAK",
+    "Party": "Pakistan",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-24",
+    "Ndcs": [
+      {
+        "Title": "Pakistan NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Pakistan_NDC3.0_24%20Sep.pdf",
+        "OriginalFilename": "Pakistan_NDC3.0_24 Sep.pdf"
       }
     ],
     "Translations": [],
@@ -9456,6 +9528,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/VANUATU%20%20INDC%20UNFCCC%20Submission.pdf",
         "OriginalFilename": "VANUATU  INDC UNFCCC Submission.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "VUT",
+    "Party": "Vanuatu",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-24",
+    "Ndcs": [
+      {
+        "Title": "Vanuatu NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Vanuatu%20NDC%203.0.pdf",
+        "OriginalFilename": "Vanuatu NDC 3.0.pdf"
       }
     ],
     "Translations": [],
