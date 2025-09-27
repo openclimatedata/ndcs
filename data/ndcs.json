@@ -1940,6 +1940,24 @@
     "Addenda": []
   },
   {
+    "Code": "COL",
+    "Party": "Colombia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-25",
+    "Ndcs": [
+      {
+        "Title": "Colombia NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/NDC%203.0%20Declarativa%20Colombia%20Transformaciones%20para%20la%20Vida%20V.25.09.2025%20Gob.%20Nacional.pdf",
+        "OriginalFilename": "NDC 3.0 Declarativa Colombia Transformaciones para la Vida V.25.09.2025 Gob. Nacional.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "COM",
     "Party": "Comoros",
     "Version": "2",
@@ -2964,6 +2982,24 @@
     ]
   },
   {
+    "Code": "ETH",
+    "Party": "Ethiopia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-26",
+    "Ndcs": [
+      {
+        "Title": "Ethiopia NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Ethiopia%20NDC%203.0%20Final.pdf",
+        "OriginalFilename": "Ethiopia NDC 3.0 Final.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "EUU",
     "Party": "European Union (EU)",
     "Version": "3",
@@ -3842,14 +3878,14 @@
     "Party": "Iceland",
     "Version": "3",
     "Status": "Active",
-    "SubmissionDate": "2025-09-12",
+    "SubmissionDate": "2025-09-25",
     "Ndcs": [
       {
         "Title": "Iceland\u2018s NDC 2030 \u2013 Revision",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Icelands%20NDC%202030%20-%20Revision.pdf",
-        "OriginalFilename": "Icelands NDC 2030 - Revision.pdf"
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Icelands%20NDC%202030%20-%20Revision_1.1.pdf",
+        "OriginalFilename": "Icelands NDC 2030 - Revision_1.1.pdf"
       }
     ],
     "Translations": [],
@@ -8152,6 +8188,24 @@
     "Addenda": []
   },
   {
+    "Code": "LKA",
+    "Party": "Sri Lanka",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-25",
+    "Ndcs": [
+      {
+        "Title": "Sri Lanka NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Sri%20Lankas%20Nationally%20Determined%20Contributions%203.0%20%282026-2035%29%20submitted%2022.09.2025%20%281%29.pdf",
+        "OriginalFilename": "Sri Lankas Nationally Determined Contributions 3.0 (2026-2035) submitted 22.09.2025 (1).pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "PSE",
     "Party": "State of Palestine",
     "Version": "2",
@@ -8966,6 +9020,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/TUVALU%20INDC.pdf",
         "OriginalFilename": "TUVALU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "TUV",
+    "Party": "Tuvalu",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-26",
+    "Ndcs": [
+      {
+        "Title": "Tuvalu NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Tuvalu%20NDC%203.0%20-%20Secretariat%20Submission%20FINAL.pdf",
+        "OriginalFilename": "Tuvalu NDC 3.0 - Secretariat Submission FINAL.pdf"
       }
     ],
     "Translations": [],
