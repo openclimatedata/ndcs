@@ -59,35 +59,32 @@ def intercept(route):
 timeout = 100_000
 
 # Status can be 'Active' or 'Archived'
-for status_field_value in ["5933", "5934"]:
-    with sync_playwright() as p:
-        browser = p.chromium.launch()  # Run with headless=False for debugging
-        page = browser.new_page()
-        page.set_default_timeout(timeout)
-        page.route("**/*", intercept)
-        page.goto(
-            f"https://unfccc.int/NDCREG?field_party_region_target_id=All&field_document_ca_target_id=All&field_vd_status_target_id={status_field_value}&start_date_datepicker=&end_date_datepicker=&page=20"
-        )
+# The landing page should show all 'Active' NDCS, for the archived ones we
+# go to the page using query parameters
+with sync_playwright() as p:
+    browser = p.firefox.launch(headless=False)  # Run with headless=False for debugging
+    page = browser.new_page()
+    page.set_default_timeout(timeout)
+    page.route("**/*", intercept)
+    for url in ["https://unfccc.int/NDCREG", "https://unfccc.int/NDCREG?field_party_region_target_id=All&field_document_ca_target_id=All&field_vd_status_target_id=5934&start_date_datepicker=&end_date_datepicker="]:
+
+        print(url)
+        page.goto(url)
         print(page.title())
 
-        progress = page.locator(".views-infinite-scroll-footer").inner_text()
-        print(progress)
-
+        page.wait_for_selector(".views-infinite-scroll-footer")
         rows = page.locator("table.table tbody tr")
 
         for idx in range(rows.count()):
             tds = rows.nth(idx).locator("td")
             party = tds.nth(0).inner_text().strip()
             code = "EUU" if party == "European Union (EU)" else to_code_3(party)
-            try:
-                version = tds.nth(4).locator("span:visible").nth(0).inner_text()
-            except:
-                version = ""
+            version = tds.nth(4).nth(0).inner_text()
             status = tds.nth(5).inner_text()
             submission_date = datetime.strptime(
                 tds.nth(6).inner_text(), "%d/%m/%Y"
             ).strftime("%Y-%m-%d")
-
+            print(idx, party, version, status, submission_date)
             nested_entry = {
                 "Code": code,
                 "Party": party,
@@ -138,7 +135,8 @@ for status_field_value in ["5933", "5934"]:
             for translation_link_idx in range(translation_links.count()):
                 translation_link = translation_links.nth(translation_link_idx)
                 title = translation_link.inner_text()
-                lang = languages[translation_link.get_attribute("hreflang")]
+                hreflang = translation_link.get_attribute("hreflang")
+                lang = languages.get(hreflang, "") if hreflang else ""
                 translationUrl = translation_link.get_attribute("href")
 
                 entries.append(
@@ -175,7 +173,8 @@ for status_field_value in ["5933", "5934"]:
                     additional_documents_link_idx
                 )
                 title = additional_documents_link.inner_text()
-                lang = languages[additional_documents_link.get_attribute("hreflang")]
+                hreflang = additional_documents_link.get_attribute("hreflang")
+                lang = languages.get(hreflang, "") if hreflang else ""
                 additional_document_url = additional_documents_link.get_attribute(
                     "href"
                 )
@@ -210,7 +209,7 @@ for status_field_value in ["5933", "5934"]:
 
             nested_entries.append(nested_entry)
 
-        browser.close()
+    browser.close()
 
 data = pd.DataFrame.from_dict(entries)
 data = data.set_index("Code")
