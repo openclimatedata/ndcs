@@ -58,15 +58,19 @@ def intercept(route):
 
 timeout = 100_000
 
-# Status can be 'Active' or 'Archived'
-# The landing page should show all 'Active' NDCS, for the archived ones we
-# go to the page using query parameters
 with sync_playwright() as p:
-    browser = p.firefox.launch(headless=False)  # Run with headless=False for debugging
+    browser = p.firefox.launch(headless=True)  # Run with headless=False for debugging
     page = browser.new_page()
     page.set_default_timeout(timeout)
     page.route("**/*", intercept)
-    for url in ["https://unfccc.int/NDCREG", "https://unfccc.int/NDCREG?field_party_region_target_id=All&field_document_ca_target_id=All&field_vd_status_target_id=5934&start_date_datepicker=&end_date_datepicker="]:
+    # Status can be 'Active' or 'Archived'
+    # The landing page should show all 'Active' NDCS, for the archived ones we
+    # go to the page using query parameters
+
+    for url in [
+        "https://unfccc.int/NDCREG",
+        "https://unfccc.int/NDCREG?field_party_region_target_id=All&field_document_ca_target_id=All&field_vd_status_target_id=5934&start_date_datepicker=&end_date_datepicker=",
+    ]:
 
         print(url)
         page.goto(url)
