@@ -694,6 +694,24 @@
     "Addenda": []
   },
   {
+    "Code": "BGD",
+    "Party": "Bangladesh",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-29",
+    "Ndcs": [
+      {
+        "Title": "Bangladesh NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Bangladesh%20Third%20Nationally%20Determined%20Contribution%20%28NDC%203.0%29.pdf",
+        "OriginalFilename": "Bangladesh Third Nationally Determined Contribution (NDC 3.0).pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BRB",
     "Party": "Barbados",
     "Version": "2",
@@ -1053,6 +1071,24 @@
         "OriginalFilename": "INDC-Bolivia-english.pdf"
       }
     ],
+    "Addenda": []
+  },
+  {
+    "Code": "BOL",
+    "Party": "Bolivia (Plurinational State of)",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-29",
+    "Ndcs": [
+      {
+        "Title": "Bolivia (Plurinational State of) NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Bolivia_NDC3.0_2026-2035%20final%2029.09.2024.pdf",
+        "OriginalFilename": "Bolivia_NDC3.0_2026-2035 final 29.09.2024.pdf"
+      }
+    ],
+    "Translations": [],
     "Addenda": []
   },
   {
@@ -3928,6 +3964,24 @@
     "Addenda": []
   },
   {
+    "Code": "ISL",
+    "Party": "Iceland",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-30",
+    "Ndcs": [
+      {
+        "Title": "Iceland\u2018s NDC 2035",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Iceland%27s%202035%20NDC.pdf",
+        "OriginalFilename": "Iceland's 2035 NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "IND",
     "Party": "India",
     "Version": "2",
@@ -4766,6 +4820,32 @@
     "Addenda": []
   },
   {
+    "Code": "LBN",
+    "Party": "Lebanon",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-30",
+    "Ndcs": [
+      {
+        "Title": "Lebanon NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/LBN%20NDC%203.0%2030.09.2025%20Final.pdf",
+        "OriginalFilename": "LBN NDC 3.0 30.09.2025 Final.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "Letter of Submission",
+        "FileType": "Addendum",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/NDC%203.0%20UNFCCC%20Submission%20Sept2025.pdf",
+        "OriginalFilename": "NDC 3.0 UNFCCC Submission Sept2025.pdf"
+      }
+    ]
+  },
+  {
     "Code": "LSO",
     "Party": "Lesotho",
     "Version": "2",
@@ -5461,6 +5541,32 @@
     "Addenda": []
   },
   {
+    "Code": "MUS",
+    "Party": "Mauritius",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-29",
+    "Ndcs": [
+      {
+        "Title": "Mauritius NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/NDC%203.0%20%20Mauritius.pdf",
+        "OriginalFilename": "NDC 3.0  Mauritius.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "Mauritius Cover Letter",
+        "FileType": "Addendum",
+        "Language": "",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/cover%20letter%20NDC%203.0%20Mauritius.pdf",
+        "OriginalFilename": "cover letter NDC 3.0 Mauritius.pdf"
+      }
+    ]
+  },
+  {
     "Code": "MEX",
     "Party": "Mexico",
     "Version": "3",
@@ -5788,6 +5894,24 @@
         "OriginalFilename": "Morocco First NDC-English.pdf"
       }
     ],
+    "Addenda": []
+  },
+  {
+    "Code": "MAR",
+    "Party": "Morocco",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-30",
+    "Ndcs": [
+      {
+        "Title": "Morocco NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/MOROCCO%20NDC%203.0%20_30.9.25.pdf",
+        "OriginalFilename": "MOROCCO NDC 3.0 _30.9.25.pdf"
+      }
+    ],
+    "Translations": [],
     "Addenda": []
   },
   {
@@ -6698,6 +6822,24 @@
     ]
   },
   {
+    "Code": "PAN",
+    "Party": "Panama",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-30",
+    "Ndcs": [
+      {
+        "Title": "Declarative NDC 3.0 of Panama",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Declaratoria%20-%20CDN%203.0%20Panam%C3%A1.pdf",
+        "OriginalFilename": "Declaratoria - CDN 3.0 Panam\u00e1.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "PNG",
     "Party": "Papua New Guinea",
     "Version": "2",
@@ -7208,6 +7350,32 @@
   {
     "Code": "RUS",
     "Party": "Russian Federation",
+    "Version": "2",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-29",
+    "Ndcs": [
+      {
+        "Title": "Russian Federation Second NDC",
+        "FileType": "NDC",
+        "Language": "Russian",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/%D0%A0%D0%A4%20%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B9%20%D0%9E%D0%9D%D0%A3%D0%92.pdf",
+        "OriginalFilename": "\u0420\u0424 \u0432\u0442\u043e\u0440\u043e\u0439 \u041e\u041d\u0423\u0412.pdf"
+      }
+    ],
+    "Translations": [
+      {
+        "Title": "Russian Federation Second NDC",
+        "FileType": "Translation",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/RF_second_NDC.pdf",
+        "OriginalFilename": "RF_second_NDC.pdf"
+      }
+    ],
+    "Addenda": []
+  },
+  {
+    "Code": "RUS",
+    "Party": "Russian Federation",
     "Version": "1",
     "Status": "Active",
     "SubmissionDate": "2020-11-25",
@@ -7384,6 +7552,24 @@
     "Addenda": []
   },
   {
+    "Code": "VCT",
+    "Party": "Saint Vincent and the Grenadines",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-30",
+    "Ndcs": [
+      {
+        "Title": "Saint Vincent and the Grenadines NDC 2.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Revised%20NDC%202.0%20Final.pdf",
+        "OriginalFilename": "Revised NDC 2.0 Final.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "WSM",
     "Party": "Samoa",
     "Version": "2",
@@ -7476,6 +7662,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/STP_INDC%20_Ingles_30.09.pdf",
         "OriginalFilename": "STP_INDC _Ingles_30.09.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "STP",
+    "Party": "Sao Tome and Principe",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-30",
+    "Ndcs": [
+      {
+        "Title": "Sao Tome and Principe NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/NDC3.0_Sao_Tome_Principe_F.pdf",
+        "OriginalFilename": "NDC3.0_Sao_Tome_Principe_F.pdf"
       }
     ],
     "Translations": [],
@@ -7660,6 +7864,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/INDC%20of%20Seychelles.pdf",
         "OriginalFilename": "INDC of Seychelles.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "SYC",
+    "Party": "Seychelles",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-09-30",
+    "Ndcs": [
+      {
+        "Title": "Seychelles NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/ICTU%20Update%202025%20for%20Seychelles%20new%20NDC%203.0.pdf",
+        "OriginalFilename": "ICTU Update 2025 for Seychelles new NDC 3.0.pdf"
       }
     ],
     "Translations": [],
