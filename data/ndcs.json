@@ -5248,6 +5248,24 @@
     "Addenda": []
   },
   {
+    "Code": "MYS",
+    "Party": "Malaysia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-10-24",
+    "Ndcs": [
+      {
+        "Title": "Malaysia NDC 3.0 2025",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Malaysia%20NDC%203.0%20to%20UNFCCC%202025%20final.pdf",
+        "OriginalFilename": "Malaysia NDC 3.0 to UNFCCC 2025 final.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "MDV",
     "Party": "Maldives",
     "Version": "2",
@@ -8286,6 +8304,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/South%20Africa.pdf",
         "OriginalFilename": "South Africa.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "ZAF",
+    "Party": "South Africa",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-10-24",
+    "Ndcs": [
+      {
+        "Title": "South Africa's Second NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/South%20Africa%27s%20second%20Nationally%20Determined%20Contribution_2025.pdf",
+        "OriginalFilename": "South Africa's second Nationally Determined Contribution_2025.pdf"
       }
     ],
     "Translations": [],
