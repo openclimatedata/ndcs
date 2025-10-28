@@ -4096,6 +4096,32 @@
     "Addenda": []
   },
   {
+    "Code": "IDN",
+    "Party": "Indonesia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-10-27",
+    "Ndcs": [
+      {
+        "Title": "Republic Of Indonesia Second NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Indonesia_Second%20NDC_2025.10.24.pdf",
+        "OriginalFilename": "Indonesia_Second NDC_2025.10.24.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "NDC Cover Letter",
+        "FileType": "Addendum",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/B235HPPI21102025%20Transmittal%20SNDC%20-%20INDONESIA.pdf",
+        "OriginalFilename": "B235HPPI21102025 Transmittal SNDC - INDONESIA.pdf"
+      }
+    ]
+  },
+  {
     "Code": "IRQ",
     "Party": "Iraq",
     "Version": "1",
