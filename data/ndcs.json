@@ -1295,6 +1295,24 @@
     ]
   },
   {
+    "Code": "BRN",
+    "Party": "Brunei Darussalam",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-10-28",
+    "Ndcs": [
+      {
+        "Title": "Brunei Darussalam NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/%5BFinal%5D%20Brunei%20Darussalam%27s%20Nationally%20Determined%20Contribution%203.0.pdf",
+        "OriginalFilename": "[Final] Brunei Darussalam's Nationally Determined Contribution 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BGR",
     "Party": "Bulgaria",
     "Version": "3",
@@ -5561,6 +5579,24 @@
         "Language": "French",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/INDC%20MAURITANIA.pdf",
         "OriginalFilename": "INDC MAURITANIA.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "MRT",
+    "Party": "Mauritania",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-10-28",
+    "Ndcs": [
+      {
+        "Title": "Mauritania NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/CDN3.0_Mauritanie_2025.pdf",
+        "OriginalFilename": "CDN3.0_Mauritanie_2025.pdf"
       }
     ],
     "Translations": [],
@@ -9978,6 +10014,32 @@
     "Addenda": []
   },
   {
+    "Code": "VEN",
+    "Party": "Venezuela (Bolivarian Republic of)",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-10-28",
+    "Ndcs": [
+      {
+        "Title": "Venezuela (Bolivarian Republic of) Second NDC",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Segunda%20Contribuci%C3%B3n%20Determinada%20Nacional%20CDN%202025-2030.pdf",
+        "OriginalFilename": "Segunda Contribuci\u00f3n Determinada Nacional CDN 2025-2030.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "NOTA VERBAL",
+        "FileType": "Addendum",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Nota%20Verbal%20N%C2%B0%20136%20-%20Entrega%20de%20la%20contribuci%C3%B3n%20nacionalmente%20determinada%20de%20Venezuela%20%282025%E2%80%932030%29.pdf",
+        "OriginalFilename": "Nota Verbal N\u00b0 136 - Entrega de la contribuci\u00f3n nacionalmente determinada de Venezuela (2025\u20132030).pdf"
+      }
+    ]
+  },
+  {
     "Code": "VNM",
     "Party": "Viet Nam",
     "Version": "3",
@@ -10098,6 +10160,24 @@
     "Party": "Zambia",
     "Version": "",
     "Status": "Active",
+    "SubmissionDate": "2025-10-28",
+    "Ndcs": [
+      {
+        "Title": "Zambia NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/NDC%203.0%20COPY%20OF%20ZAMBIA%27S%20ICTU%20FOR%20SUBMISSION%20.pdf",
+        "OriginalFilename": "NDC 3.0 COPY OF ZAMBIA'S ICTU FOR SUBMISSION .pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "ZMB",
+    "Party": "Zambia",
+    "Version": "",
+    "Status": "Archived",
     "SubmissionDate": "2025-03-10",
     "Ndcs": [
       {
