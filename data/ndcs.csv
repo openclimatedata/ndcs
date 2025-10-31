@@ -157,6 +157,7 @@ CYP,Cyprus,EU NDC 2023 update,NDC,English,3,Active,2023-10-19,https://unfccc.int
 CZE,Czechia,EU First NDC (Archived),NDC,English,1,Archived,2017-10-05,https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf,LV-03-06-EU INDC.pdf
 CZE,Czechia,EU First NDC (Updated submission),NDC,English,2,Archived,2020-12-18,https://unfccc.int/sites/default/files/NDC/2022-06/EU_NDC_Submission_December%202020.pdf,EU_NDC_Submission_December 2020.pdf
 CZE,Czechia,EU NDC 2023 update,NDC,English,3,Active,2023-10-19,https://unfccc.int/sites/default/files/NDC/2023-10/ES-2023-10-17%20EU%20submission%20NDC%20update.pdf,ES-2023-10-17 EU submission NDC update.pdf
+CIV,Côte d'Ivoire,Côte D'Ivoire NDC 3.0,NDC,French,,Active,2025-10-29,https://unfccc.int/sites/default/files/2025-10/CDN%203.0%20COTE%20D%27IVOIRE.pdf,CDN 3.0 COTE D'IVOIRE.pdf
 CIV,Côte d'Ivoire,Côte d'Ivoire First NDC,NDC,French,1,Archived,2016-10-25,https://unfccc.int/sites/default/files/NDC/2022-06/INDC_CI_22092015.pdf,INDC_CI_22092015.pdf
 CIV,Côte d'Ivoire,NDC COTE D'IVOIRE SUBMISSION,NDC,French,2,Active,2022-05-09,https://unfccc.int/sites/default/files/NDC/2022-06/CDN_CIV_2022.pdf,CDN_CIV_2022.pdf
 PRK,Democratic People's Republic of Korea,Democratic People's Republic of Korea First NDC(Archived),NDC,English,1,Archived,2016-10-03,https://unfccc.int/sites/default/files/NDC/2022-06/DPRK-INDC%20by%202030.pdf,DPRK-INDC by 2030.pdf
@@ -256,7 +257,6 @@ ISL,Iceland,Iceland‘s NDC 2030 – Revision,NDC,English,3,Active,2025-09-25,ht
 IND,India,Cover letter from Minister of Environment Forest,Addendum,English,2,Active,,https://unfccc.int/sites/default/files/NDC/2022-08/Cover%20letter%20from%20Minister%20of%20Environment%20Forest.pdf,Cover letter from Minister of Environment Forest.pdf
 IND,India,India First NDC,NDC,English,1,Archived,2016-10-02,https://unfccc.int/sites/default/files/NDC/2022-06/INDIA%20INDC%20TO%20UNFCCC.pdf,INDIA INDC TO UNFCCC.pdf
 IND,India,India Updated First Nationally Determined Contribution,NDC,English,2,Active,2022-08-26,https://unfccc.int/sites/default/files/NDC/2022-08/India%20Updated%20First%20Nationally%20Determined%20Contrib.pdf,India Updated First Nationally Determined Contrib.pdf
-IDN,Indonesia,NDC Cover Letter,Addendum,English,,Active,,https://unfccc.int/sites/default/files/2025-10/B235HPPI21102025%20Transmittal%20SNDC%20-%20INDONESIA.pdf,B235HPPI21102025 Transmittal SNDC - INDONESIA.pdf
 IDN,Indonesia,Indonesia First NDC (Updated submission),Addendum,English,2,Archived,,https://unfccc.int/sites/default/files/NDC/2022-06/S.275%20-%20Indonesia%20Updated%20NDC%20-%20Corrected%20Version.pdf,S.275 - Indonesia Updated NDC - Corrected Version.pdf
 IDN,Indonesia,Enhanced NDC Cover Letter,Addendum,English,3,Active,,https://unfccc.int/sites/default/files/NDC/2022-09/S335_Indonesia%20Submission%20on%20the%20Enhanced%20NDC.pdf,S335_Indonesia Submission on the Enhanced NDC.pdf
 IDN,Indonesia,Republic Of Indonesia Second NDC,NDC,English,,Active,2025-10-27,https://unfccc.int/sites/default/files/2025-10/Indonesia_Second%20NDC_2025.10.24.pdf,Indonesia_Second NDC_2025.10.24.pdf
@@ -348,7 +348,7 @@ MHL,Marshall Islands,Marshall Islands Third NDC,NDC,English,,Active,2025-02-10,h
 MHL,Marshall Islands,Marshall Islands First NDC (Archived),NDC,English,1,Archived,2016-04-22,https://unfccc.int/sites/default/files/NDC/2022-06/150721%20RMI%20INDC%20JULY%202015%20FINAL%20SUBMITTED.pdf,150721 RMI INDC JULY 2015 FINAL SUBMITTED.pdf
 MHL,Marshall Islands,Marshall Islands Second NDC (Archived),NDC,English,2,Archived,2018-11-22,https://unfccc.int/sites/default/files/NDC/2022-06/20181122%20Marshall%20Islands%20NDC%20to%20UNFCCC%2022%20November%202018%20FINAL.pdf,20181122 Marshall Islands NDC to UNFCCC 22 November 2018 FINAL.pdf
 MHL,Marshall Islands,Marshall Islands Second NDC (Updated submission),NDC,English,3,Active,2020-12-31,https://unfccc.int/sites/default/files/NDC/2022-06/RMI%20NDC-UpdateUPDATED_01.20.2021.pdf,RMI NDC-UpdateUPDATED_01.20.2021.pdf
-MRT,Mauritania,Mauritania NDC 3.0,NDC,French,,Active,2025-10-28,https://unfccc.int/sites/default/files/2025-10/CDN3.0_Mauritanie_2025.pdf,CDN3.0_Mauritanie_2025.pdf
+MRT,Mauritania,Mauritania NDC 3.0,NDC,French,,Active,2025-10-28,https://unfccc.int/sites/default/files/2025-10/CDN3.0_Mauritanie_Signed.pdf,CDN3.0_Mauritanie_Signed.pdf
 MRT,Mauritania,Mauritania First NDC (Archived),NDC,French,1,Archived,2017-02-27,https://unfccc.int/sites/default/files/NDC/2022-06/INDC%20MAURITANIA.pdf,INDC MAURITANIA.pdf
 MRT,Mauritania,Mauritania First NDC (Updated submission),NDC,French,2,Active,2021-10-12,https://unfccc.int/sites/default/files/NDC/2022-06/CDN-actualis%C3%A9%202021_%20Mauritania.pdf,CDN-actualisé 2021_ Mauritania.pdf
 MUS,Mauritius,Mauritius Cover Letter,Addendum,,,Active,,https://unfccc.int/sites/default/files/2025-09/cover%20letter%20NDC%203.0%20Mauritius.pdf,cover letter NDC 3.0 Mauritius.pdf

@@ -2439,6 +2439,24 @@
     "Addenda": []
   },
   {
+    "Code": "CIV",
+    "Party": "C\u00f4te d'Ivoire",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-10-29",
+    "Ndcs": [
+      {
+        "Title": "C\u00f4te D'Ivoire NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/CDN%203.0%20COTE%20D%27IVOIRE.pdf",
+        "OriginalFilename": "CDN 3.0 COTE D'IVOIRE.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "PRK",
     "Party": "Democratic People's Republic of Korea",
     "Version": "2",
@@ -4129,15 +4147,7 @@
       }
     ],
     "Translations": [],
-    "Addenda": [
-      {
-        "Title": "NDC Cover Letter",
-        "FileType": "Addendum",
-        "Language": "English",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/B235HPPI21102025%20Transmittal%20SNDC%20-%20INDONESIA.pdf",
-        "OriginalFilename": "B235HPPI21102025 Transmittal SNDC - INDONESIA.pdf"
-      }
-    ]
+    "Addenda": []
   },
   {
     "Code": "IRQ",
@@ -5595,8 +5605,8 @@
         "Title": "Mauritania NDC 3.0",
         "FileType": "NDC",
         "Language": "French",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/CDN3.0_Mauritanie_2025.pdf",
-        "OriginalFilename": "CDN3.0_Mauritanie_2025.pdf"
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/CDN3.0_Mauritanie_Signed.pdf",
+        "OriginalFilename": "CDN3.0_Mauritanie_Signed.pdf"
       }
     ],
     "Translations": [],
