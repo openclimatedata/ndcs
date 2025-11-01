@@ -4363,7 +4363,15 @@
       }
     ],
     "Translations": [],
-    "Addenda": []
+    "Addenda": [
+      {
+        "Title": "Technical Report Supporting Jamaica NDC 3.0",
+        "FileType": "Addendum",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/NDC_Report_Oct12.pdf",
+        "OriginalFilename": "NDC_Report_Oct12.pdf"
+      }
+    ]
   },
   {
     "Code": "JPN",
