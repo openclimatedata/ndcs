@@ -1299,7 +1299,7 @@
     "Party": "Brunei Darussalam",
     "Version": "",
     "Status": "Active",
-    "SubmissionDate": "2025-10-28",
+    "SubmissionDate": "2025-09-16",
     "Ndcs": [
       {
         "Title": "Brunei Darussalam NDC 3.0",
@@ -1485,6 +1485,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Cabo_Verde_INDC_.pdf",
         "OriginalFilename": "Cabo_Verde_INDC_.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "CPV",
+    "Party": "Cabo Verde",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-01",
+    "Ndcs": [
+      {
+        "Title": "Cabo Verde NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/NDC%203.0%20Cabo%20Verde.pdf",
+        "OriginalFilename": "NDC 3.0 Cabo Verde.pdf"
       }
     ],
     "Translations": [],
@@ -1922,6 +1940,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/China%27s%20First%20NDC%20Submission.pdf",
         "OriginalFilename": "China's First NDC Submission.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "CHN",
+    "Party": "China",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-03",
+    "Ndcs": [
+      {
+        "Title": "China\u2019s 2035 National Determined Contributions",
+        "FileType": "NDC",
+        "Language": "Chinese",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/2035%E5%B9%B4%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E8%87%AA%E4%B8%BB%E8%B4%A1%E7%8C%AE%E6%8A%A5%E5%91%8A.pdf",
+        "OriginalFilename": "2035\u5e74\u4e2d\u56fd\u56fd\u5bb6\u81ea\u4e3b\u8d21\u732e\u62a5\u544a.pdf"
       }
     ],
     "Translations": [],
