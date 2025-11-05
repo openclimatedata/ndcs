@@ -9100,6 +9100,24 @@
     "Addenda": []
   },
   {
+    "Code": "THA",
+    "Party": "Thailand",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-04",
+    "Ndcs": [
+      {
+        "Title": "Thailand\u200b NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/TH%20NDC%203.0.pdf",
+        "OriginalFilename": "TH NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "TLS",
     "Party": "Timor-Leste",
     "Version": "2",
