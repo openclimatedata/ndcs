@@ -560,6 +560,24 @@
     "Addenda": []
   },
   {
+    "Code": "AZE",
+    "Party": "Azerbaijan",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "Azerbaijan NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/NDC%203.0%20Report_Azerbaijan.pdf",
+        "OriginalFilename": "NDC 3.0 Report_Azerbaijan.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BHS",
     "Party": "Bahamas",
     "Version": "2",
@@ -590,6 +608,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Bahamas_COP-22%20UNFCCC.pdf",
         "OriginalFilename": "Bahamas_COP-22 UNFCCC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "BHS",
+    "Party": "Bahamas",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-07",
+    "Ndcs": [
+      {
+        "Title": "Bahamas NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/The%20Bahamas%20NDC%203.0.pdf",
+        "OriginalFilename": "The Bahamas NDC 3.0.pdf"
       }
     ],
     "Translations": [],
@@ -3162,6 +3198,24 @@
     "Addenda": []
   },
   {
+    "Code": "EUU",
+    "Party": "European Union (EU)",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The nationally determined contribution of the European Union and its Member States (EU NDC)",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "FJI",
     "Party": "Fiji",
     "Version": "2",
@@ -3192,6 +3246,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/FIJI_iNDC_Final_051115.pdf",
         "OriginalFilename": "FIJI_iNDC_Final_051115.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "FJI",
+    "Party": "Fiji",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-06",
+    "Ndcs": [
+      {
+        "Title": "Fiji NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Fiji%20NDC3.0_Final.pdf",
+        "OriginalFilename": "Fiji NDC3.0_Final.pdf"
       }
     ],
     "Translations": [],
@@ -3729,6 +3801,24 @@
         "OriginalFilename": "INDC_Guinea_english_version UNFCCC.pdf"
       }
     ],
+    "Addenda": []
+  },
+  {
+    "Code": "GIN",
+    "Party": "Guinea",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-06",
+    "Ndcs": [
+      {
+        "Title": "Guinea NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/CDN%203.0%20DE%20LA%20REPUBLIQUE%20DE%20GUINEE.pdf",
+        "OriginalFilename": "CDN 3.0 DE LA REPUBLIQUE DE GUINEE.pdf"
+      }
+    ],
+    "Translations": [],
     "Addenda": []
   },
   {
@@ -6077,6 +6167,32 @@
   {
     "Code": "MOZ",
     "Party": "Mozambique",
+    "Version": "3",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "Mozambique's Provisional NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Mozambique%20ProvNDC_ENG.pdf",
+        "OriginalFilename": "Mozambique ProvNDC_ENG.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "Submission Letter Mozambique",
+        "FileType": "Addendum",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Submission_Letter_Mozambique.pdf",
+        "OriginalFilename": "Submission_Letter_Mozambique.pdf"
+      }
+    ]
+  },
+  {
+    "Code": "MOZ",
+    "Party": "Mozambique",
     "Version": "2",
     "Status": "Active",
     "SubmissionDate": "2021-12-27",
@@ -7116,6 +7232,32 @@
     "Addenda": []
   },
   {
+    "Code": "PRY",
+    "Party": "Paraguay",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-06",
+    "Ndcs": [
+      {
+        "Title": "Paraguay NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Paraguay%20NDC%203.0.pdf",
+        "OriginalFilename": "Paraguay NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "Paraguay NDC Technical Annex",
+        "FileType": "Addendum",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Paraguay%20NDC%203.0%20%28Anexo%20t%C3%A9cnico%29.pdf",
+        "OriginalFilename": "Paraguay NDC 3.0 (Anexo t\u00e9cnico).pdf"
+      }
+    ]
+  },
+  {
     "Code": "PER",
     "Party": "Peru",
     "Version": "2",
@@ -7157,6 +7299,24 @@
         "OriginalFilename": "iNDC Per\u00fa english.pdf"
       }
     ],
+    "Addenda": []
+  },
+  {
+    "Code": "PER",
+    "Party": "Peru",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-06",
+    "Ndcs": [
+      {
+        "Title": "Peru\u2019s Updated Nationally Determined Contribution (NDC 3.0)",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Documento%20NDC%203.0_UNFCCC.pdf",
+        "OriginalFilename": "Documento NDC 3.0_UNFCCC.pdf"
+      }
+    ],
+    "Translations": [],
     "Addenda": []
   },
   {
@@ -9967,6 +10127,32 @@
       }
     ],
     "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "UZB",
+    "Party": "Uzbekistan",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-06",
+    "Ndcs": [
+      {
+        "Title": "Uzbekistan NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Russian",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Uzbekistan%20Third%20NDC%20rus.pdf",
+        "OriginalFilename": "Uzbekistan Third NDC rus.pdf"
+      }
+    ],
+    "Translations": [
+      {
+        "Title": "Uzbekistan NDC 3.0",
+        "FileType": "Translation",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Uzbekistan%20Third%20NDC.pdf",
+        "OriginalFilename": "Uzbekistan Third NDC.pdf"
+      }
+    ],
     "Addenda": []
   },
   {
