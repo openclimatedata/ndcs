@@ -524,6 +524,24 @@
     "Addenda": []
   },
   {
+    "Code": "AUT",
+    "Party": "Austria",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "AZE",
     "Party": "Azerbaijan",
     "Version": "2",
@@ -862,6 +880,24 @@
     "Addenda": []
   },
   {
+    "Code": "BLR",
+    "Party": "Belarus",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-10",
+    "Ndcs": [
+      {
+        "Title": "Republic of Belarus NDC for 2026-2035",
+        "FileType": "NDC",
+        "Language": "Russian",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Republic%20of%20Belarus%20NDC%20for%202026-2035.pdf",
+        "OriginalFilename": "Republic of Belarus NDC for 2026-2035.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BEL",
     "Party": "Belgium",
     "Version": "3",
@@ -910,6 +946,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "BEL",
+    "Party": "Belgium",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -1052,6 +1106,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Bhutan-INDC-20150930.pdf",
         "OriginalFilename": "Bhutan-INDC-20150930.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "BTN",
+    "Party": "Bhutan",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-10",
+    "Ndcs": [
+      {
+        "Title": "Bhutan's NDC 3.0 (Provisional)",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Third%20NDC%20%28Provisional%29_10%20November%202025.pdf",
+        "OriginalFilename": "Third NDC (Provisional)_10 November 2025.pdf"
       }
     ],
     "Translations": [],
@@ -1403,6 +1475,24 @@
     "Addenda": []
   },
   {
+    "Code": "BGR",
+    "Party": "Bulgaria",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BFA",
     "Party": "Burkina Faso",
     "Version": "2",
@@ -1488,6 +1578,24 @@
         "OriginalFilename": "Burundi_INDC-english version.pdf"
       }
     ],
+    "Addenda": []
+  },
+  {
+    "Code": "BDI",
+    "Party": "Burundi",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-10",
+    "Ndcs": [
+      {
+        "Title": "Burundi NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/CDN3.0%20%20BURUNDI.pdf",
+        "OriginalFilename": "CDN3.0  BURUNDI.pdf"
+      }
+    ],
+    "Translations": [],
     "Addenda": []
   },
   {
@@ -2298,6 +2406,24 @@
     "Addenda": []
   },
   {
+    "Code": "HRV",
+    "Party": "Croatia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "CUB",
     "Party": "Cuba",
     "Version": "2",
@@ -2421,6 +2547,24 @@
     "Addenda": []
   },
   {
+    "Code": "CYP",
+    "Party": "Cyprus",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "CZE",
     "Party": "Czechia",
     "Version": "3",
@@ -2469,6 +2613,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "CZE",
+    "Party": "Czechia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -2649,6 +2811,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "DNK",
+    "Party": "Denmark",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -3021,6 +3201,24 @@
     "Addenda": []
   },
   {
+    "Code": "EST",
+    "Party": "Estonia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "SWZ",
     "Party": "Eswatini",
     "Version": "2",
@@ -3324,6 +3522,24 @@
     "Addenda": []
   },
   {
+    "Code": "FIN",
+    "Party": "Finland",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "FRA",
     "Party": "France",
     "Version": "3",
@@ -3400,6 +3616,24 @@
         "OriginalFilename": "CDN France PTOM - 5 octobre 2016.pdf"
       }
     ]
+  },
+  {
+    "Code": "FRA",
+    "Party": "France",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
   },
   {
     "Code": "GAB",
@@ -3564,6 +3798,24 @@
     "Addenda": []
   },
   {
+    "Code": "DEU",
+    "Party": "Germany",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "GHA",
     "Party": "Ghana",
     "Version": "2",
@@ -3656,6 +3908,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "GRC",
+    "Party": "Greece",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -4072,6 +4342,24 @@
     "Addenda": []
   },
   {
+    "Code": "HUN",
+    "Party": "Hungary",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "ISL",
     "Party": "Iceland",
     "Version": "3",
@@ -4348,6 +4636,24 @@
     "Addenda": []
   },
   {
+    "Code": "IRL",
+    "Party": "Ireland",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "ISR",
     "Party": "Israel",
     "Version": "2",
@@ -4432,6 +4738,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "ITA",
+    "Party": "Italy",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -4998,6 +5322,24 @@
     "Addenda": []
   },
   {
+    "Code": "LVA",
+    "Party": "Latvia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "LBN",
     "Party": "Lebanon",
     "Version": "2",
@@ -5258,6 +5600,24 @@
     "Addenda": []
   },
   {
+    "Code": "LTU",
+    "Party": "Lithuania",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "LUX",
     "Party": "Luxembourg",
     "Version": "3",
@@ -5306,6 +5666,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "LUX",
+    "Party": "Luxembourg",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -5592,6 +5970,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "MLT",
+    "Party": "Malta",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -6471,6 +6867,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "NLD",
+    "Party": "Netherlands",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -7392,6 +7806,24 @@
     "Addenda": []
   },
   {
+    "Code": "POL",
+    "Party": "Poland",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "PRT",
     "Party": "Portugal",
     "Version": "3",
@@ -7440,6 +7872,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "PRT",
+    "Party": "Portugal",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -7668,6 +8118,24 @@
     "Addenda": []
   },
   {
+    "Code": "ROU",
+    "Party": "Romania",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "RUS",
     "Party": "Russian Federation",
     "Version": "2",
@@ -7758,6 +8226,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/INDC_Rwanda_Nov.2015.pdf",
         "OriginalFilename": "INDC_Rwanda_Nov.2015.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "RWA",
+    "Party": "Rwanda",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-09",
+    "Ndcs": [
+      {
+        "Title": "Rwanda Provisional NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Rwanda%20NDC3.0.pdf",
+        "OriginalFilename": "Rwanda NDC3.0.pdf"
       }
     ],
     "Translations": [],
@@ -8370,6 +8856,24 @@
     "Addenda": []
   },
   {
+    "Code": "SVK",
+    "Party": "Slovakia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "SVN",
     "Party": "Slovenia",
     "Version": "3",
@@ -8418,6 +8922,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "SVN",
+    "Party": "Slovenia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -8688,6 +9210,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "ESP",
+    "Party": "Spain",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -8992,6 +9532,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf",
         "OriginalFilename": "LV-03-06-EU INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "SWE",
+    "Party": "Sweden",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "The NDC of the European Union and its Member States",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
     "Translations": [],
@@ -9626,6 +10184,24 @@
     "Party": "T\u00fcrkiye",
     "Version": "N/A",
     "Status": "Active",
+    "SubmissionDate": "2025-11-09",
+    "Ndcs": [
+      {
+        "Title": "T\u00fcrkiye Second NDC (NDC 3.0)",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/The%20Second%20NDC%20of%20T%C3%BCrkiye.pdf",
+        "OriginalFilename": "The Second NDC of T\u00fcrkiye.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "TUR",
+    "Party": "T\u00fcrkiye",
+    "Version": "N/A",
+    "Status": "Active",
     "SubmissionDate": "2023-04-13",
     "Ndcs": [
       {
@@ -9753,6 +10329,32 @@
       }
     ],
     "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "UKR",
+    "Party": "Ukraine",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-11",
+    "Ndcs": [
+      {
+        "Title": "Ukraine Second NDC",
+        "FileType": "NDC",
+        "Language": "",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/2%20%D0%9D%D0%92%D0%922%20%D0%BF%D1%80%D0%BE%D1%94%D0%BA%D1%82%20%28%D0%B7%D0%BC%D1%96%D0%BD%D0%B5%D0%BD%D0%B0%20%D1%86%D1%96%D0%BB%D1%8C%20_%20%D0%B7%D0%B2%D1%96%D1%82%29%20.pdf",
+        "OriginalFilename": "2 \u041d\u0412\u04122 \u043f\u0440\u043e\u0454\u043a\u0442 (\u0437\u043c\u0456\u043d\u0435\u043d\u0430 \u0446\u0456\u043b\u044c _ \u0437\u0432\u0456\u0442) .pdf"
+      }
+    ],
+    "Translations": [
+      {
+        "Title": "Ukraine Second NDC",
+        "FileType": "Translation",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/2%20Ukraine%20NDC2_adj_v2.pdf",
+        "OriginalFilename": "2 Ukraine NDC2_adj_v2.pdf"
+      }
+    ],
     "Addenda": []
   },
   {
