@@ -2861,6 +2861,24 @@
     "Addenda": []
   },
   {
+    "Code": "DJI",
+    "Party": "Djibouti",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-12",
+    "Ndcs": [
+      {
+        "Title": "Djibouti Second NDC",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/CDN%20revisee_Djibouti_Novembre%202025.pdf",
+        "OriginalFilename": "CDN revisee_Djibouti_Novembre 2025.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "DMA",
     "Party": "Dominica",
     "Version": "2",
