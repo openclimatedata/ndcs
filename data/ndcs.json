@@ -4600,6 +4600,24 @@
     "Addenda": []
   },
   {
+    "Code": "IRQ",
+    "Party": "Iraq",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-13",
+    "Ndcs": [
+      {
+        "Title": "Iraq NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Arabic",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/%D9%88%D8%AB%D9%8A%D9%82%D8%A9%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%87%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AD%D8%AF%D8%AF%D8%A9%20%D9%88%D8%B7%D9%86%D9%8A%D8%A7%20-%202025.pdf",
+        "OriginalFilename": "\u0648\u062b\u064a\u0642\u0629 \u0627\u0644\u0645\u0633\u0627\u0647\u0645\u0627\u062a \u0627\u0644\u0645\u062d\u062f\u062f\u0629 \u0648\u0637\u0646\u064a\u0627 - 2025.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "IRL",
     "Party": "Ireland",
     "Version": "3",
