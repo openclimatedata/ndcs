@@ -2352,6 +2352,24 @@
     "Addenda": []
   },
   {
+    "Code": "CRI",
+    "Party": "Costa Rica",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-14",
+    "Ndcs": [
+      {
+        "Title": "Costa Rica NDC 2025 - 2035",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/CND-2025-2035.pdf",
+        "OriginalFilename": "CND-2025-2035.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "HRV",
     "Party": "Croatia",
     "Version": "3",
