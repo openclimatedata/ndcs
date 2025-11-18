@@ -6329,6 +6329,24 @@
     "Addenda": []
   },
   {
+    "Code": "MEX",
+    "Party": "Mexico",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-17",
+    "Ndcs": [
+      {
+        "Title": "Mexico NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/NDC%203.0%20Me%CC%81xico_spanish.pdf",
+        "OriginalFilename": "NDC 3.0 Me\u0301xico_spanish.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "FSM",
     "Party": "Micronesia (Federated States of)",
     "Version": "2",
@@ -9538,6 +9556,24 @@
     "Addenda": []
   },
   {
+    "Code": "SUR",
+    "Party": "Suriname",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-05",
+    "Ndcs": [
+      {
+        "Title": "Suriname NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/NDC%203%20report%20Suriname%20251104%20Final%20Publication%20Version.pdf",
+        "OriginalFilename": "NDC 3 report Suriname 251104 Final Publication Version.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "SWE",
     "Party": "Sweden",
     "Version": "3",
@@ -11002,6 +11038,24 @@
         "Language": "English",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/VIETNAM%27S%20INDC.pdf",
         "OriginalFilename": "VIETNAM'S INDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "YEM",
+    "Party": "Yemen",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-17",
+    "Ndcs": [
+      {
+        "Title": "Yemen NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Yemens%20NDC3.0%20Vision.pdf",
+        "OriginalFilename": "Yemens NDC3.0 Vision.pdf"
       }
     ],
     "Translations": [],
