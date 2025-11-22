@@ -8028,6 +8028,24 @@
     "Addenda": []
   },
   {
+    "Code": "QAT",
+    "Party": "Qatar",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-21",
+    "Ndcs": [
+      {
+        "Title": "Qatar NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Qatar%20NDC%203.0.pdf",
+        "OriginalFilename": "Qatar NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "KOR",
     "Party": "Republic of Korea",
     "Version": "3",
