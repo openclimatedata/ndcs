@@ -5058,6 +5058,32 @@
     "Addenda": []
   },
   {
+    "Code": "KAZ",
+    "Party": "Kazakhstan",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-11-26",
+    "Ndcs": [
+      {
+        "Title": "Kazakhstan NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Russian",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/NDC%20Kazakhstan%203.0%20russ.pdf",
+        "OriginalFilename": "NDC Kazakhstan 3.0 russ.pdf"
+      }
+    ],
+    "Translations": [
+      {
+        "Title": "Kazakhstan NDC 3.0",
+        "FileType": "Translation",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/NDC_Kazakhstan%203.0%20eng.pdf",
+        "OriginalFilename": "NDC_Kazakhstan 3.0 eng.pdf"
+      }
+    ],
+    "Addenda": []
+  },
+  {
     "Code": "KEN",
     "Party": "Kenya",
     "Version": "2",
