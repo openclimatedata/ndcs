@@ -7614,6 +7614,24 @@
     "Party": "Panama",
     "Version": "",
     "Status": "Active",
+    "SubmissionDate": "2025-11-27",
+    "Ndcs": [
+      {
+        "Title": "Panama NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Pacto%20de%20Panam%C3%A1%20con%20la%20Naturaleza%20%28Nature%20Pledge%29.pdf",
+        "OriginalFilename": "Pacto de Panam\u00e1 con la Naturaleza (Nature Pledge).pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "PAN",
+    "Party": "Panama",
+    "Version": "",
+    "Status": "Active",
     "SubmissionDate": "2025-09-30",
     "Ndcs": [
       {
