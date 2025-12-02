@@ -686,6 +686,24 @@
     "Addenda": []
   },
   {
+    "Code": "BHR",
+    "Party": "Bahrain",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-12-01",
+    "Ndcs": [
+      {
+        "Title": "Bahrain NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-12/30112025_Bahrain_2025NDC3.0_vSubmitted.pdf",
+        "OriginalFilename": "30112025_Bahrain_2025NDC3.0_vSubmitted.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BGD",
     "Party": "Bangladesh",
     "Version": "3",
