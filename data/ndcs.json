@@ -8388,6 +8388,24 @@
     "Party": "Rwanda",
     "Version": "",
     "Status": "Active",
+    "SubmissionDate": "2025-12-08",
+    "Ndcs": [
+      {
+        "Title": "Rwanda NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-12/Rwanda%20NDC3.0%20Final.pdf",
+        "OriginalFilename": "Rwanda NDC3.0 Final.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "RWA",
+    "Party": "Rwanda",
+    "Version": "",
+    "Status": "Archived",
     "SubmissionDate": "2025-11-09",
     "Ndcs": [
       {
