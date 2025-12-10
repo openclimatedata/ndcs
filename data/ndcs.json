@@ -8900,6 +8900,24 @@
     "Addenda": []
   },
   {
+    "Code": "SLE",
+    "Party": "Sierra Leone",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-12-09",
+    "Ndcs": [
+      {
+        "Title": "Sierra Leone NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-12/Sierra%20Leone%20NDC%203.0.pdf",
+        "OriginalFilename": "Sierra Leone NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "SGP",
     "Party": "Singapore",
     "Version": "4",
