@@ -2196,6 +2196,24 @@
     "Party": "Colombia",
     "Version": "",
     "Status": "Active",
+    "SubmissionDate": "2025-12-19",
+    "Ndcs": [
+      {
+        "Title": "Colombia NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-12/NDC%203.0%20Transformaciones%20para%20la%20Vida%20%28Colombia%29.pdf",
+        "OriginalFilename": "NDC 3.0 Transformaciones para la Vida (Colombia).pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "COL",
+    "Party": "Colombia",
+    "Version": "",
+    "Status": "Archived",
     "SubmissionDate": "2025-09-25",
     "Ndcs": [
       {
