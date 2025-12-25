@@ -3744,6 +3744,24 @@
     "Addenda": []
   },
   {
+    "Code": "GAB",
+    "Party": "Gabon",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-12-24",
+    "Ndcs": [
+      {
+        "Title": "Gabon NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-12/NDC3.0_Gabon_5_11_2025-final%20version.pdf",
+        "OriginalFilename": "NDC3.0_Gabon_5_11_2025-final version.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "GMB",
     "Party": "Gambia",
     "Version": "2",
