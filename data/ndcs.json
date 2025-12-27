@@ -3165,6 +3165,24 @@
     "Addenda": []
   },
   {
+    "Code": "SLV",
+    "Party": "El Salvador",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-12-24",
+    "Ndcs": [
+      {
+        "Title": "El Salvador NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-12/NDC%20EL%20SALVADOR%202025-%20VF.pdf",
+        "OriginalFilename": "NDC EL SALVADOR 2025- VF.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "GNQ",
     "Party": "Equatorial Guinea",
     "Version": "2",
