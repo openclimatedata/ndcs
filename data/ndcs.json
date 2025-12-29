@@ -8216,6 +8216,24 @@
     "Addenda": []
   },
   {
+    "Code": "KOR",
+    "Party": "Republic of Korea",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-12-26",
+    "Ndcs": [
+      {
+        "Title": "The Republic of Korea's 2035 NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-12/The%20Republic%20of%20Koreas%202035%20NDC.pdf",
+        "OriginalFilename": "The Republic of Koreas 2035 NDC.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "MDA",
     "Party": "Republic of Moldova",
     "Version": "3",
