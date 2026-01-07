@@ -3723,7 +3723,15 @@
       }
     ],
     "Translations": [],
-    "Addenda": []
+    "Addenda": [
+      {
+        "Title": "SOUMISSION PAR LA FRANCE DE LA COMPOSANTE PTOM DE SA CDN",
+        "FileType": "Addendum",
+        "Language": "",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/20250106-Composante-PTOM-CDN-FR_vF.pdf",
+        "OriginalFilename": "20250106-Composante-PTOM-CDN-FR_vF.pdf"
+      }
+    ]
   },
   {
     "Code": "GAB",
@@ -8786,6 +8794,24 @@
     "Addenda": []
   },
   {
+    "Code": "SAU",
+    "Party": "Saudi Arabia",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-12-31",
+    "Ndcs": [
+      {
+        "Title": "Saudi Arabia Second NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/2nd%20KSA%20NDC%20Document%20Final%20Document%20%2828122025%29_DNA.pdf",
+        "OriginalFilename": "2nd KSA NDC Document Final Document (28122025)_DNA.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "SEN",
     "Party": "Senegal",
     "Version": "1",
@@ -10106,7 +10132,7 @@
         "Title": "Thailand\u200b NDC 3.0",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/TH%20NDC%203.0.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/TH%20NDC%203.0.pdf",
         "OriginalFilename": "TH NDC 3.0.pdf"
       }
     ],
