@@ -1555,6 +1555,24 @@
     "Addenda": []
   },
   {
+    "Code": "BFA",
+    "Party": "Burkina Faso",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2025-12-31",
+    "Ndcs": [
+      {
+        "Title": "Burkina Faso NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/BKF-CDN%203.0_BURKINA%20FASO.pdf",
+        "OriginalFilename": "BKF-CDN 3.0_BURKINA FASO.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BDI",
     "Party": "Burundi",
     "Version": "2",
@@ -3725,7 +3743,7 @@
     "Translations": [],
     "Addenda": [
       {
-        "Title": "SOUMISSION PAR LA FRANCE DE LA COMPOSANTE PTOM DE SA CDN",
+        "Title": "Composante PTOM de la CDN Fran\u00e7aise",
         "FileType": "Addendum",
         "Language": "",
         "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/20250106-Composante-PTOM-CDN-FR_vF.pdf",
@@ -6941,6 +6959,24 @@
         "OriginalFilename": "Nauru_NDC letter.pdf"
       }
     ]
+  },
+  {
+    "Code": "NRU",
+    "Party": "Nauru",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2026-01-08",
+    "Ndcs": [
+      {
+        "Title": "Nauru NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/Nauru%20NDC%203.pdf",
+        "OriginalFilename": "Nauru NDC 3.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
   },
   {
     "Code": "NPL",
