@@ -4418,6 +4418,24 @@
     "Party": "Honduras",
     "Version": "",
     "Status": "Active",
+    "SubmissionDate": "2026-01-21",
+    "Ndcs": [
+      {
+        "Title": "Honduras NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/HON%20NDC%203.0%202026%20Oficial.pdf",
+        "OriginalFilename": "HON NDC 3.0 2026 Oficial.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "HND",
+    "Party": "Honduras",
+    "Version": "",
+    "Status": "Active",
     "SubmissionDate": "2025-09-22",
     "Ndcs": [
       {
