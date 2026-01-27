@@ -10390,6 +10390,32 @@
   {
     "Code": "TTO",
     "Party": "Trinidad and Tobago",
+    "Version": "2",
+    "Status": "Active",
+    "SubmissionDate": "2026-01-26",
+    "Ndcs": [
+      {
+        "Title": "Trinidad and Tobago Second NDC",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/Trinidad%20and%20Tobago%20Second%20NDC%20%20.pdf",
+        "OriginalFilename": "Trinidad and Tobago Second NDC  .pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "Letter of submission Trinidad and Tobago",
+        "FileType": "Addendum",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/Letter%20to%20the%20UNFCCC%20-%20Submission%20of%20T%26T%20Second%20NDC.pdf",
+        "OriginalFilename": "Letter to the UNFCCC - Submission of T&T Second NDC.pdf"
+      }
+    ]
+  },
+  {
+    "Code": "TTO",
+    "Party": "Trinidad and Tobago",
     "Version": "1",
     "Status": "Active",
     "SubmissionDate": "2018-02-22",
