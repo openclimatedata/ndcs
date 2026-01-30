@@ -7708,6 +7708,24 @@
     "Addenda": []
   },
   {
+    "Code": "PLW",
+    "Party": "Palau",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2026-01-29",
+    "Ndcs": [
+      {
+        "Title": "Palau NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/Palau%20Final%20Endorsed%20NDC%203.0.pdf",
+        "OriginalFilename": "Palau Final Endorsed NDC 3.0.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "PAN",
     "Party": "Panama",
     "Version": "3",
@@ -11001,7 +11019,7 @@
   },
   {
     "Code": "USA",
-    "Party": "United States of America",
+    "Party": "United States of America (*)",
     "Version": "2",
     "Status": "Active",
     "SubmissionDate": "2021-04-22",
@@ -11019,7 +11037,7 @@
   },
   {
     "Code": "USA",
-    "Party": "United States of America",
+    "Party": "United States of America (*)",
     "Version": "1",
     "Status": "Archived",
     "SubmissionDate": "2016-09-03",
@@ -11037,7 +11055,7 @@
   },
   {
     "Code": "USA",
-    "Party": "United States of America",
+    "Party": "United States of America (*)",
     "Version": "",
     "Status": "Active",
     "SubmissionDate": "2024-12-19",
@@ -11383,7 +11401,7 @@
   },
   {
     "Code": "YEM",
-    "Party": "Yemen",
+    "Party": "Yemen (*)",
     "Version": "",
     "Status": "Active",
     "SubmissionDate": "2025-11-17",
