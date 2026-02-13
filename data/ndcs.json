@@ -2344,6 +2344,32 @@
     "Addenda": []
   },
   {
+    "Code": "COG",
+    "Party": "Congo",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2026-02-12",
+    "Ndcs": [
+      {
+        "Title": "Congo NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-02/CDN%203.0%20de%20la%20R%C3%A9publique%20du%20Congo%20version%20finale.pdf",
+        "OriginalFilename": "CDN 3.0 de la R\u00e9publique du Congo version finale.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": [
+      {
+        "Title": "Submission letter",
+        "FileType": "Addendum",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-02/M.%20Simon%20Stiell%20_Secre%CC%81taire%20Exe%CC%81cutif%20de%20la%20Convention%20Cadre%20des%20Nations%20Unies%20sur%20le%20Changement%20Climatique%20_Ts%20de%20la%20CDN%203.0%20en%20Re%CC%81publique%20du%20Congo.pdf",
+        "OriginalFilename": "M. Simon Stiell _Secre\u0301taire Exe\u0301cutif de la Convention Cadre des Nations Unies sur le Changement Climatique _Ts de la CDN 3.0 en Re\u0301publique du Congo.pdf"
+      }
+    ]
+  },
+  {
     "Code": "COK",
     "Party": "Cook Islands",
     "Version": "1",
@@ -11484,6 +11510,24 @@
     "Party": "Zambia",
     "Version": "",
     "Status": "Active",
+    "SubmissionDate": "2025-12-15",
+    "Ndcs": [
+      {
+        "Title": "Zambia NDC 3.0",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-02/1Final%20Submission%20of%20Zambia%20NDC%203.0%20.pdf",
+        "OriginalFilename": "1Final Submission of Zambia NDC 3.0 .pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "ZMB",
+    "Party": "Zambia",
+    "Version": "",
+    "Status": "Archived",
     "SubmissionDate": "2025-10-28",
     "Ndcs": [
       {
