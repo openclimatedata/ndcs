@@ -1957,6 +1957,24 @@
     "Addenda": []
   },
   {
+    "Code": "CAF",
+    "Party": "Central African Republic",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2026-03-09",
+    "Ndcs": [
+      {
+        "Title": "Central African Republic NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-03/CDN%203.0%20CAR%202025.pdf",
+        "OriginalFilename": "CDN 3.0 CAR 2025.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "TCD",
     "Party": "Chad",
     "Version": "2",
