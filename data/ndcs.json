@@ -2318,6 +2318,24 @@
     "Addenda": []
   },
   {
+    "Code": "COM",
+    "Party": "Comoros",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2026-03-30",
+    "Ndcs": [
+      {
+        "Title": "Comoros NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-03/CDN3.0%20Comores..pdf",
+        "OriginalFilename": "CDN3.0 Comores..pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "COG",
     "Party": "Congo",
     "Version": "2",
