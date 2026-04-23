@@ -1923,7 +1923,7 @@
         "Title": "Central African Republic First NDC (Updated submission)",
         "FileType": "NDC",
         "Language": "French",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/CDN%20Revis%C3%A9e%20RCA.pdf",
+        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/CDN%20Revis%C3%A9e%20RCA.pdf",
         "OriginalFilename": "CDN Revis\u00e9e RCA.pdf"
       }
     ],
@@ -10615,6 +10615,24 @@
     "SubmissionDate": "2025-09-22",
     "Ndcs": [
       {
+        "Title": "Tunisian NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-04/Document%20CDN3.0%20-version%20Finale.pdf",
+        "OriginalFilename": "Document CDN3.0 -version Finale.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
+    "Code": "TUN",
+    "Party": "Tunisia",
+    "Version": "",
+    "Status": "Archived",
+    "SubmissionDate": "2025-09-22",
+    "Ndcs": [
+      {
         "Title": "Preliminary draft element of the new Tunisian NDC 3.0",
         "FileType": "NDC",
         "Language": "English",
@@ -11428,7 +11446,7 @@
         "Title": "Venezuela (Bolivarian Republic of) Second NDC",
         "FileType": "NDC",
         "Language": "Spanish",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Segunda%20Contribuci%C3%B3n%20Determinada%20Nacional%20CDN%202025-2030.pdf",
+        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-10/Segunda%20Contribuci%C3%B3n%20Determinada%20Nacional%20CDN%202025-2030.pdf",
         "OriginalFilename": "Segunda Contribuci\u00f3n Determinada Nacional CDN 2025-2030.pdf"
       }
     ],
@@ -11438,7 +11456,7 @@
         "Title": "NOTA VERBAL",
         "FileType": "Addendum",
         "Language": "Spanish",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Nota%20Verbal%20N%C2%B0%20136%20-%20Entrega%20de%20la%20contribuci%C3%B3n%20nacionalmente%20determinada%20de%20Venezuela%20%282025%E2%80%932030%29.pdf",
+        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-10/Nota%20Verbal%20N%C2%B0%20136%20-%20Entrega%20de%20la%20contribuci%C3%B3n%20nacionalmente%20determinada%20de%20Venezuela%20%282025%E2%80%932030%29.pdf",
         "OriginalFilename": "Nota Verbal N\u00b0 136 - Entrega de la contribuci\u00f3n nacionalmente determinada de Venezuela (2025\u20132030).pdf"
       }
     ]
@@ -11454,7 +11472,7 @@
         "Title": "Viet Nam NDC 2022 Update",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-11/Viet%20Nam%20NDC%202022%20Update.pdf",
+        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-11/Viet%20Nam%20NDC%202022%20Update.pdf",
         "OriginalFilename": "Viet Nam NDC 2022 Update.pdf"
       }
     ],
