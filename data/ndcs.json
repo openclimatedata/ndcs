@@ -4744,6 +4744,24 @@
     "Addenda": []
   },
   {
+    "Code": "IND",
+    "Party": "India",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2026-04-24",
+    "Ndcs": [
+      {
+        "Title": "India NDC (2031 - 2035)",
+        "FileType": "NDC",
+        "Language": "English",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-04/INDIA%20NDC%202031-35.pdf",
+        "OriginalFilename": "INDIA NDC 2031-35.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "IDN",
     "Party": "Indonesia",
     "Version": "3",
