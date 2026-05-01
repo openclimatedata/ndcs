@@ -34,13 +34,13 @@ AUT,Austria,The NDC of the European Union and its Member States,NDC,English,,Act
 AUT,Austria,EU First NDC (Archived),NDC,English,1,Archived,2016-10-05,https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf,LV-03-06-EU INDC.pdf
 AUT,Austria,EU First NDC (Updated submission),NDC,English,2,Archived,2020-12-18,https://unfccc.int/sites/default/files/NDC/2022-06/EU_NDC_Submission_December%202020.pdf,EU_NDC_Submission_December 2020.pdf
 AUT,Austria,EU NDC 2023 update,NDC,English,3,Active,2023-10-19,https://unfccc.int/sites/default/files/NDC/2023-10/ES-2023-10-17%20EU%20submission%20NDC%20update.pdf,ES-2023-10-17 EU submission NDC update.pdf
-AZE,Azerbaijan,Azerbaijan NDC 3.0,NDC,English,,Active,2025-11-05,https://unfccc.int/sites/default/files/2025-11/NDC%203.0%20Report_Azerbaijan.pdf,NDC 3.0 Report_Azerbaijan.pdf
+AZE,Azerbaijan,Azerbaijan NDC 3.0,NDC,English,,Active,2025-11-05,https://www.unfccc.int/sites/default/files/2025-11/NDC%203.0%20Report_Azerbaijan.pdf,NDC 3.0 Report_Azerbaijan.pdf
 AZE,Azerbaijan,Azerbaijan First NDC,NDC,English,1,Archived,2017-01-09,https://unfccc.int/sites/default/files/NDC/2022-06/INDC%20Azerbaijan.pdf,INDC Azerbaijan.pdf
 AZE,Azerbaijan,Updated Nationally Determined Contribution of the Republic of Azerbaijan,NDC,English,2,Active,2023-10-10,https://unfccc.int/sites/default/files/NDC/2023-10/Second%20NDC_Azerbaijan_ENG_Final%20%281%29.pdf,Second NDC_Azerbaijan_ENG_Final (1).pdf
 BHS,Bahamas,Bahamas NDC 3.0,NDC,English,,Active,2025-11-07,https://unfccc.int/sites/default/files/2025-11/The%20Bahamas%20NDC%203.0.pdf,The Bahamas NDC 3.0.pdf
 BHS,Bahamas,Bahamas First NDC,NDC,English,1,Archived,2016-10-31,https://unfccc.int/sites/default/files/NDC/2022-06/Bahamas_COP-22%20UNFCCC.pdf,Bahamas_COP-22 UNFCCC.pdf
 BHS,Bahamas,"Bahamas Updated Nationally Determined Contributions, 2022",NDC,English,2,Active,2022-11-07,https://unfccc.int/sites/default/files/NDC/2022-11/Bahamas%20Updated%20Nationally%20Determined%20Contributio,Bahamas Updated Nationally Determined Contributio
-BHR,Bahrain,Bahrain NDC 3.0,NDC,English,,Active,2025-12-01,https://unfccc.int/sites/default/files/2025-12/30112025_Bahrain_2025NDC3.0_vSubmitted.pdf,30112025_Bahrain_2025NDC3.0_vSubmitted.pdf
+BHR,Bahrain,Bahrain NDC 3.0,NDC,English,,Active,2025-12-01,https://www.unfccc.int/sites/default/files/2025-12/30112025_Bahrain_2025NDC3.0_vSubmitted.pdf,30112025_Bahrain_2025NDC3.0_vSubmitted.pdf
 BHR,Bahrain,Bahrain First NDC (Archived),NDC,English,1,Archived,2016-12-30,https://unfccc.int/sites/default/files/NDC/2022-06/INDC_Kingdom_of_Bahrain.pdf,INDC_Kingdom_of_Bahrain.pdf
 BHR,Bahrain,Bahrain First NDC (Updated submission),NDC,English,2,Active,2021-10-18,https://unfccc.int/sites/default/files/NDC/2022-06/NDC%20of%20the%20Kingdom%20of%20Bahrain%20under%20UNFCCC.pdf,NDC of the Kingdom of Bahrain under UNFCCC.pdf
 BGD,Bangladesh,Forwarding,Addendum,English,2,Archived,,https://unfccc.int/sites/default/files/NDC/2022-06/Forwarding.pdf,Forwarding.pdf
@@ -100,7 +100,7 @@ BFA,Burkina Faso,Burkina Faso First NDC (Updated submission),NDC,French,2,Active
 BFA,Burkina Faso,Burkina Faso First NDC (Archived),Translation,English,1,Archived,2016-11-11,https://unfccc.int/sites/default/files/NDC/2022-06/INDC%20Burkina_ENG.%20version_finale.pdf,INDC Burkina_ENG. version_finale.pdf
 BDI,Burundi,Burundi NDC 3.0,NDC,French,,Active,2025-11-10,https://unfccc.int/sites/default/files/2025-11/CDN3.0%20%20BURUNDI.pdf,CDN3.0  BURUNDI.pdf
 BDI,Burundi,Burundi First NDC (Archived),NDC,French,1,Archived,2018-01-17,https://unfccc.int/sites/default/files/NDC/2022-06/CPDN%20BURUNDI.pdf,CPDN BURUNDI.pdf
-BDI,Burundi,Burundi First NDC (Updated submission),NDC,French,2,Active,2021-10-05,https://unfccc.int/sites/default/files/NDC/2022-06/CDN%20%20%20Burundi%20ANNEXE%201.pdf,CDN   Burundi ANNEXE 1.pdf
+BDI,Burundi,Burundi First NDC (Updated submission),NDC,French,2,Active,2021-10-05,https://www.unfccc.int/sites/default/files/NDC/2022-06/CDN%20%20%20Burundi%20ANNEXE%201.pdf,CDN   Burundi ANNEXE 1.pdf
 BDI,Burundi,Burundi First NDC (Archived),Translation,English,1,Archived,2018-01-17,https://unfccc.int/sites/default/files/NDC/2022-06/Burundi_INDC-english%20version.pdf,Burundi_INDC-english version.pdf
 CPV,Cabo Verde,Cabo Verde NDC 3.0,NDC,English,,Active,2025-11-01,https://unfccc.int/sites/default/files/2025-11/NDC%203.0%20Cabo%20Verde.pdf,NDC 3.0 Cabo Verde.pdf
 CPV,Cabo Verde,Cabo Verde First NDC(Archived),NDC,English,1,Archived,2017-09-21,https://unfccc.int/sites/default/files/NDC/2022-06/Cabo_Verde_INDC_.pdf,Cabo_Verde_INDC_.pdf
@@ -156,7 +156,7 @@ COG,Congo,Submission letter,Addendum,French,2,Active,,https://unfccc.int/sites/d
 COG,Congo,Congo NDC 3.0,NDC,French,,Active,2026-02-12,https://unfccc.int/sites/default/files/2026-02/CDN%203.0%20de%20la%20R%C3%A9publique%20du%20Congo%20version%20finale.pdf,CDN 3.0 de la République du Congo version finale.pdf
 COG,Congo,Congo First NDC (Archived),NDC,French,1,Archived,2017-04-21,https://unfccc.int/sites/default/files/NDC/2022-06/NDC_Congo_RAPPORT.pdf,NDC_Congo_RAPPORT.pdf
 COG,Congo,Congo First NDC (Updated submission),NDC,French,2,Active,2021-08-02,https://unfccc.int/sites/default/files/NDC/2022-06/CDN_Congo.pdf,CDN_Congo.pdf
-COK,Cook Islands,Cook Islands First NDC,NDC,English,1,Active,2016-09-01,https://unfccc.int/sites/default/files/NDC/2022-06/Cook%20Islands%20INDCsFINAL7Nov.pdf,Cook Islands INDCsFINAL7Nov.pdf
+COK,Cook Islands,Cook Islands First NDC,NDC,English,1,Active,2016-09-01,https://www.unfccc.int/sites/default/files/NDC/2022-06/Cook%20Islands%20INDCsFINAL7Nov.pdf,Cook Islands INDCsFINAL7Nov.pdf
 CRI,Costa Rica,Costa Rica NDC 2025 - 2035,NDC,Spanish,,Active,2025-11-14,https://unfccc.int/sites/default/files/2025-11/CND-2025-2035.pdf,CND-2025-2035.pdf
 CRI,Costa Rica,Costa Rica First NDC (Archived),NDC,Spanish,1,Archived,2016-10-13,https://unfccc.int/sites/default/files/NDC/2022-06/INDC%20Costa%20Rica%20Version%202%200%20final%20ES.pdf,INDC Costa Rica Version 2 0 final ES.pdf
 CRI,Costa Rica,Costa Rica First NDC (Updated submission),NDC,Spanish,2,Archived,2020-12-11,https://unfccc.int/sites/default/files/NDC/2022-06/NDC%20Costa%20Rica%202020%20-%20Contribuci%C3%B3n%20Nacionalmente%20Determinada%20de%20Costa%20Rica%202020%20-%20Metas%20titulares.pdf,NDC Costa Rica 2020 - Contribución Nacionalmente Determinada de Costa Rica 2020 - Metas titulares.pdf
@@ -291,7 +291,7 @@ HUN,Hungary,EU First NDC (Updated submission),NDC,English,2,Archived,2020-12-18,
 HUN,Hungary,EU NDC 2023 update,NDC,English,3,Active,2023-10-19,https://unfccc.int/sites/default/files/NDC/2023-10/ES-2023-10-17%20EU%20submission%20NDC%20update.pdf,ES-2023-10-17 EU submission NDC update.pdf
 ISL,Iceland,Iceland‘s NDC 2035,NDC,English,,Active,2025-09-30,https://unfccc.int/sites/default/files/2025-09/Iceland%27s%202035%20NDC.pdf,Iceland's 2035 NDC.pdf
 ISL,Iceland,Iceland First NDC (Archived),NDC,English,1,Archived,2016-09-21,https://unfccc.int/sites/default/files/NDC/2022-06/INDC-ICELAND.pdf,INDC-ICELAND.pdf
-ISL,Iceland,Iceland First NDC (Updated submission),NDC,English,2,Active,2021-02-18,https://unfccc.int/sites/default/files/NDC/2022-06/Iceland_updated_NDC_Submission_Feb_2021.pdf,Iceland_updated_NDC_Submission_Feb_2021.pdf
+ISL,Iceland,Iceland First NDC (Updated submission),NDC,English,2,Active,2021-02-18,https://www.unfccc.int/sites/default/files/NDC/2022-06/Iceland_updated_NDC_Submission_Feb_2021.pdf,Iceland_updated_NDC_Submission_Feb_2021.pdf
 ISL,Iceland,Iceland‘s NDC 2030 – Revision,NDC,English,3,Active,2025-09-25,https://unfccc.int/sites/default/files/2025-09/Icelands%20NDC%202030%20-%20Revision_1.1.pdf,Icelands NDC 2030 - Revision_1.1.pdf
 IND,India,Cover letter from Minister of Environment Forest,Addendum,English,2,Active,,https://unfccc.int/sites/default/files/NDC/2022-08/Cover%20letter%20from%20Minister%20of%20Environment%20Forest.pdf,Cover letter from Minister of Environment Forest.pdf
 IND,India,India NDC (2031 - 2035),NDC,English,,Active,2026-04-24,https://unfccc.int/sites/default/files/2026-04/INDIA%20NDC%202031-35.pdf,INDIA NDC 2031-35.pdf
@@ -375,7 +375,7 @@ LUX,Luxembourg,EU First NDC (Archived),NDC,English,1,Archived,2016-11-04,https:/
 LUX,Luxembourg,EU First NDC (Updated submission),NDC,English,2,Archived,2020-12-18,https://unfccc.int/sites/default/files/NDC/2022-06/EU_NDC_Submission_December%202020_0.pdf,EU_NDC_Submission_December 2020_0.pdf
 LUX,Luxembourg,EU NDC 2023 update,NDC,English,3,Active,2023-10-19,https://unfccc.int/sites/default/files/NDC/2023-10/ES-2023-10-17%20EU%20submission%20NDC%20update.pdf,ES-2023-10-17 EU submission NDC update.pdf
 MDG,Madagascar,Madagascar First NDC,NDC,French,1,Archived,2016-09-21,https://unfccc.int/sites/default/files/NDC/2022-06/Madagascar%20INDC.pdf,Madagascar INDC.pdf
-MDG,Madagascar,NDC 2 Madagascar,NDC,French,N/A,Active,2024-01-29,https://unfccc.int/sites/default/files/NDC/2024-01/NDC%202%20MADAGASCAR.pdf,NDC 2 MADAGASCAR.pdf
+MDG,Madagascar,NDC 2 Madagascar,NDC,French,N/A,Active,2024-01-29,https://www.unfccc.int/sites/default/files/NDC/2024-01/NDC%202%20MADAGASCAR.pdf,NDC 2 MADAGASCAR.pdf
 MDG,Madagascar,Madagascar First NDC,Translation,English,1,Archived,2016-09-21,https://unfccc.int/sites/default/files/NDC/2022-06/Madagascar%20INDC%20Eng.pdf,Madagascar INDC Eng.pdf
 MWI,Malawi,Malawi NDC Policy Brief,Addendum,English,2,Active,,https://unfccc.int/sites/default/files/NDC/2022-06/Malawi%20NDC_Policy%20Brief_30%20June%202021.pdf,Malawi NDC_Policy Brief_30 June 2021.pdf
 MWI,Malawi,Malawi First NDC (Archived),NDC,English,1,Archived,2017-06-29,https://unfccc.int/sites/default/files/NDC/2022-06/MALAWI%20INDC%20SUBMITTED%20TO%20UNFCCC%20REV.pdf,MALAWI INDC SUBMITTED TO UNFCCC REV.pdf
@@ -399,7 +399,7 @@ MHL,Marshall Islands,Marshall Islands Third NDC,NDC,English,,Active,2025-02-10,h
 MHL,Marshall Islands,Marshall Islands First NDC (Archived),NDC,English,1,Archived,2016-04-22,https://unfccc.int/sites/default/files/NDC/2022-06/150721%20RMI%20INDC%20JULY%202015%20FINAL%20SUBMITTED.pdf,150721 RMI INDC JULY 2015 FINAL SUBMITTED.pdf
 MHL,Marshall Islands,Marshall Islands Second NDC (Archived),NDC,English,2,Archived,2018-11-22,https://unfccc.int/sites/default/files/NDC/2022-06/20181122%20Marshall%20Islands%20NDC%20to%20UNFCCC%2022%20November%202018%20FINAL.pdf,20181122 Marshall Islands NDC to UNFCCC 22 November 2018 FINAL.pdf
 MHL,Marshall Islands,Marshall Islands Second NDC (Updated submission),NDC,English,3,Active,2020-12-31,https://unfccc.int/sites/default/files/NDC/2022-06/RMI%20NDC-UpdateUPDATED_01.20.2021.pdf,RMI NDC-UpdateUPDATED_01.20.2021.pdf
-MRT,Mauritania,Mauritania NDC 3.0,NDC,French,,Active,2025-10-28,https://unfccc.int/sites/default/files/2025-10/CDN3.0_Mauritanie_Signed.pdf,CDN3.0_Mauritanie_Signed.pdf
+MRT,Mauritania,Mauritania NDC 3.0,NDC,French,,Active,2025-10-28,https://www.unfccc.int/sites/default/files/2025-10/CDN3.0_Mauritanie_Signed.pdf,CDN3.0_Mauritanie_Signed.pdf
 MRT,Mauritania,Mauritania First NDC (Archived),NDC,French,1,Archived,2017-02-27,https://unfccc.int/sites/default/files/NDC/2022-06/INDC%20MAURITANIA.pdf,INDC MAURITANIA.pdf
 MRT,Mauritania,Mauritania First NDC (Updated submission),NDC,French,2,Active,2021-10-12,https://unfccc.int/sites/default/files/NDC/2022-06/CDN-actualis%C3%A9%202021_%20Mauritania.pdf,CDN-actualisé 2021_ Mauritania.pdf
 MUS,Mauritius,Mauritius Cover Letter,Addendum,,,Active,,https://unfccc.int/sites/default/files/2025-09/cover%20letter%20NDC%203.0%20Mauritius.pdf,cover letter NDC 3.0 Mauritius.pdf
@@ -438,7 +438,7 @@ MMR,Myanmar,Myanmar First NDC (Archived),NDC,English,1,Archived,2017-09-19,https
 MMR,Myanmar,Myanmar First NDC (Updated submission),NDC,English,2,Active,2021-08-03,https://unfccc.int/sites/default/files/NDC/2022-06/Myanmar%20Updated%20%20NDC%20July%202021.pdf,Myanmar Updated  NDC July 2021.pdf
 NAM,Namibia,Namibia First NDC (Archived),NDC,English,1,Archived,2016-09-21,https://unfccc.int/sites/default/files/NDC/2022-06/INDC%20of%20Namibia%20Final%20pdf.pdf,INDC of Namibia Final pdf.pdf
 NAM,Namibia,Namibia First NDC (Updated submission),NDC,English,2,Archived,2021-07-30,https://unfccc.int/sites/default/files/NDC/2022-06/Namibia%27s%20Updated%20NDC_%20FINAL%2025%20July%202021.pdf,Namibia's Updated NDC_ FINAL 25 July 2021.pdf
-NAM,Namibia,NDC UPDATE,NDC,English,3,Active,2024-01-17,https://unfccc.int/sites/default/files/NDC/2024-01/FINAL%20UPDATED%20NAMIBIA%20NDC%202023.pdf,FINAL UPDATED NAMIBIA NDC 2023.pdf
+NAM,Namibia,NDC UPDATE,NDC,English,3,Active,2024-01-17,https://www.unfccc.int/sites/default/files/NDC/2024-01/FINAL%20UPDATED%20NAMIBIA%20NDC%202023.pdf,FINAL UPDATED NAMIBIA NDC 2023.pdf
 NRU,Nauru,Nauru_NDC letter (Archived),Addendum,English,1,Archived,,https://unfccc.int/sites/default/files/NDC/2022-06/Nauru_NDC%20letter.pdf,Nauru_NDC letter.pdf
 NRU,Nauru,Nauru NDC 3.0,NDC,English,,Active,2026-01-08,https://unfccc.int/sites/default/files/2026-01/Nauru%20NDC%203.pdf,Nauru NDC 3.pdf
 NRU,Nauru,Nauru First NDC (Archived),NDC,English,1,Archived,2016-04-07,https://unfccc.int/sites/default/files/NDC/2022-06/Nauru_NDC.pdf,Nauru_NDC.pdf
@@ -449,7 +449,7 @@ NPL,Nepal,Nationally Determined Contribution (NDC) 3.0,NDC,English,3,Active,2025
 NLD,Netherlands,The NDC of the European Union and its Member States,NDC,English,,Active,2025-11-05,https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf,DK-2025-11-05 EU NDC.pdf
 NLD,Netherlands,EU First NDC (Archived),NDC,English,1,Archived,2017-07-28,https://unfccc.int/sites/default/files/LV-03-06-EU%20INDC.pdf,LV-03-06-EU INDC.pdf
 NLD,Netherlands,EU First NDC (Updated submission),NDC,English,2,Archived,2020-12-18,https://unfccc.int/sites/default/files/NDC/2022-06/EU_NDC_Submission_December%202020_0.pdf,EU_NDC_Submission_December 2020_0.pdf
-NLD,Netherlands,EU NDC 2023 update,NDC,English,3,Active,2023-10-19,https://unfccc.int/sites/default/files/NDC/2023-10/ES-2023-10-17%20EU%20submission%20NDC%20update.pdf,ES-2023-10-17 EU submission NDC update.pdf
+NLD,Netherlands,EU NDC 2023 update,NDC,English,3,Active,2023-10-19,https://www.unfccc.int/sites/default/files/NDC/2023-10/ES-2023-10-17%20EU%20submission%20NDC%20update.pdf,ES-2023-10-17 EU submission NDC update.pdf
 NZL,New Zealand,NEW ZEALAND NDC update 22 04 2020,Addendum,English,1,Archived,,https://unfccc.int/sites/default/files/NDC/2022-06/NEW%20ZEALAND%20NDC%20update%2022%2004%202020.pdf,NEW ZEALAND NDC update 22 04 2020.pdf
 NZL,New Zealand,New Zealand’s second Nationally Determined Contribution,NDC,English,,Active,2025-01-31,https://unfccc.int/sites/default/files/2025-01/New%20Zealand%27s%20second%20Nationally%20Determined%20Contribution.pdf,New Zealand's second Nationally Determined Contribution.pdf
 NZL,New Zealand,New Zealand First NDC,NDC,English,1,Archived,2016-10-05,https://unfccc.int/sites/default/files/NDC/2022-06/New%20Zealand%20first%20NDC%20%28Archived%29.pdf,New Zealand first NDC (Archived).pdf
@@ -476,7 +476,7 @@ MKD,North Macedonia,The Republic of North Macedonia First NDC (Updated submissio
 NOR,Norway,Norway NDC 2035,NDC,English,,Active,2025-06-26,https://unfccc.int/sites/default/files/2025-06/Norways%20NDC%20for%202035..pdf,Norways NDC for 2035..pdf
 NOR,Norway,Norway First NDC (Archived),NDC,English,1,Archived,2016-06-20,https://unfccc.int/sites/default/files/NorwayINDC.pdf,NorwayINDC.pdf
 NOR,Norway,Norway First NDC (Updated submission),NDC,English,2,Archived,2020-02-07,https://unfccc.int/sites/default/files/NDC/2022-06/Norway_updatedNDC_2020%20%28Updated%20submission%29.pdf,Norway_updatedNDC_2020 (Updated submission).pdf
-NOR,Norway,Norway First NDC (Second updated submission),NDC,English,3,Active,2022-11-03,https://unfccc.int/sites/default/files/NDC/2022-11/NDC%20Norway_second%20update.pdf,NDC Norway_second update.pdf
+NOR,Norway,Norway First NDC (Second updated submission),NDC,English,3,Active,2022-11-03,https://www.unfccc.int/sites/default/files/NDC/2022-11/NDC%20Norway_second%20update.pdf,NDC Norway_second update.pdf
 OMN,Oman,Oman First NDC (Archived),NDC,Arabic,1,Archived,2019-05-22,https://unfccc.int/sites/default/files/NDC/2022-06/OMAN%20INDCs.pdf,OMAN INDCs.pdf
 OMN,Oman,Oman Second NDC,NDC,English,2,Archived,2021-07-29,https://unfccc.int/sites/default/files/NDC/2022-06/Second%20NDC%20Report%20Oman.pdf,Second NDC Report Oman.pdf
 OMN,Oman,Oman 1st Update of the 2nd NDC,NDC,English,3,Active,2023-11-29,https://unfccc.int/sites/default/files/NDC/2023-11/Oman%201st%20Update%20of%20the%202nd%20NDC%20-%20Optimized%20Size%20%281%29.pdf,Oman 1st Update of the 2nd NDC - Optimized Size (1).pdf
@@ -488,7 +488,7 @@ PLW,Palau,Palau NDC 3.0,NDC,English,,Active,2026-01-29,https://unfccc.int/sites/
 PLW,Palau,Palau First NDC,NDC,English,1,Active,2016-04-22,https://unfccc.int/sites/default/files/NDC/2022-06/Palau_INDC.Final%20Copy.pdf,Palau_INDC.Final Copy.pdf
 PAN,Panama,Panama NDC Cover Letter,Addendum,Spanish,1,Archived,,https://unfccc.int/sites/default/files/NDC/2022-06/Panama%20NDC%20Cover%20Letter.pdf,Panama NDC Cover Letter.pdf
 PAN,Panama,Panama NDC 3.0,NDC,Spanish,,Active,2025-11-27,https://unfccc.int/sites/default/files/2025-11/Pacto%20de%20Panam%C3%A1%20con%20la%20Naturaleza%20%28Nature%20Pledge%29.pdf,Pacto de Panamá con la Naturaleza (Nature Pledge).pdf
-PAN,Panama,Declarative NDC 3.0 of Panama,NDC,Spanish,,Active,2025-09-30,https://unfccc.int/sites/default/files/2025-10/Declaratoria%20-%20CDN%203.0%20Panam%C3%A1.pdf,Declaratoria - CDN 3.0 Panamá.pdf
+PAN,Panama,Declarative NDC 3.0 of Panama,NDC,Spanish,,Active,2025-09-30,https://www.unfccc.int/sites/default/files/2025-10/Declaratoria%20-%20CDN%203.0%20Panam%C3%A1.pdf,Declaratoria - CDN 3.0 Panamá.pdf
 PAN,Panama,Panama First NDC (Archived),NDC,Spanish,1,Archived,2016-04-18,https://unfccc.int/sites/default/files/NDC/2022-06/PANAMA%20NDC.pdf,PANAMA NDC.pdf
 PAN,Panama,Panama First NDC (Updated submission),NDC,Spanish,2,Archived,2020-12-28,https://unfccc.int/sites/default/files/NDC/2022-06/CDN1%20Actualizada%20Rep%C3%BAblica%20de%20Panam%C3%A1.pdf,CDN1 Actualizada República de Panamá.pdf
 PAN,Panama,Panama Second NDC,NDC,Spanish,3,Active,2024-06-13,https://unfccc.int/sites/default/files/NDC/2024-06/Segunda%20Contribuci%C3%B3n%20Determinada%20a%20Nivel%20Nacional_CDN2.pdf,Segunda Contribución Determinada a Nivel Nacional_CDN2.pdf
@@ -709,7 +709,7 @@ UZB,Uzbekistan,Uzbekistan First NDC (Archived),NDC,English,1,Archived,2018-11-09
 UZB,Uzbekistan,Uzbekistan First NDC (Updated submission),NDC,Russian,2,Active,2021-10-30,https://unfccc.int/sites/default/files/NDC/2022-06/Uzbekistan_Updated%20NDC_2021_RU.pdf,Uzbekistan_Updated NDC_2021_RU.pdf
 UZB,Uzbekistan,Uzbekistan NDC 3.0,Translation,English,,Active,2025-11-06,https://unfccc.int/sites/default/files/2025-11/Uzbekistan%20Third%20NDC.pdf,Uzbekistan Third NDC.pdf
 UZB,Uzbekistan,Uzbekistan First NDC (Updated submission),Translation,English,2,Active,2021-10-30,https://unfccc.int/sites/default/files/NDC/2022-06/Uzbekistan_Updated%20NDC_2021_EN.pdf,Uzbekistan_Updated NDC_2021_EN.pdf
-VUT,Vanuatu,Vanuatu NDC 3.0,NDC,English,,Active,2025-09-24,https://unfccc.int/sites/default/files/2025-09/Vanuatu%20NDC%203.0.pdf,Vanuatu NDC 3.0.pdf
+VUT,Vanuatu,Vanuatu NDC 3.0,NDC,English,,Active,2025-09-24,https://www.unfccc.int/sites/default/files/2025-09/Vanuatu%20NDC%203.0.pdf,Vanuatu NDC 3.0.pdf
 VUT,Vanuatu,Vanuatu First NDC (Archived),NDC,English,1,Archived,2016-09-21,https://unfccc.int/sites/default/files/NDC/2022-06/VANUATU%20%20INDC%20UNFCCC%20Submission.pdf,VANUATU  INDC UNFCCC Submission.pdf
 VUT,Vanuatu,Vanuatu First NDC (Updated Submission),NDC,English,2,Archived,2021-03-22,https://unfccc.int/sites/default/files/NDC/2022-06/Vanuatu%E2%80%99s%20First%20Nationally%20Determined%20Contribution%20%28NDC%29%20%28Updated%20Submission%202020%29.pdf,Vanuatu’s First Nationally Determined Contribution (NDC) (Updated Submission 2020).pdf
 VUT,Vanuatu,Vanuatu NDC Revised and Enhanced,NDC,English,3,Active,2022-08-09,https://unfccc.int/sites/default/files/NDC/2022-08/Vanuatu%20NDC%20Revised%20and%20Enhanced.pdf,Vanuatu NDC Revised and Enhanced.pdf
