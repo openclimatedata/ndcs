@@ -1104,6 +1104,24 @@
     "Addenda": []
   },
   {
+    "Code": "BEN",
+    "Party": "Benin",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2026-06-01",
+    "Ndcs": [
+      {
+        "Title": "Benin NDC 3.0",
+        "FileType": "NDC",
+        "Language": "French",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-06/CDN%203.0%20de%20la%20R%C3%A9publique%20du%20B%C3%A9nin_2026%203.pdf",
+        "OriginalFilename": "CDN 3.0 de la R\u00e9publique du B\u00e9nin_2026 3.pdf"
+      }
+    ],
+    "Translations": [],
+    "Addenda": []
+  },
+  {
     "Code": "BTN",
     "Party": "Bhutan",
     "Version": "2",
@@ -8724,7 +8742,7 @@
         "Title": "Saint Kitts and Nevis First NDC (Updated submission)",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/St.%20Kitts%20and%20Nevis%20Revised%20NDC_Updated.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/St.%20Kitts%20and%20Nevis%20Revised%20NDC_Updated.pdf",
         "OriginalFilename": "St. Kitts and Nevis Revised NDC_Updated.pdf"
       }
     ],
@@ -9456,7 +9474,7 @@
         "Title": "The NDC of the European Union and its Member States",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
         "OriginalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
