@@ -2124,7 +2124,7 @@
         "Title": "China First NDC (Updated submission)",
         "FileType": "NDC",
         "Language": "Chinese",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/%E4%B8%AD%E5%9B%BD%E8%90%BD%E5%AE%9E%E5%9B%BD%E5%AE%B6%E8%87%AA%E4%B8%BB%E8%B4%A1%E7%8C%AE%E6%88%90%E6%95%88%E5%92%8C%E6%96%B0%E7%9B%AE%E6%A0%87%E6%96%B0%E4%B8%BE%E6%8E%AA.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/%E4%B8%AD%E5%9B%BD%E8%90%BD%E5%AE%9E%E5%9B%BD%E5%AE%B6%E8%87%AA%E4%B8%BB%E8%B4%A1%E7%8C%AE%E6%88%90%E6%95%88%E5%92%8C%E6%96%B0%E7%9B%AE%E6%A0%87%E6%96%B0%E4%B8%BE%E6%8E%AA.pdf",
         "OriginalFilename": "\u4e2d\u56fd\u843d\u5b9e\u56fd\u5bb6\u81ea\u4e3b\u8d21\u732e\u6210\u6548\u548c\u65b0\u76ee\u6807\u65b0\u4e3e\u63aa.pdf"
       }
     ],
@@ -2133,7 +2133,7 @@
         "Title": "China First NDC (Updated submission)",
         "FileType": "Translation",
         "Language": "English",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/China%E2%80%99s%20Achievements%2C%20New%20Goals%20and%20New%20Measures%20for%20Nationally%20Determined%20Contributions.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/China%E2%80%99s%20Achievements%2C%20New%20Goals%20and%20New%20Measures%20for%20Nationally%20Determined%20Contributions.pdf",
         "OriginalFilename": "China\u2019s Achievements, New Goals and New Measures for Nationally Determined Contributions.pdf"
       }
     ],
@@ -2142,21 +2142,21 @@
         "Title": "China First NDC (Updated submission letter)",
         "FileType": "Addendum",
         "Language": "Chinese",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/cover%20letter.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/cover%20letter.pdf",
         "OriginalFilename": "cover letter.pdf"
       },
       {
         "Title": "Progress on the Implementation of China NDC 2022-Chinese",
         "FileType": "Addendum",
         "Language": "Chinese",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-11/%E4%B8%AD%E5%9B%BD%E8%90%BD%E5%AE%9E%E5%9B%BD%E5%AE%B6%E8%87%AA%E4%B8%BB%E8%B4%A1%E7%8C%AE%E8%BF%9B%E5%B1%95%E6%8A%A5%E5%91%8A%202022.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-11/%E4%B8%AD%E5%9B%BD%E8%90%BD%E5%AE%9E%E5%9B%BD%E5%AE%B6%E8%87%AA%E4%B8%BB%E8%B4%A1%E7%8C%AE%E8%BF%9B%E5%B1%95%E6%8A%A5%E5%91%8A%202022.pdf",
         "OriginalFilename": "\u4e2d\u56fd\u843d\u5b9e\u56fd\u5bb6\u81ea\u4e3b\u8d21\u732e\u8fdb\u5c55\u62a5\u544a 2022.pdf"
       },
       {
         "Title": "Progress on the Implementation of China NDC 2022",
         "FileType": "Addendum",
         "Language": "English",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-11/Progress%20of%20China%20NDC%202022.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-11/Progress%20of%20China%20NDC%202022.pdf",
         "OriginalFilename": "Progress of China NDC 2022.pdf"
       }
     ]
@@ -3059,7 +3059,7 @@
         "Title": "The Commonwealth of Dominica Updated National Determined Contribution",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/2022-07/The%20Commonwealth%20of%20Dominica%20updated%20NDC%20July%204%20%2C.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2022-07/The%20Commonwealth%20of%20Dominica%20updated%20NDC%20July%204%20%2C.pdf",
         "OriginalFilename": "The Commonwealth of Dominica updated NDC July 4 ,.pdf"
       }
     ],
@@ -3126,6 +3126,24 @@
         "OriginalFilename": "INDC-DR August 2015 (unofficial translation).pdf"
       }
     ],
+    "Addenda": []
+  },
+  {
+    "Code": "DOM",
+    "Party": "Dominican Republic",
+    "Version": "",
+    "Status": "Active",
+    "SubmissionDate": "2026-06-09",
+    "Ndcs": [
+      {
+        "Title": "Dominican Republic NDC 3.0",
+        "FileType": "NDC",
+        "Language": "Spanish",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-06/NDC_3.0_Versio%CC%81n%20Final_1303_conAnexos_REV_2.pdf",
+        "OriginalFilename": "NDC_3.0_Versio\u0301n Final_1303_conAnexos_REV_2.pdf"
+      }
+    ],
+    "Translations": [],
     "Addenda": []
   },
   {
@@ -5406,7 +5424,7 @@
         "Title": "Kenya's Second Nationally Determined Contribution 2031 - 2035",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-05/KENYAS%20SECOND%20NATIONALLY%20DETERMINED%20CONTRIBUTION%202031_2035.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-05/KENYAS%20SECOND%20NATIONALLY%20DETERMINED%20CONTRIBUTION%202031_2035.pdf",
         "OriginalFilename": "KENYAS SECOND NATIONALLY DETERMINED CONTRIBUTION 2031_2035.pdf"
       }
     ],
@@ -6811,7 +6829,7 @@
         "Title": "Mongolia NDC 3.0",
         "FileType": "NDC",
         "Language": "English",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-09/Mongolia%20NDC3_0%20under%20UNFCCC_PA%20FINAL.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-09/Mongolia%20NDC3_0%20under%20UNFCCC_PA%20FINAL.pdf",
         "OriginalFilename": "Mongolia NDC3_0 under UNFCCC_PA FINAL.pdf"
       }
     ],
@@ -10234,7 +10252,7 @@
         "Title": "Syrian Arab Republic First NDC",
         "FileType": "NDC",
         "Language": "Arabic",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/First%20NDC_Syrian%20Arab%20Republic.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/First%20NDC_Syrian%20Arab%20Republic.pdf",
         "OriginalFilename": "First NDC_Syrian Arab Republic.pdf"
       }
     ],
@@ -10243,7 +10261,7 @@
         "Title": "Syrian Arab Republic First NDC",
         "FileType": "Translation",
         "Language": "English",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/FirstNDC-Eng-Syrian%20Arab%20Republic.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/FirstNDC-Eng-Syrian%20Arab%20Republic.pdf",
         "OriginalFilename": "FirstNDC-Eng-Syrian Arab Republic.pdf"
       }
     ],
