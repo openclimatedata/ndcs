@@ -1114,8 +1114,8 @@
         "Title": "Benin NDC 3.0",
         "FileType": "NDC",
         "Language": "French",
-        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-06/CDN%203.0%20de%20la%20R%C3%A9publique%20du%20B%C3%A9nin_2026%203.pdf",
-        "OriginalFilename": "CDN 3.0 de la R\u00e9publique du B\u00e9nin_2026 3.pdf"
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2026-06/CDN%203.0_BENIN.pdf",
+        "OriginalFilename": "CDN 3.0_BENIN.pdf"
       }
     ],
     "Translations": [],
@@ -2274,7 +2274,7 @@
         "Title": "Colombia NDC 3.0",
         "FileType": "NDC",
         "Language": "Spanish",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-12/NDC%203.0%20Transformaciones%20para%20la%20Vida%20%28Colombia%29.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-12/NDC%203.0%20Transformaciones%20para%20la%20Vida%20%28Colombia%29.pdf",
         "OriginalFilename": "NDC 3.0 Transformaciones para la Vida (Colombia).pdf"
       }
     ],
@@ -11314,7 +11314,7 @@
         "Title": "Uruguay Third NDC",
         "FileType": "NDC",
         "Language": "Spanish",
-        "EncodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-01/20241220_Uruguay_NDC3.pdf",
+        "EncodedAbsUrl": "https://unfccc.int/sites/default/files/2025-01/20241220_Uruguay_NDC3.pdf",
         "OriginalFilename": "20241220_Uruguay_NDC3.pdf"
       }
     ],
