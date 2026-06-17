@@ -8,52 +8,52 @@
       "schema": {
         "fields": [
           {
-            "name": "Code",
+            "name": "code",
             "type": "string",
             "description": "ISO3 code of Party, EUU for European Union"
           },
           {
-            "name": "Party",
+            "name": "party",
             "type": "string",
             "description": "Name of Party"
           },
           {
-            "name": "Title",
+            "name": "title",
             "type": "string",
             "description": "Document title"
           },
           {
-            "name": "FileType",
+            "name": "fileType",
             "type": "string",
             "description": "Kind of document"
           },
           {
-            "name": "Language",
+            "name": "language",
             "type": "string",
             "description": "Document language"
           },
           {
-            "name": "Version",
+            "name": "version",
             "type": "string",
             "description": "Version of submission"
           },
           {
-            "name": "Status",
+            "name": "status",
             "type": "string",
             "description": "Active or archived"
           },
           {
-            "name": "SubmissionDate",
+            "name": "submissionDate",
             "type": "date",
             "description": "Date of submission"
           },
           {
-            "name": "EncodedAbsUrl",
+            "name": "encodedAbsUrl",
             "type": "string",
             "description": "URL of original document"
           },
           {
-            "name": "OriginalFilename",
+            "name": "originalFilename",
             "type": "string",
             "description": "Full name of original document"
           }
