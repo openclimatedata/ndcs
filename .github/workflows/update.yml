@@ -1,29 +1,38 @@
 name: Daily Update
 on:
   schedule:
-    - cron:  '0 5 * * *'
+    - cron: "0 5 * * *"
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+
+      - name: "Set up Python"
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: "3.14"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+        with:
+          version: "0.11.21"
+          enable-cache: true
+
       - name: Install requirements
         run: |
-          python -m pip install --upgrade pip
-          pip install wheel
-          pip install -r scripts/requirements.txt
-          playwright install firefox
-          pip install csv-diff
+          uv playwright install firefox
+          uv pip install csv-diff
+
       - name: Copy old version
         run: cp data/ndcs.csv data/ndcs-old.csv
+
       - name: Update data
-        run: python scripts/process.py
+        run: uv run scripts/process.py
+
       - name: Diff files
-        run: csv-diff data/ndcs-old.csv data/ndcs.csv --key=EncodedAbsUrl >> message.txt
+        run: uv run csv-diff data/ndcs-old.csv data/ndcs.csv --key=encodedAbsUrl >> message.txt
+
       - name: Commit back
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -36,4 +45,3 @@ jobs:
           git commit -F message.txt && \
             git push https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git main && \
             git log -n 1 || true
-
