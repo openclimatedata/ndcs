@@ -5,6 +5,9 @@ on:
     - cron: "0 5 * * *"
 jobs:
   update:
+    env:
+      UV_SYSTEM_PYTHON: 1
+    
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
