@@ -1,3 +1,11 @@
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#     "countrynames>=1.17.0",
+#     "pandas>=3.0.3",
+#     "playwright>=1.60.0",
+# ]
+# ///
 import json
 from datetime import datetime
 from pathlib import Path

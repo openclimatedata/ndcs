@@ -1,14 +1,8 @@
-all: venv
+all:
 	git pull
-	./venv/bin/python scripts/process.py
+	uv run playwright install firefox
+	uv run scripts/process.py
 	@git diff data
-
-venv: scripts/requirements.txt
-	[ -d ./venv ] || python3 -m venv venv
-	./venv/bin/pip install --upgrade pip
-	./venv/bin/pip install -Ur scripts/requirements.txt
-	./venv/bin/playwright install chromium
-	touch venv
 
 download: data/ndcs.csv venv
 	./venv/bin/python scripts/download.py
