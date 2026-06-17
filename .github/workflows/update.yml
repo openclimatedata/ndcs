@@ -22,7 +22,9 @@ jobs:
 
       - name: Install requirements
         run: |
+          uv pip install playwright
           uv run playwright install firefox
+          uv pip install csv-diff
           
       - name: Copy old version
         run: cp data/ndcs.csv data/ndcs-old.csv
@@ -31,7 +33,7 @@ jobs:
         run: uv run scripts/process.py
 
       - name: Diff files
-        run: uvx --from csv-diff csv-diff data/ndcs-old.csv data/ndcs.csv --key=encodedAbsUrl >> message.txt
+        run: uv run csv-diff data/ndcs-old.csv data/ndcs.csv --key=encodedAbsUrl >> message.txt
 
       - name: Commit back
         env:
