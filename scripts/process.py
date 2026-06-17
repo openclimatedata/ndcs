@@ -90,14 +90,14 @@ with sync_playwright() as p:
             ).strftime("%Y-%m-%d")
             print(idx, party, version, status, submission_date)
             nested_entry = {
-                "Code": code,
-                "Party": party,
-                "Version": version,
-                "Status": status,
-                "SubmissionDate": submission_date,
-                "Ndcs": [],
-                "Translations": [],
-                "Addenda": [],
+                "code": code,
+                "party": party,
+                "version": version,
+                "status": status,
+                "submissionDate": submission_date,
+                "ndcs": [],
+                "translations": [],
+                "addenda": [],
             }
 
             ndc_links = tds.nth(1).locator(
@@ -111,25 +111,25 @@ with sync_playwright() as p:
 
                 entries.append(
                     {
-                        "Code": code,
-                        "Party": party,
-                        "Title": title,
-                        "FileType": "NDC",
-                        "Language": lang,
-                        "Version": version,
-                        "Status": status,
-                        "SubmissionDate": submission_date,
-                        "EncodedAbsUrl": ndc_url,
-                        "OriginalFilename": unquote(ndc_url.rsplit("/", 1)[1]),
+                        "code": code,
+                        "party": party,
+                        "title": title,
+                        "fileType": "NDC",
+                        "language": lang,
+                        "version": version,
+                        "status": status,
+                        "submissionDate": submission_date,
+                        "encodedAbsUrl": ndc_url,
+                        "originalFilename": unquote(ndc_url.rsplit("/", 1)[1]),
                     }
                 )
-                nested_entry["Ndcs"].append(
+                nested_entry["ndcs"].append(
                     {
-                        "Title": title,
-                        "FileType": "NDC",
-                        "Language": lang,
-                        "EncodedAbsUrl": ndc_url,
-                        "OriginalFilename": unquote(ndc_url.rsplit("/", 1)[1]),
+                        "title": title,
+                        "fileType": "NDC",
+                        "language": lang,
+                        "encodedAbsUrl": ndc_url,
+                        "originalFilename": unquote(ndc_url.rsplit("/", 1)[1]),
                     }
                 )
 
@@ -145,26 +145,26 @@ with sync_playwright() as p:
 
                 entries.append(
                     {
-                        "Code": code,
-                        "Party": party,
-                        "Title": title,
-                        "FileType": "Translation",
-                        "Language": lang,
-                        "Version": version,
-                        "Status": status,
-                        "SubmissionDate": submission_date,
-                        "EncodedAbsUrl": translationUrl,
-                        "OriginalFilename": unquote(translationUrl.rsplit("/", 1)[1]),
+                        "code": code,
+                        "party": party,
+                        "title": title,
+                        "fileType": "Translation",
+                        "language": lang,
+                        "version": version,
+                        "status": status,
+                        "submissionDate": submission_date,
+                        "encodedAbsUrl": translationUrl,
+                        "originalFilename": unquote(translationUrl.rsplit("/", 1)[1]),
                     }
                 )
 
-                nested_entry["Translations"].append(
+                nested_entry["translations"].append(
                     {
-                        "Title": title,
-                        "FileType": "Translation",
-                        "Language": lang,
-                        "EncodedAbsUrl": translationUrl,
-                        "OriginalFilename": unquote(translationUrl.rsplit("/", 1)[1]),
+                        "title": title,
+                        "fileType": "Translation",
+                        "language": lang,
+                        "encodedAbsUrl": translationUrl,
+                        "originalFilename": unquote(translationUrl.rsplit("/", 1)[1]),
                     }
                 )
 
@@ -185,27 +185,27 @@ with sync_playwright() as p:
 
                 entries.append(
                     {
-                        "Code": code,
-                        "Party": party,
-                        "Title": title,
-                        "FileType": "Addendum",
-                        "Language": lang,
-                        "Version": version,
-                        "Status": status,
-                        "EncodedAbsUrl": additional_document_url,
-                        "OriginalFilename": unquote(
+                        "code": code,
+                        "party": party,
+                        "title": title,
+                        "fileType": "Addendum",
+                        "language": lang,
+                        "version": version,
+                        "status": status,
+                        "encodedAbsUrl": additional_document_url,
+                        "originalFilename": unquote(
                             additional_document_url.rsplit("/", 1)[1]
                         ),
                     }
                 )
 
-                nested_entry["Addenda"].append(
+                nested_entry["addenda"].append(
                     {
-                        "Title": title,
-                        "FileType": "Addendum",
-                        "Language": lang,
-                        "EncodedAbsUrl": additional_document_url,
-                        "OriginalFilename": unquote(
+                        "title": title,
+                        "fileType": "Addendum",
+                        "language": lang,
+                        "encodedAbsUrl": additional_document_url,
+                        "originalFilename": unquote(
                             additional_document_url.rsplit("/", 1)[1]
                         ),
                     }
@@ -216,12 +216,12 @@ with sync_playwright() as p:
     browser.close()
 
 data = pd.DataFrame.from_dict(entries)
-data = data.set_index("Code")
-data = data.sort_values(["Party", "FileType", "Version"])
+data = data.set_index("code")
+data = data.sort_values(["party", "fileType", "version"])
 print("NDCs from {} Parties processed.".format(len(data.index.unique())))
 print(
     "Status Active: {}".format(
-        len(data[data.Status == "Active"].index.drop_duplicates())
+        len(data[data.status == "Active"].index.drop_duplicates())
     )
 )
 data.to_csv(str(data_dir / "ndcs.csv"))
@@ -231,8 +231,8 @@ with open(data_dir / "ndcs.json", "w") as f:
     f.write(
         json.dumps(
             sorted(
-                sorted(nested_entries, key=lambda x: x["Version"], reverse=True),
-                key=lambda y: y["Party"],
+                sorted(nested_entries, key=lambda x: x["version"], reverse=True),
+                key=lambda y: y["party"],
             ),
             indent=2,
         )
