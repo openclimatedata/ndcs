@@ -80,6 +80,24 @@
     "addenda": []
   },
   {
+    "code": "DZA",
+    "party": "Algeria",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-06-24",
+    "ndcs": [
+      {
+        "title": "Algeria NDC 3.0",
+        "fileType": "NDC",
+        "language": "French",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-06/CDN%20Algeria.pdf",
+        "originalFilename": "CDN Algeria.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "AND",
     "party": "Andorra",
     "version": "3",
