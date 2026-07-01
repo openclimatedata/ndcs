@@ -6188,6 +6188,24 @@
     "addenda": []
   },
   {
+    "code": "MWI",
+    "party": "Malawi",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-07-01",
+    "ndcs": [
+      {
+        "title": "Malawi NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-07/NDC3.0%20Malawi_17June2026_Final%20Version.pdf",
+        "originalFilename": "NDC3.0 Malawi_17June2026_Final Version.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "MYS",
     "party": "Malaysia",
     "version": "2",
