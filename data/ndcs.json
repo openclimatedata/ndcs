@@ -4468,6 +4468,24 @@
     "addenda": []
   },
   {
+    "code": "GUY",
+    "party": "Guyana",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-07-01",
+    "ndcs": [
+      {
+        "title": "Guyana NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-07/Guyanas%20NDC%202025-2035.pdf",
+        "originalFilename": "Guyanas NDC 2025-2035.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "HTI",
     "party": "Haiti",
     "version": "2",
