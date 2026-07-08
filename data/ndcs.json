@@ -4453,7 +4453,7 @@
     "code": "GUY",
     "party": "Guyana",
     "version": "1",
-    "status": "Active",
+    "status": "Archived",
     "submissionDate": "2016-05-20",
     "ndcs": [
       {
@@ -4478,8 +4478,8 @@
         "title": "Guyana NDC 3.0",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-07/Guyanas%20NDC%202025-2035.pdf",
-        "originalFilename": "Guyanas NDC 2025-2035.pdf"
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-07/Guyanas%20NDC%202025-2035%20V2.pdf",
+        "originalFilename": "Guyanas NDC 2025-2035 V2.pdf"
       }
     ],
     "translations": [],
@@ -7185,8 +7185,8 @@
     "addenda": []
   },
   {
-    "code": "NRU",
-    "party": "Nauru",
+    "code": null,
+    "party": "Naoero",
     "version": "2",
     "status": "Active",
     "submissionDate": "2021-10-14",
@@ -7203,8 +7203,8 @@
     "addenda": []
   },
   {
-    "code": "NRU",
-    "party": "Nauru",
+    "code": null,
+    "party": "Naoero",
     "version": "1",
     "status": "Archived",
     "submissionDate": "2016-04-07",
@@ -7229,8 +7229,8 @@
     ]
   },
   {
-    "code": "NRU",
-    "party": "Nauru",
+    "code": null,
+    "party": "Naoero",
     "version": "",
     "status": "Active",
     "submissionDate": "2026-01-08",
