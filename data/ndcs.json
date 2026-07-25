@@ -11281,7 +11281,7 @@
     "code": "USA",
     "party": "United States of America (*)",
     "version": "2",
-    "status": "Active",
+    "status": "Archived",
     "submissionDate": "2021-04-22",
     "ndcs": [
       {
@@ -11317,7 +11317,7 @@
     "code": "USA",
     "party": "United States of America (*)",
     "version": "",
-    "status": "Active",
+    "status": "Archived",
     "submissionDate": "2024-12-19",
     "ndcs": [
       {
@@ -11663,7 +11663,7 @@
     "code": "YEM",
     "party": "Yemen (*)",
     "version": "",
-    "status": "Active",
+    "status": "Archived",
     "submissionDate": "2025-11-17",
     "ndcs": [
       {
