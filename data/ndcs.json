@@ -7842,6 +7842,24 @@
     "addenda": []
   },
   {
+    "code": "OMN",
+    "party": "Oman",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-07-30",
+    "ndcs": [
+      {
+        "title": "Oman NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-07/The%20Sultanate%20of%20Omans%20Third%20Nationally%20Determined%20Contributions%20%20%28NDC%203.0%29.pdf",
+        "originalFilename": "The Sultanate of Omans Third Nationally Determined Contributions  (NDC 3.0).pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "PAK",
     "party": "Pakistan",
     "version": "3",
