@@ -89,7 +89,12 @@ with sync_playwright() as p:
         for idx in range(rows.count()):
             tds = rows.nth(idx).locator("td")
             party = tds.nth(0).inner_text().strip()
-            code = "EUU" if party == "European Union (EU)" else to_code_3(party)
+            if party == "European Union (EU)":
+                code = "EUU"
+            elif party == "Naoero":
+                code = "NRU"
+            else:
+                code = to_code_3(party)
             version = tds.nth(4).nth(0).inner_text()
             status = tds.nth(5).inner_text()
             submission_date = datetime.strptime(
