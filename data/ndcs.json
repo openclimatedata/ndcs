@@ -3211,7 +3211,7 @@
         "title": "Ecuador Second NDC",
         "fileType": "NDC",
         "language": "Spanish",
-        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-02/Segunda%20NDC%20de%20Ecuador.pdf",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-02/Segunda%20NDC%20de%20Ecuador.pdf",
         "originalFilename": "Segunda NDC de Ecuador.pdf"
       }
     ],
@@ -3932,7 +3932,7 @@
         "title": "Seconde Contribution D\u00e9termin\u00e9e au Niveau National (R\u00e9publique Gabonaise)",
         "fileType": "NDC",
         "language": "French",
-        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-07/20220706_Gabon_Updated%20NDC.pdf",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-07/20220706_Gabon_Updated%20NDC.pdf",
         "originalFilename": "20220706_Gabon_Updated NDC.pdf"
       }
     ],
@@ -5948,7 +5948,7 @@
         "title": "Liechtenstein First NDC",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/150422_INDC_FL.pdf",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/150422_INDC_FL.pdf",
         "originalFilename": "150422_INDC_FL.pdf"
       }
     ],
@@ -5984,7 +5984,7 @@
         "title": "EU NDC 2023 update",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2023-10/ES-2023-10-17%20EU%20submission%20NDC%20update.pdf",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2023-10/ES-2023-10-17%20EU%20submission%20NDC%20update.pdf",
         "originalFilename": "ES-2023-10-17 EU submission NDC update.pdf"
       }
     ],
@@ -7192,7 +7192,7 @@
     "submissionDate": "2021-10-14",
     "ndcs": [
       {
-        "title": "Nauru First NDC (Updated submission)",
+        "title": "Naoero First NDC (Updated submission)",
         "fileType": "NDC",
         "language": "English",
         "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Nauru%20Updated%20NDC%20pdf.pdf",
@@ -7210,7 +7210,7 @@
     "submissionDate": "2016-04-07",
     "ndcs": [
       {
-        "title": "Nauru First NDC (Archived)",
+        "title": "Naoero First NDC (Archived)",
         "fileType": "NDC",
         "language": "English",
         "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Nauru_NDC.pdf",
@@ -7220,7 +7220,7 @@
     "translations": [],
     "addenda": [
       {
-        "title": "Nauru_NDC letter (Archived)",
+        "title": "Naoero_NDC letter (Archived)",
         "fileType": "Addendum",
         "language": "English",
         "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Nauru_NDC%20letter.pdf",
@@ -7236,7 +7236,7 @@
     "submissionDate": "2026-01-08",
     "ndcs": [
       {
-        "title": "Nauru NDC 3.0",
+        "title": "Naoero NDC 3.0",
         "fileType": "NDC",
         "language": "English",
         "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/Nauru%20NDC%203.pdf",
@@ -8484,7 +8484,7 @@
         "title": "Qatar NDC 3.0",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-11/Qatar%20NDC%203.0.pdf",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Qatar%20NDC%203.0.pdf",
         "originalFilename": "Qatar NDC 3.0.pdf"
       }
     ],
@@ -11474,7 +11474,7 @@
         "title": "Vanuatu NDC Revised and Enhanced",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-08/Vanuatu%20NDC%20Revised%20and%20Enhanced.pdf",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-08/Vanuatu%20NDC%20Revised%20and%20Enhanced.pdf",
         "originalFilename": "Vanuatu NDC Revised and Enhanced.pdf"
       }
     ],
