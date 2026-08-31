@@ -9086,6 +9086,24 @@
     "party": "Sao Tome and Principe",
     "version": "",
     "status": "Active",
+    "submissionDate": "2026-08-31",
+    "ndcs": [
+      {
+        "title": "Sao Tome and Principe Updated NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-08/NDC3_0_Updated_%20Sao%20Tome%20and%20Principe.pdf",
+        "originalFilename": "NDC3_0_Updated_ Sao Tome and Principe.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
+    "code": "STP",
+    "party": "Sao Tome and Principe",
+    "version": "",
+    "status": "Archived",
     "submissionDate": "2025-09-30",
     "ndcs": [
       {
@@ -10028,6 +10046,24 @@
         "originalFilename": "State of Palestine_Council of Ministers Decision-NDC_Approval.pdf"
       }
     ]
+  },
+  {
+    "code": "PSE",
+    "party": "State of Palestine",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-08-31",
+    "ndcs": [
+      {
+        "title": "State of Palestine NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-08/State%20of%20Palestine%20NDC%203.pdf",
+        "originalFilename": "State of Palestine NDC 3.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
   },
   {
     "code": "SDN",
