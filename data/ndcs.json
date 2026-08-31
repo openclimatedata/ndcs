@@ -4012,6 +4012,24 @@
     "addenda": []
   },
   {
+    "code": "GMB",
+    "party": "Gambia",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-08-31",
+    "ndcs": [
+      {
+        "title": "Gambia NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-08/The%20Gambia%20NDC%203.0%20-30%20AUG%202026.pdf",
+        "originalFilename": "The Gambia NDC 3.0 -30 AUG 2026.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "GEO",
     "party": "Georgia",
     "version": "2",
