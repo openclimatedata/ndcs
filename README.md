@@ -7,8 +7,9 @@ secreteriat's
 ## Data
 
 NDCs are available in the [NDC registry](https://unfccc.int/NDCREG).
-A [CSV file](data/ndcs.csv) is created with title, kind of document, URL of the
-original document etc.
+A [CSV file](data/ndcs.csv) and a [JSON version](data/ndcs.json) are created with
+title, kind of document, URL of the original document etc.
+
 ## Preparation
 
 Run
