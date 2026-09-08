@@ -8306,6 +8306,32 @@
     "addenda": []
   },
   {
+    "code": "PHL",
+    "party": "Philippines",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-09-08",
+    "ndcs": [
+      {
+        "title": "Philippines NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-09/1.%20PH%20Nationally%20Determined%20Contribution%202026.0715.pdf",
+        "originalFilename": "1. PH Nationally Determined Contribution 2026.0715.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": [
+      {
+        "title": "Philippines 2026 NDC ICTU",
+        "fileType": "Addendum",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-09/2.%20ICTU.0715.pdf",
+        "originalFilename": "2. ICTU.0715.pdf"
+      }
+    ]
+  },
+  {
     "code": "POL",
     "party": "Poland",
     "version": "3",
@@ -9110,8 +9136,8 @@
         "title": "Sao Tome and Principe Updated NDC 3.0",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-08/NDC3_0_Updated_%20Sao%20Tome%20and%20Principe.pdf",
-        "originalFilename": "NDC3_0_Updated_ Sao Tome and Principe.pdf"
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-09/2026.08.27%20NDC3_0_Updated%20VF-Eng.pdf",
+        "originalFilename": "2026.08.27 NDC3_0_Updated VF-Eng.pdf"
       }
     ],
     "translations": [],
@@ -10647,6 +10673,24 @@
         "originalFilename": "INDC Togo_english version.pdf"
       }
     ],
+    "addenda": []
+  },
+  {
+    "code": "TGO",
+    "party": "Togo",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-09-07",
+    "ndcs": [
+      {
+        "title": "Togo NDC 3.0",
+        "fileType": "NDC",
+        "language": "French",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-09/TOGO_CDN3.0_2026.pdf",
+        "originalFilename": "TOGO_CDN3.0_2026.pdf"
+      }
+    ],
+    "translations": [],
     "addenda": []
   },
   {
