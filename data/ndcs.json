@@ -54,6 +54,24 @@
     "addenda": []
   },
   {
+    "code": "ALB",
+    "party": "Albania",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-09-16",
+    "ndcs": [
+      {
+        "title": "Albania NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-09/Albania%20NDC%203.0-%20Revised.pdf",
+        "originalFilename": "Albania NDC 3.0- Revised.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "DZA",
     "party": "Algeria",
     "version": "1",
