@@ -4486,6 +4486,24 @@
     "addenda": []
   },
   {
+    "code": "GNB",
+    "party": "Guinea-Bissau",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-09-22",
+    "ndcs": [
+      {
+        "title": "Guinea-Bissau NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-09/NDC3.0%20_Guinea%20Bissau_EN.pdf",
+        "originalFilename": "NDC3.0 _Guinea Bissau_EN.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "GUY",
     "party": "Guyana",
     "version": "1",
