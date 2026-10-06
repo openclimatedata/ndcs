@@ -2091,6 +2091,24 @@
     "addenda": []
   },
   {
+    "code": "TCD",
+    "party": "Chad",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-10-05",
+    "ndcs": [
+      {
+        "title": "Chad NDC 3.0",
+        "fileType": "NDC",
+        "language": "French",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-10/CDN%203.0%20Tchad.pdf",
+        "originalFilename": "CDN 3.0 Tchad.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "CHL",
     "party": "Chile",
     "version": "2",
