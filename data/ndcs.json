@@ -4344,6 +4344,24 @@
     "addenda": []
   },
   {
+    "code": "GRD",
+    "party": "Grenada",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-10-07",
+    "ndcs": [
+      {
+        "title": "Grenada NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-10/NDC_Grenada_2025-v4-WEB.pdf",
+        "originalFilename": "NDC_Grenada_2025-v4-WEB.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "GTM",
     "party": "Guatemala",
     "version": "3",
