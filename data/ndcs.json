@@ -962,7 +962,7 @@
         "title": "Republic of Belarus NDC for 2026-2035",
         "fileType": "NDC",
         "language": "Russian",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Republic%20of%20Belarus%20NDC%20for%202026-2035.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-11/Republic%20of%20Belarus%20NDC%20for%202026-2035.pdf",
         "originalFilename": "Republic of Belarus NDC for 2026-2035.pdf"
       }
     ],
@@ -1593,7 +1593,7 @@
         "title": "Burkina Faso First NDC (Updated submission)",
         "fileType": "NDC",
         "language": "French",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Rapport%20CDN_BKFA.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/Rapport%20CDN_BKFA.pdf",
         "originalFilename": "Rapport CDN_BKFA.pdf"
       }
     ],
@@ -1655,7 +1655,7 @@
         "title": "Burundi First NDC (Updated submission)",
         "fileType": "NDC",
         "language": "French",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/CDN%20%20%20Burundi%20ANNEXE%201.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/CDN%20%20%20Burundi%20ANNEXE%201.pdf",
         "originalFilename": "CDN   Burundi ANNEXE 1.pdf"
       }
     ],
@@ -2586,7 +2586,7 @@
         "title": "Costa Rica NDC 2025 - 2035",
         "fileType": "NDC",
         "language": "Spanish",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/CND-2025-2035.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-11/CND-2025-2035.pdf",
         "originalFilename": "CND-2025-2035.pdf"
       }
     ],
@@ -3425,6 +3425,24 @@
     "addenda": []
   },
   {
+    "code": "GNQ",
+    "party": "Equatorial Guinea",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-10-15",
+    "ndcs": [
+      {
+        "title": "Equatorial Guinea NDC 3.0",
+        "fileType": "NDC",
+        "language": "Spanish",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-10/CND%203.0%20de%20Guinea%20Ecuatorial.pdf",
+        "originalFilename": "CND 3.0 de Guinea Ecuatorial.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "ERI",
     "party": "Eritrea",
     "version": "1",
@@ -3942,7 +3960,7 @@
         "title": "The NDC of the European Union and its Member States",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf",
         "originalFilename": "DK-2025-11-05 EU NDC.pdf"
       }
     ],
@@ -3952,7 +3970,7 @@
         "title": "Composante PTOM de la CDN Fran\u00e7aise",
         "fileType": "Addendum",
         "language": "",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-01/20250106-Composante-PTOM-CDN-FR_vF.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2026-01/20250106-Composante-PTOM-CDN-FR_vF.pdf",
         "originalFilename": "20250106-Composante-PTOM-CDN-FR_vF.pdf"
       }
     ]
@@ -6558,7 +6576,7 @@
         "title": "Marshall Islands Second NDC (Updated submission)",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/RMI%20NDC-UpdateUPDATED_01.20.2021.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/RMI%20NDC-UpdateUPDATED_01.20.2021.pdf",
         "originalFilename": "RMI NDC-UpdateUPDATED_01.20.2021.pdf"
       }
     ],
@@ -6568,14 +6586,14 @@
         "title": "180924 rmi 2050 climate strategy final_0",
         "fileType": "Addendum",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/resource/180924%20rmi%202050%20climate%20strategy%20final.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/resource/180924%20rmi%202050%20climate%20strategy%20final.pdf",
         "originalFilename": "180924 rmi 2050 climate strategy final.pdf"
       },
       {
         "title": "RMI Electricity Roadmap",
         "fileType": "Addendum",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/RMI%20Electricity%20Roadmap.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/RMI%20Electricity%20Roadmap.pdf",
         "originalFilename": "RMI Electricity Roadmap.pdf"
       }
     ]
@@ -6857,7 +6875,7 @@
         "title": "Updated Nationally Determined Contribution of the Federated States of Micronesia",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-10/Updated%20NDC%20of%20the%20MICRONESIA.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-10/Updated%20NDC%20of%20the%20MICRONESIA.pdf",
         "originalFilename": "Updated NDC of the MICRONESIA.pdf"
       }
     ],
@@ -7143,7 +7161,7 @@
         "title": "Mozambique's Provisional NDC 3.0",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Mozambique%20ProvNDC_ENG.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-11/Mozambique%20ProvNDC_ENG.pdf",
         "originalFilename": "Mozambique ProvNDC_ENG.pdf"
       }
     ],
@@ -7153,7 +7171,7 @@
         "title": "Submission Letter Mozambique",
         "fileType": "Addendum",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-11/Submission_Letter_Mozambique.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-11/Submission_Letter_Mozambique.pdf",
         "originalFilename": "Submission_Letter_Mozambique.pdf"
       }
     ]
@@ -8726,7 +8744,7 @@
         "title": "The Republic of Korea's 2035 NDC",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-12/The%20Republic%20of%20Koreas%202035%20NDC.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-12/The%20Republic%20of%20Koreas%202035%20NDC.pdf",
         "originalFilename": "The Republic of Koreas 2035 NDC.pdf"
       }
     ],
@@ -9770,7 +9788,7 @@
         "title": "Solomon Islands First NDC (Updated submission)",
         "fileType": "NDC",
         "language": "English",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/NDC%20Report%202021%20Final%20Solomon%20Islands%20%281%29.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/NDC/2022-06/NDC%20Report%202021%20Final%20Solomon%20Islands%20%281%29.pdf",
         "originalFilename": "NDC Report 2021 Final Solomon Islands (1).pdf"
       }
     ],
@@ -11814,7 +11832,7 @@
         "title": "Venezuela (Bolivarian Republic of) Second NDC",
         "fileType": "NDC",
         "language": "Spanish",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Segunda%20Contribuci%C3%B3n%20Determinada%20Nacional%20CDN%202025-2030.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-10/Segunda%20Contribuci%C3%B3n%20Determinada%20Nacional%20CDN%202025-2030.pdf",
         "originalFilename": "Segunda Contribuci\u00f3n Determinada Nacional CDN 2025-2030.pdf"
       }
     ],
@@ -11824,7 +11842,7 @@
         "title": "NOTA VERBAL",
         "fileType": "Addendum",
         "language": "Spanish",
-        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2025-10/Nota%20Verbal%20N%C2%B0%20136%20-%20Entrega%20de%20la%20contribuci%C3%B3n%20nacionalmente%20determinada%20de%20Venezuela%20%282025%E2%80%932030%29.pdf",
+        "encodedAbsUrl": "https://www.unfccc.int/sites/default/files/2025-10/Nota%20Verbal%20N%C2%B0%20136%20-%20Entrega%20de%20la%20contribuci%C3%B3n%20nacionalmente%20determinada%20de%20Venezuela%20%282025%E2%80%932030%29.pdf",
         "originalFilename": "Nota Verbal N\u00b0 136 - Entrega de la contribuci\u00f3n nacionalmente determinada de Venezuela (2025\u20132030).pdf"
       }
     ]
