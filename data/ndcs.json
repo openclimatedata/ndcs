@@ -8282,6 +8282,24 @@
     ]
   },
   {
+    "code": "PNG",
+    "party": "Papua New Guinea",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-10-23",
+    "ndcs": [
+      {
+        "title": "Papua New Guinea 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-10/PNG%20NDC%203.0_2025-2035_Final-compressed.pdf",
+        "originalFilename": "PNG NDC 3.0_2025-2035_Final-compressed.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "PRY",
     "party": "Paraguay",
     "version": "2",
