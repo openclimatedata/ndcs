@@ -7311,6 +7311,24 @@
     "addenda": []
   },
   {
+    "code": "NAM",
+    "party": "Namibia",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-10-28",
+    "ndcs": [
+      {
+        "title": "Namibia NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-10/Namibias%20NDC%203.0%20Document%202026.pdf",
+        "originalFilename": "Namibias NDC 3.0 Document 2026.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "NRU",
     "party": "Naoero",
     "version": "2",
