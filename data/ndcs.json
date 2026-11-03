@@ -7878,6 +7878,32 @@
     "addenda": []
   },
   {
+    "code": "MKD",
+    "party": "North Macedonia",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-11-03",
+    "ndcs": [
+      {
+        "title": "The Republic of North Macedonia NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/NDC_3.0_EN_FINAL_clean_02.11.2026.pdf",
+        "originalFilename": "NDC_3.0_EN_FINAL_clean_02.11.2026.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": [
+      {
+        "title": "NDC 3.0 Technical Background Document",
+        "fileType": "Addendum",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/NDC_3.0_Technical_Background_Document_EN_02.11.2026.pdf",
+        "originalFilename": "NDC_3.0_Technical_Background_Document_EN_02.11.2026.pdf"
+      }
+    ]
+  },
+  {
     "code": "NOR",
     "party": "Norway",
     "version": "3",
