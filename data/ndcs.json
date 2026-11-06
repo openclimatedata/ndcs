@@ -364,6 +364,24 @@
     "addenda": []
   },
   {
+    "code": "ARG",
+    "party": "Argentina",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-11-06",
+    "ndcs": [
+      {
+        "title": "Argentina NDC 3.0",
+        "fileType": "NDC",
+        "language": "Spanish",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/Argentina%27s%20NDC%203.0.pdf",
+        "originalFilename": "Argentina's NDC 3.0.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "ARM",
     "party": "Armenia",
     "version": "2",
