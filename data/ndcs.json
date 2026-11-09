@@ -1380,6 +1380,24 @@
     "addenda": []
   },
   {
+    "code": "BWA",
+    "party": "Botswana",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-11-08",
+    "ndcs": [
+      {
+        "title": "Botswana NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/Botswana_NDC3_UNFCCC_Submission_2026_v28f%20%281%29.pdf",
+        "originalFilename": "Botswana_NDC3_UNFCCC_Submission_2026_v28f (1).pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "BRA",
     "party": "Brazil",
     "version": "4",
@@ -3321,6 +3339,24 @@
         "language": "English",
         "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/Egyptian%20INDC.pdf",
         "originalFilename": "Egyptian INDC.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
+    "code": "EGY",
+    "party": "Egypt",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-11-08",
+    "ndcs": [
+      {
+        "title": "Egypt NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/Egypt%20NDC%203.0%20Report_08November2026.pdf",
+        "originalFilename": "Egypt NDC 3.0 Report_08November2026.pdf"
       }
     ],
     "translations": [],
@@ -11994,6 +12030,24 @@
         "language": "English",
         "encodedAbsUrl": "https://unfccc.int/sites/default/files/NDC/2022-06/VIETNAM%27S%20INDC.pdf",
         "originalFilename": "VIETNAM'S INDC.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
+    "code": "YEM",
+    "party": "Yemen (*)",
+    "version": "",
+    "status": "Archived",
+    "submissionDate": "2026-11-09",
+    "ndcs": [
+      {
+        "title": "Yemen NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/Yemen%20NDC%203.0%202026.pdf",
+        "originalFilename": "Yemen NDC 3.0 2026.pdf"
       }
     ],
     "translations": [],
