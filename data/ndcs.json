@@ -6100,6 +6100,32 @@
     "addenda": []
   },
   {
+    "code": "LBY",
+    "party": "Libya",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-11-10",
+    "ndcs": [
+      {
+        "title": "First Nationally Determined Contribution",
+        "fileType": "NDC",
+        "language": "Arabic",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/Full%20NDC%20ARABIC.pdf",
+        "originalFilename": "Full NDC ARABIC.pdf"
+      }
+    ],
+    "translations": [
+      {
+        "title": "First Nationally Determined Contribution",
+        "fileType": "Translation",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/Full%20NDC%20ENGLISH%20.pdf",
+        "originalFilename": "Full NDC ENGLISH .pdf"
+      }
+    ],
+    "addenda": []
+  },
+  {
     "code": "LIE",
     "party": "Liechtenstein",
     "version": "1",
