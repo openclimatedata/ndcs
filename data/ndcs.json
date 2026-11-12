@@ -4496,6 +4496,24 @@
     "addenda": []
   },
   {
+    "code": "GTM",
+    "party": "Guatemala",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-11-12",
+    "ndcs": [
+      {
+        "title": "Guatemala NDC 3.0",
+        "fileType": "NDC",
+        "language": "Spanish",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/contribucion_nacionalmente_determinada_3.0.pdf",
+        "originalFilename": "contribucion_nacionalmente_determinada_3.0.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "GIN",
     "party": "Guinea",
     "version": "2",
