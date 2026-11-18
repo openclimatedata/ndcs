@@ -10820,6 +10820,24 @@
     "addenda": []
   },
   {
+    "code": "TJK",
+    "party": "Tajikistan",
+    "version": "",
+    "status": "Active",
+    "submissionDate": "2026-11-18",
+    "ndcs": [
+      {
+        "title": "Tajikistan NDC 3.0",
+        "fileType": "NDC",
+        "language": "English",
+        "encodedAbsUrl": "https://unfccc.int/sites/default/files/2026-11/Tajikistan%20NDC%20Final.pdf",
+        "originalFilename": "Tajikistan NDC Final.pdf"
+      }
+    ],
+    "translations": [],
+    "addenda": []
+  },
+  {
     "code": "THA",
     "party": "Thailand",
     "version": "3",
